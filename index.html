@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Olympic Practice Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="screen active">
+        <div class="container">
+            <div class="welcome-card">
+                <h1>🏆 Math Olympic Practice Test</h1>
+                <div class="test-info">
+                    <h2>Test Information</h2>
+                    <ul>
+                        <li><strong>Total Questions:</strong> 24</li>
+                        <li><strong>Question Order:</strong>
+                            <ul>
+                                <li>Questions 1-8: 3 points each (24 points)</li>
+                                <li>Questions 9-16: 4 points each (32 points)</li>
+                                <li>Questions 17-24: 5 points each (40 points)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Total Score:</strong> 96 points</li>
+                        <li><strong>Time Limit:</strong> 60 minutes</li>
+                        <li><strong>Scoring:</strong> No negative marking for wrong answers</li>
+                    </ul>
+                </div>
+                <button id="start-test-btn" class="btn btn-primary">Start Test</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Test Screen -->
+    <div id="test-screen" class="screen">
+        <!-- Header -->
+        <div class="test-header">
+            <div class="container">
+                <div class="header-content">
+                    <h2>Math Olympic Practice Test</h2>
+                    <div class="timer" id="timer">
+                        <span class="timer-icon">⏱️</span>
+                        <span id="timer-display">60:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Test Area -->
+        <div class="test-main">
+            <div class="container">
+                <div class="test-layout">
+                    <!-- Question Navigation Sidebar -->
+                    <div class="question-nav">
+                        <h3>Questions</h3>
+                        <div id="question-grid" class="question-grid"></div>
+                        <button id="submit-test-btn" class="btn btn-success">Submit Test</button>
+                    </div>
+
+                    <!-- Question Content -->
+                    <div class="question-content">
+                        <div class="question-header">
+                            <span id="question-number">Question 1</span>
+                            <span id="question-points" class="points-badge">3 points</span>
+                        </div>
+
+                        <div id="question-text" class="question-text"></div>
+
+                        <div id="question-image-container" class="question-image" style="display: none;">
+                            <img id="question-image" src="" alt="Question Image">
+                        </div>
+
+                        <div id="choices-container" class="choices"></div>
+
+                        <div class="question-actions">
+                            <button id="prev-btn" class="btn btn-secondary">← Previous</button>
+                            <button id="mark-btn" class="btn btn-outline">🔖 Mark for Review</button>
+                            <button id="next-btn" class="btn btn-secondary">Next →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="results-screen" class="screen">
+        <div class="container">
+            <div class="results-card">
+                <h1>🎉 Test Complete!</h1>
+
+                <div class="score-summary">
+                    <div class="score-main">
+                        <div class="score-label">Your Score</div>
+                        <div class="score-value" id="final-score">0</div>
+                        <div class="score-total">out of 96</div>
+                    </div>
+                    <div class="score-stats">
+                        <div class="stat-item">
+                            <div class="stat-label">Correct Answers</div>
+                            <div class="stat-value" id="correct-count">0</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Wrong Answers</div>
+                            <div class="stat-value" id="wrong-count">0</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Accuracy</div>
+                            <div class="stat-value" id="accuracy">0%</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Time Taken</div>
+                            <div class="stat-value" id="time-taken">0:00</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <button id="view-answers-btn" class="btn btn-primary">View Detailed Answers</button>
+                    <button id="retake-test-btn" class="btn btn-secondary">Take New Test</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Answer Review Screen -->
+    <div id="review-screen" class="screen">
+        <!-- Floating Back Button -->
+        <button id="back-to-results-btn">← Back to Results</button>
+
+        <div class="review-header">
+            <div class="container">
+                <h2>📝 Answer Review</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div id="review-content" class="review-content"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

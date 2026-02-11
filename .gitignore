@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Vercel
+.vercel
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+
+# Excel files (keep original database)
+# questions_database.xlsx is tracked
+
+# Local server files
+*.bat

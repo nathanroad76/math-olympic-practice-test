@@ -1,0 +1,4815 @@
+{
+  "stats": {
+    "total": 343,
+    "byPoints": {
+      "3": 104,
+      "4": 112,
+      "5": 127
+    },
+    "withImage": 185
+  },
+  "questions": [
+    {
+      "id": "AT-BEN-09-01",
+      "points": 3,
+      "question": "Where is the Kangaroo?",
+      "image": "question graphics/AT-BEN-09-01.jpg",
+      "choices": {
+        "A": "In the circle and in the triangle but not in the square",
+        "B": "In the circle and in the square but not in the triangle",
+        "C": "In the triangle and in the square but not in the circle",
+        "D": "In the circle but in neither the square or the triangle",
+        "E": "In the square but in neither the circle or the triangle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-09-02",
+      "points": 3,
+      "question": "Which of the following numbers is even?",
+      "image": "",
+      "choices": {
+        "A": "2009",
+        "B": "2+0+0+9",
+        "C": "200-9",
+        "D": "200×9",
+        "E": "200+9"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-09-03",
+      "points": 3,
+      "question": "How many Natural numbers lie between 2.009 und 23.03?",
+      "image": "",
+      "choices": {
+        "A": "20",
+        "B": "21",
+        "C": "22",
+        "D": "23",
+        "E": "more than 23"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-09-04",
+      "points": 3,
+      "question": "What is the minimum number of digits that must be removed from the number 12323314, so that the resulting number is the same when read from either left to right or right to left?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-09-05",
+      "points": 3,
+      "question": "In front of me there are three boxes, one white, one red and one green. In one box there is a chocolate bar, in another an apple and one box is empty. The chocolate bar is in either the white or red box. And the apple is in neither the white or the green box. In which box is the chocolate bar?",
+      "image": "",
+      "choices": {
+        "A": "White",
+        "B": "Red",
+        "C": "Green",
+        "D": "red or green",
+        "E": "not possible to answer"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-09-06",
+      "points": 3,
+      "question": "How many faces has the object shown? (Prism with a hole)",
+      "image": "question graphics/AT-BEN-09-06.jpg",
+      "choices": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "8",
+        "E": "12"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-09-07",
+      "points": 3,
+      "question": "The diagram shows squares of different sizes. The side length of the smallest square is 20 cm. How long is the black line?",
+      "image": "question graphics/AT-BEN-09-07.jpg",
+      "choices": {
+        "A": "380 cm",
+        "B": "400 cm",
+        "C": "420 cm",
+        "D": "440 cm",
+        "E": "1680 cm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-09-08",
+      "points": 3,
+      "question": "The different digits are build using sticks as shown. The \"weight\" of a number describes the number of sticks used to build it. How heavy is the heaviest two digit number?",
+      "image": "question graphics/AT-BEN-09-08.jpg",
+      "choices": {
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "13",
+        "E": "14"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-09-09",
+      "points": 4,
+      "question": "A bridge is being build over a 120m wide river. One quarter of the bridge continues on land on the left bank, another quarter continues on land on the right bank. How long is the bridge?",
+      "image": "",
+      "choices": {
+        "A": "150 m",
+        "B": "180 m",
+        "C": "210 m",
+        "D": "240 m",
+        "E": "270 m"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-09-10",
+      "points": 4,
+      "question": "In a park there are some cats and dogs. The number of cats feet is double the size of the number of dogs noses. The number of cats is …… of the number of dogs.",
+      "image": "",
+      "choices": {
+        "A": "double the size",
+        "B": "half the size",
+        "C": "the same size",
+        "D": "a quarter the size",
+        "E": "a sixth of the size"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-09-11",
+      "points": 4,
+      "question": "Which of the following is made using more than one piece of string?",
+      "image": "question graphics/AT-BEN-09-11.jpg",
+      "choices": {
+        "A": "I, III, IV and V",
+        "B": "III, IV and V",
+        "C": "I, III and V",
+        "D": "all",
+        "E": "None of these answers"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-09-12",
+      "points": 4,
+      "question": "The quadrilateral on the right has the following side lengths: AB = 11, BC = 7, CD = 9 and DA = 3. The angles at points A and C are right angles. What is the area of the quadrilateral?",
+      "image": "question graphics/AT-BEN-09-12.jpg",
+      "choices": {
+        "A": "30",
+        "B": "44",
+        "C": "48",
+        "D": "52",
+        "E": "60"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-09-13",
+      "points": 4,
+      "question": "In a dance group there are 39 boys and 23 girls. Every week 6 more boys and 8 more girls join the group. After a few weeks there will be the same number of boys as girls in the dance group. How many boys and girls will be in the dance group at that time?",
+      "image": "",
+      "choices": {
+        "A": "144",
+        "B": "154",
+        "C": "164",
+        "D": "174",
+        "E": "184"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-09-14",
+      "points": 4,
+      "question": "The \"tower\" in the diagram on the left is made up of a square, a rectangle and an equilateral triangle. Each of those three shapes has the same perimeter. The side length of the square is 9cm. How long is the side of the rectangle indicated?",
+      "image": "question graphics/AT-BEN-09-14.jpg",
+      "choices": {
+        "A": "4 cm",
+        "B": "5 cm",
+        "C": "6 cm",
+        "D": "7 cm",
+        "E": "8 cm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-09-15",
+      "points": 4,
+      "question": "We want to build a box with the measurements 40 × 40 × 60 using all identical cubes. What is the minimum number of cubes needed?",
+      "image": "",
+      "choices": {
+        "A": "6",
+        "B": "12",
+        "C": "96",
+        "D": "1200",
+        "E": "96000"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-09-16",
+      "points": 4,
+      "question": "Today is Sunday. Francis starts to read a book with 290 pages today. Sundays he reads 25 pages and on all other days he reads 4 pages, with no exception. How many days does it take him to read the entire book?",
+      "image": "",
+      "choices": {
+        "A": "5",
+        "B": "46",
+        "C": "40",
+        "D": "35",
+        "E": "41"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-09-17",
+      "points": 5,
+      "question": "Two rectangles with measurements 8 × 10 and 9 × 12 overlap to some extend. The dark grey area is 37. What is the area of the light grey part?",
+      "image": "question graphics/AT-BEN-09-17.jpg",
+      "choices": {
+        "A": "60",
+        "B": "62",
+        "C": "62.5",
+        "D": "64",
+        "E": "65"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-09-18",
+      "points": 5,
+      "question": "Eight cards that are numbered 1 to 8 are inside two boxes A and B so that the sum of the cards in both boxes is identical. If there are exactly 3 cards in box A then which of the following statements is definitely true?",
+      "image": "",
+      "choices": {
+        "A": "Three cards in B are odd numbers",
+        "B": "Four cards in B are even numbers",
+        "C": "The card numbered 1 is not in B",
+        "D": "The card numbered 2 is in B",
+        "E": "The card numbered 5 is in B"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-09-19",
+      "points": 5,
+      "question": "Andrea, Branimir, Celestin and Doris (but not necessarily in this order) are ranked one to four in a fencing tournament. If you add Andrea’s, Branimir’s and Doris’ rank, your total is 6. You obtain the same number if you add Branimir’s and Celestin’s rank. Who won the tournament, if Branimir did better than Andrea?",
+      "image": "",
+      "choices": {
+        "A": "Andrea",
+        "B": "Branimir",
+        "C": "Celestin",
+        "D": "Doris",
+        "E": "It cannot be determined"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-09-20",
+      "points": 5,
+      "question": "In the diagram opposite there is an object with 6 triangular faces. On each corner there is a number (two are shown). The sum of the numbers on the corners of each triangle is the same. What is the sum of all 5 numbers?",
+      "image": "question graphics/AT-BEN-09-20.jpg",
+      "choices": {
+        "A": "9",
+        "B": "12",
+        "C": "17",
+        "D": "18",
+        "E": "24"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-09-21",
+      "points": 5,
+      "question": "The rooms in a hotel are numbered with three digit numbers each. The first digit determines the floor and the last two digits the number of the room on each floor，e.g. room 125 is on the 1st floor, room number 25. The hotel has 5 floors (from 1 to 5) and 35 rooms on each floor, i.e. on the 1st floor you have room numbers 101 to 135 etc. How often does the digit 2 appear in all room numbers of the hotel?",
+      "image": "",
+      "choices": {
+        "A": "105 times",
+        "B": "60 times",
+        "C": "65 times",
+        "D": "95 times",
+        "E": "100 times"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-09-22",
+      "points": 5,
+      "question": "ABCD is a square with side length 10cm. The distance of N to M measures 6cm. Each area not shaded grey is either a square or an isosceles triangle. How big is the area shaded in grey?",
+      "image": "question graphics/AT-BEN-09-22.jpg",
+      "choices": {
+        "A": "42 cm²",
+        "B": "46 cm²",
+        "C": "48 cm²",
+        "D": "52 cm²",
+        "E": "58 cm²"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-09-23",
+      "points": 5,
+      "question": "In the diagram on the left the total of each row and column is given. What is the value of ?",
+      "image": "question graphics/AT-BEN-09-23.jpg",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-09-24",
+      "points": 5,
+      "question": "We want to paint each square in the grid with the colours A, B, C and D, so that neighbouring squares always have different colours. (Squares which share the same corner point also count as neighbouring.) Some of the squares are already painted. In which colour(s) could the grey square be painted?",
+      "image": "question graphics/AT-BEN-09-24.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "There are two possibilities"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-10-01",
+      "points": 3,
+      "question": "Given that Δ+Δ+6=Δ+Δ+Δ+Δ, which number should replace Δ?",
+      "image": "",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-10-03",
+      "points": 3,
+      "question": "Kangi goes directly from the zoo to school (Schule) and counts the flowers along the way. Which of the following numbers can he not obtain this way?",
+      "image": "question graphics/AT-BEN-10-03.jpg",
+      "choices": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12",
+        "E": "13"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-10-04",
+      "points": 3,
+      "question": "A staircase has 21 steps. Nick and Mike count the steps， one from bottom to top and the other from top to bottom. They meet at one step which Nick indicates as the 10th. As which number does Mike indicate this step?",
+      "image": "",
+      "choices": {
+        "A": "the 13th",
+        "B": "the 14th",
+        "C": "the 11th",
+        "D": "the 12th",
+        "E": "the 10th"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-10-05",
+      "points": 3,
+      "question": "Anna has connected all the upper and lower points with straight lines. How many lines has she drawn?",
+      "image": "question graphics/AT-BEN-10-05.jpg",
+      "choices": {
+        "A": "20",
+        "B": "25",
+        "C": "30",
+        "D": "35",
+        "E": "40"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-10-06",
+      "points": 3,
+      "question": "A fly has 6 legs and a spider has 8. Together, 2 flies and 3 spiders have as many legs as 10 birds and which option?",
+      "image": "",
+      "choices": {
+        "A": "2 cats",
+        "B": "3 cats",
+        "C": "4 cats",
+        "D": "5 cats",
+        "E": "6 cats"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-10-07",
+      "points": 3,
+      "question": "In the box are seven blocks. It is possible to slide the blocks around so that another block can be added to the box. What is the minimum number of blocks that must be moved?",
+      "image": "question graphics/AT-BEN-10-07.jpg",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-10-08",
+      "points": 3,
+      "question": "Lines are drawn on a piece of paper and some of the lines are given numbers. The paper is cut along some of these lines and then folded as shown in the picture. Along which lines were the cuts made?",
+      "image": "question graphics/AT-BEN-10-08.jpg",
+      "choices": {
+        "A": "1,3,5,7",
+        "B": "2,4,6,8",
+        "C": "2,3,5,6",
+        "D": "3,4,6,7",
+        "E": "1,4,5,8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-10-09",
+      "points": 4,
+      "question": "What is the perimeter of the figure shown (all angles are right angles)?",
+      "image": "question graphics/AT-BEN-10-09.jpg",
+      "choices": {
+        "A": "23",
+        "B": "31",
+        "C": "38",
+        "D": "42",
+        "E": "46"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-10-11",
+      "points": 4,
+      "question": "Which of the following expressions has a value that differs from the others?",
+      "image": "",
+      "choices": {
+        "A": "20×10+20×10",
+        "B": "(20÷10)×20×10",
+        "C": "20×10×(20÷10)",
+        "D": "20×10+10×20",
+        "E": "(20÷10)·20+10"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-10-13",
+      "points": 4,
+      "question": "Benjamin chooses a number, divides it by 7, adds 7 to the result and multiplies that result with 7. He obtains the number 777. Which number did he start with?",
+      "image": "",
+      "choices": {
+        "A": "7",
+        "B": "111",
+        "C": "722",
+        "D": "567",
+        "E": "728"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-10-14",
+      "points": 4,
+      "question": "The numbers 1, 4, 7, 10 and 13 should be written into the squares so that the sum of the three numbers in the horizontal row is equal to the sum of the three numbers in the vertical column. What is the largest possible value of these sums?",
+      "image": "question graphics/AT-BEN-10-14.jpg",
+      "choices": {
+        "A": "18",
+        "B": "20",
+        "C": "21",
+        "D": "22",
+        "E": "24"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-10-15",
+      "points": 4,
+      "question": "In order to produce a newspaper with 60 pages, you need 15 sheets that are stuck within each other. In one such newspaper page 7 is missing. Which other pages are also missing from this newspaper?",
+      "image": "",
+      "choices": {
+        "A": "8, 9 and 10",
+        "B": "8, 42 and 43",
+        "C": "8, 48 and 49",
+        "D": "8, 52 and 53",
+        "E": "8, 53 and 54"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-10-16",
+      "points": 4,
+      "question": "In the adjacent picture we see that 1+3+5+7=4×4. How big is 1+3+5+7+...+17+19?",
+      "image": "question graphics/AT-BEN-10-16.jpg",
+      "choices": {
+        "A": "10×10",
+        "B": "11×11",
+        "C": "12×12",
+        "D": "13×13",
+        "E": "14×14"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-10-17",
+      "points": 5,
+      "question": "Lydia draws a flower with 5 petals. She wants to colour in the flower using the colours white and black. How many different flowers can she draw with these two colours if the flower can also be just one colour?",
+      "image": "question graphics/AT-BEN-10-17.jpg",
+      "choices": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9",
+        "E": "10"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-10-18",
+      "points": 5,
+      "question": "What fraction of the square is grey?",
+      "image": "question graphics/AT-BEN-10-18.jpg",
+      "choices": {
+        "A": "1/3",
+        "B": "1/4",
+        "C": "1/5",
+        "D": "3/8",
+        "E": "2/9"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-10-19",
+      "points": 5,
+      "question": "The picture shows a hanging mobile. The mobile weighs 112 grams in total. (The weight of the sticks and threads is not taken into account.) How much does the star weigh?",
+      "image": "question graphics/AT-BEN-10-19.jpg",
+      "choices": {
+        "A": "6 g",
+        "B": "7 g",
+        "C": "12 g",
+        "D": "16 g",
+        "E": "It cannot be calculated"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-10-20",
+      "points": 5,
+      "question": "In a pizzeria there is a basic pizza with tomato and cheese that can be ordered with only one or two of the following toppings: anchovies, artichokes, mushrooms or capers. The pizza comes in three sizes. How many different types of pizza are offered in total?",
+      "image": "",
+      "choices": {
+        "A": "30",
+        "B": "12",
+        "C": "18",
+        "D": "48",
+        "E": "72"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-10-21",
+      "points": 5,
+      "question": "In order to decide who will get the last piece of Leni’s birthday cake, five children use a rhyme. Leni, Sara, Hannes, Petra and Arno stand in this order, clockwise in a circle. They count in a clockwise direction: KAN – GA – ROO – OUT – ARE – YOU. For each syllable one child is counted and whoever is counted at YOU is out. They continue this until only one child is left. Leni can choose who starts. Who does she have to choose if she wants Arno to get the piece of cake?",
+      "image": "",
+      "choices": {
+        "A": "Leni",
+        "B": "Sara",
+        "C": "Hannes",
+        "D": "Petra",
+        "E": "Arno"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-10-22",
+      "points": 5,
+      "question": "In the multiplication of a three-digit number with a single-digit number PPQ × Q = RQ5Q, P, Q and R represent different digits. P+Q+R=?",
+      "image": "",
+      "choices": {
+        "A": "13",
+        "B": "15",
+        "C": "16",
+        "D": "17",
+        "E": "20"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-10-23",
+      "points": 5,
+      "question": "In the grid, how many grey squares have to be coloured white, so that in each row and each column there is exactly one grey square?",
+      "image": "question graphics/AT-BEN-10-23.jpg",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "This is not possible"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-10-24",
+      "points": 5,
+      "question": "Six-legged, seven-legged and eight-legged octopuses serve Neptune, the king of the sea. The seven-legged ones always lie and the six-legged and eight-legged ones always speak the truth. One day four octopuses meet. The blue one says: We have 28 legs altogether. The green one says: We have 27 legs altogether. The yellow one says: We have 26 legs altogether. The red one says: We have 25 legs altogether. What colour is the octopus that speaks the truth?",
+      "image": "",
+      "choices": {
+        "A": "red",
+        "B": "blue",
+        "C": "green",
+        "D": "yellow",
+        "E": "Nobody speaks the truth"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-11-01",
+      "points": 3,
+      "question": "Bernd wants to paint the word KANGAROO. He begins on a Wednesday and paints one letter each day. On which day will he paint the last letter?",
+      "image": "",
+      "choices": {
+        "A": "Monday",
+        "B": "Tuesday",
+        "C": "Wednesday",
+        "D": "Thursday",
+        "E": "Friday"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-11-02",
+      "points": 3,
+      "question": "A motorcycle driver covers a distance 28km in 30 minutes. What was his average speed in km/h?",
+      "image": "",
+      "choices": {
+        "A": "28",
+        "B": "36",
+        "C": "56",
+        "D": "58",
+        "E": "62"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-11-03",
+      "points": 3,
+      "question": "A square piece of paper is cut in a straight line into two pieces. Which of the following shapes can not be created?",
+      "image": "question graphics/AT-BEN-11-03.jpg",
+      "choices": {
+        "A": "A Square",
+        "B": "A rectangle",
+        "C": "A right-angled triangle",
+        "D": "A pentagon",
+        "E": "An equilateral triangle"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-11-04",
+      "points": 3,
+      "question": "In Crazytown the houses on the right hand side of the street all have odd numbers. The Crazytowners don’t use any numbers with the digit 3 in them. The first house on the right hand side has the number 1. Which number does the fifteenth house on the right hand side have?",
+      "image": "",
+      "choices": {
+        "A": "29",
+        "B": "41",
+        "C": "43",
+        "D": "45",
+        "E": "47"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-11-06",
+      "points": 3,
+      "question": "1000 litres of water is passed through the water system as shown, into two identical tanks. At each junction the water separates into two equal amounts. How many litres of water end up in Tank Y?",
+      "image": "question graphics/AT-BEN-11-06.jpg",
+      "choices": {
+        "A": "800",
+        "B": "750",
+        "C": "666.67",
+        "D": "660",
+        "E": "500"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-11-07",
+      "points": 3,
+      "question": "The date 01-03-05 (1st March 2005) has three consecutive odd numbers. This is the first day in the 21st Century with this property. How many days with this property are there in total in the 21st Century?",
+      "image": "",
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "16",
+        "D": "13",
+        "E": "8"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-11-10",
+      "points": 4,
+      "question": "When Liza the cat is very lazy and sits around the whole day, she drinks 60 ml of milk. When she chases mice she drinks a third more milk. In the past two weeks, she has chased mice on every second day. How much milk has she drunk in the past two weeks?",
+      "image": "",
+      "choices": {
+        "A": "840 ml",
+        "B": "980 ml",
+        "C": "1050 ml",
+        "D": "1120 ml",
+        "E": "1960 ml"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-11-11",
+      "points": 4,
+      "question": "Fridolin the hamster runs through the maze in the picture. 16 pumpkin seeds are laying on the path. He is only allowed to cross each junction once. What is the maximum number of pumpkin seeds that he can collect?",
+      "image": "question graphics/AT-BEN-11-11.jpg",
+      "choices": {
+        "A": "12",
+        "B": "13",
+        "C": "14",
+        "D": "15",
+        "E": "16"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-11-12",
+      "points": 4,
+      "question": "All the four digit numbers with the same digits as 2011 (i.e. 0, 1, 1, 2) are written in a row in ascending order. What is the difference between the two numbers that are next to 2011 in this list?",
+      "image": "",
+      "choices": {
+        "A": "890",
+        "B": "891",
+        "C": "900",
+        "D": "909",
+        "E": "990"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-11-13",
+      "points": 4,
+      "question": "Nina made a wall around a square area, using 36 identical cubes. A section of the wall is shown in the picture. How many cubes will she now need to completely fill the square area?",
+      "image": "question graphics/AT-BEN-11-13.jpg",
+      "choices": {
+        "A": "36",
+        "B": "49",
+        "C": "64",
+        "D": "81",
+        "E": "100"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-11-14",
+      "points": 4,
+      "question": "Black and white tiles can be laid on square floors as shown in the pictures. We can see floors with 4 black and 9 black tiles respectively. In each corner there is a black tile, and each black tile touches only white tiles. How many white tiles would there be on a floor that had 25 black tiles?",
+      "image": "question graphics/AT-BEN-11-14.jpg",
+      "choices": {
+        "A": "25",
+        "B": "39",
+        "C": "45",
+        "D": "56",
+        "E": "72"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-11-15",
+      "points": 4,
+      "question": "Paul wanted to multiply a whole number by 301, but forgot to include the zero and multiplied by 31 instead. His answer was 372. What should his answer have been?",
+      "image": "",
+      "choices": {
+        "A": "3010",
+        "B": "3612",
+        "C": "3702",
+        "D": "3720",
+        "E": "30720"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-11-16",
+      "points": 4,
+      "question": "In a tournament FC Barcelona scored a total of three goals, and conceded one goal. In the tournament the team had won one game, lost one game and drawn one game. What was the score in the game that FC Barcelona won?",
+      "image": "",
+      "choices": {
+        "A": "2:0",
+        "B": "3:0",
+        "C": "1:0",
+        "D": "4:1",
+        "E": "0:1"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-11-17",
+      "points": 5,
+      "question": "If you are given the three corner points of a triangle and want to add a fourth point to make the four corners of a parallelogram. In how many places can the fourth point be placed?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "That depends on the triangle"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-11-18",
+      "points": 5,
+      "question": "The 8 corners of the shape in the picture are to be labelled with the numbers 1, 2, 3 or 4, so that the numbers at the ends of each of the lines shown are different. How often does the number 4 appear on the shape?",
+      "image": "question graphics/AT-BEN-11-18.jpg",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-11-19",
+      "points": 5,
+      "question": "Daniel wants to make a complete square using pieces only like those shown. What is the minimum number of pieces he must use?",
+      "image": "question graphics/AT-BEN-11-19.jpg",
+      "choices": {
+        "A": "9",
+        "B": "10",
+        "C": "12",
+        "D": "16",
+        "E": "20"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-11-20",
+      "points": 5,
+      "question": "10 children are at a judo club. Their teacher has 80 sweets. If he gives each girl the same amount of sweets, there are three sweets left over. How many boys are at the club?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5",
+        "E": "7"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-11-21",
+      "points": 5,
+      "question": "A cat had 7 kittens. The kittens had the colours white, black, ginger, black-white, gingerwhite, ginger-black, and ginger-black-white. In how many ways can you choose 4 cats so that each time two of them have a colour in common.",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "3",
+        "C": "4",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-11-22",
+      "points": 5,
+      "question": "The picture shows a rectangle with four identical triangles. Determine the total area of the triangles.",
+      "image": "question graphics/AT-BEN-11-22.jpg",
+      "choices": {
+        "A": "46 cm²",
+        "B": "52 cm²",
+        "C": "54 cm²",
+        "D": "56 cm²",
+        "E": "64 cm²"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-11-24",
+      "points": 5,
+      "question": "Numbers are to be built using only the digits 1, 2, 3, 4 and 5 in such a way that each digit is only used once in each number. How many of these numbers will have the following property： The first digit is divisible by one, The first 2 digits make a number which is divisible by 2, the first 3 digits make a number which is divisible by three, the first 4 digits make a number which is divisible by 4 and all 5 digits make a number which is divisible by 5.",
+      "image": "",
+      "choices": {
+        "A": "It’s not possible",
+        "B": "1",
+        "C": "2",
+        "D": "5",
+        "E": "10"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-12-02",
+      "points": 3,
+      "question": "Barbara wrote \"KAENGURUWETTBEWERB\" on the blackboard. For same letters she used the same colour, for different letters different colours. How many colours did she use?",
+      "image": "",
+      "choices": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10",
+        "E": "11"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-12-03",
+      "points": 3,
+      "question": "Three bars of chocolate cost 6 €. How much does one bar of chocolate cost?",
+      "image": "",
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "1",
+        "D": "3",
+        "E": "5"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-12-04",
+      "points": 3,
+      "question": "A blackboard has a total unfolded length of 6m. The middle section is 3m long. How long is the section labelled with a question mark?",
+      "image": "question graphics/AT-BEN-12-04.jpg",
+      "choices": {
+        "A": "1 m",
+        "B": "1.25 m",
+        "C": "1.5 m",
+        "D": "1.75 m",
+        "E": "2 m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-12-05",
+      "points": 3,
+      "question": "There are 29 days in February 2012. Grandfathers chicks hatched on 24th February 2012. How old are the chicks today on 15th March 2012?",
+      "image": "",
+      "choices": {
+        "A": "29 days",
+        "B": "24 days",
+        "C": "22 days",
+        "D": "20 days",
+        "E": "15 days"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-12-07",
+      "points": 3,
+      "question": "The number three should be added to the number 6. This amount is then doubled and the result increased by 1. Which of the following sums fits this description?",
+      "image": "",
+      "choices": {
+        "A": "(6+3X2)+1",
+        "B": "6+3×2+1",
+        "C": "(6+3)×(2+1)",
+        "D": "(6+3)×2+1",
+        "E": "6+3×(2+1)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-12-08",
+      "points": 3,
+      "question": "In the school for animals there are 3 cats, 2 ducks, 2 sheep and some dogs. The teacher counted the legs of all the animals, and got 44. How many dogs go to the school?",
+      "image": "",
+      "choices": {
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "3",
+        "E": "2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-12-09",
+      "points": 4,
+      "question": "The last row in an aeroplane is row 25. There is no row 13 and row 15 has only 4 seats. Every other row has 6 seats. How many passenger seats are there on this aeroplane?",
+      "image": "",
+      "choices": {
+        "A": "120",
+        "B": "138",
+        "C": "142",
+        "D": "144",
+        "E": "150"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-12-10",
+      "points": 4,
+      "question": "In addition to the weight of the basket a single balloon can lift 80 kg. 2 balloons can lift 180 kg in addition to the weight of the basket. How heavy is the basket?",
+      "image": "question graphics/AT-BEN-12-10.jpg",
+      "choices": {
+        "A": "60 kg",
+        "B": "50 kg",
+        "C": "40 kg",
+        "D": "30 kg",
+        "E": "20 kg"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-12-11",
+      "points": 4,
+      "question": "Grandmother gave Vivian and Mike some apples and pears. In total they had 25 pieces of fruit. On the way home Vivian ate 1 apple and 3 pears, Mike ate 3 apples and 2 pears. At home they noted that there were exactly the same number of apples and pears in the basket. How many pears had grandmother given them?",
+      "image": "",
+      "choices": {
+        "A": "12",
+        "B": "13",
+        "C": "16",
+        "D": "20",
+        "E": "21"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-12-12",
+      "points": 4,
+      "question": "Which three puzzle pieces do you need to complete the large puzzle?",
+      "image": "question graphics/AT-BEN-12-12.jpg",
+      "choices": {
+        "A": "1,3,4",
+        "B": "1,3,6",
+        "C": "2,3,5",
+        "D": "2,3,6",
+        "E": "2,5,6"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-12-13",
+      "points": 4,
+      "question": "Lisa built a large cube out of 8 smaller ones. The small cubes have the same letter on each of their faces (A,B,C or D). Two cubes with a common face always have a different letter on them. Which letter is on the cube that cannot be seen in the picture?",
+      "image": "question graphics/AT-BEN-12-13.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "The picture is not possible"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-12-14",
+      "points": 4,
+      "question": "Natural numbers are to be painted. 1 is red, 2 is blue, 3 is green, 4 is red, 5 is blue, 6 is green and so on. Which colour(s) can the sum of a red and a blue number have?",
+      "image": "",
+      "choices": {
+        "A": "green only",
+        "B": "red only",
+        "C": "blue only",
+        "D": "red or blue",
+        "E": "impossible to say"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-12-15",
+      "points": 4,
+      "question": "The figure on the right has a perimeter of 42 cm. The figure was made from eight equally sized squares. What is the area of the figure?",
+      "image": "question graphics/AT-BEN-12-15.jpg",
+      "choices": {
+        "A": "8 cm²",
+        "B": "9 cm²",
+        "C": "24 cm²",
+        "D": "72 cm²",
+        "E": "128 cm²"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-12-17",
+      "points": 5,
+      "question": "The numbers 1 to 7 should be written in the small circles so that the sum of the numbers along each line is the same. Which number should be written in the uppermost circle on the triangle?",
+      "image": "question graphics/AT-BEN-12-17.jpg",
+      "choices": {
+        "A": "1",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-12-18",
+      "points": 5,
+      "question": "Four cogs are connected to each other as shown in the picture. The first has 30 teeth, the second 15, the third 60 and the fourth 10. How many turns will the last cog make for each full turn of the first cog?",
+      "image": "question graphics/AT-BEN-12-18.jpg",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "8",
+        "E": "9"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-12-19",
+      "points": 5,
+      "question": "A rectangular piece of paper is 108mm long and 84mm wide. After making a straight cut you have a square and a leftover piece. You do the same with the leftover piece and so on until the leftover piece itself is square. What is the side length of the last square?",
+      "image": "",
+      "choices": {
+        "A": "1 mm",
+        "B": "4 mm",
+        "C": "6 mm",
+        "D": "10 mm",
+        "E": "12 mm"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-12-21",
+      "points": 5,
+      "question": "Both the figures on the right were made out of the same 5 pieces. The rectangle has dimensions 5cm × 10cm. The other figure is quarter circles with different sized radii. What is the difference between the perimeters of the two figures?",
+      "image": "question graphics/AT-BEN-12-21.jpg",
+      "choices": {
+        "A": "2.5 cm",
+        "B": "5 cm",
+        "C": "10 cm",
+        "D": "15 cm",
+        "E": "20 cm"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-12-23",
+      "points": 5,
+      "question": "A square piece of paper of area 64 cm² is folded twice as shown in the picture. What is the area of the two grey sections?",
+      "image": "question graphics/AT-BEN-12-23.jpg",
+      "choices": {
+        "A": "10 cm²",
+        "B": "14 cm²",
+        "C": "15 cm²",
+        "D": "16 cm²",
+        "E": "24 cm²"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-12-24",
+      "points": 5,
+      "question": "12 children were at a birthday party. The children were 6,7,8,9 and 10 years old. Four of them were 6 years old. There were more 8 year olds than any other age group. What is the average age of the children?",
+      "image": "",
+      "choices": {
+        "A": "8",
+        "B": "7.5",
+        "C": "7",
+        "D": "6.5",
+        "E": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-13-01",
+      "points": 3,
+      "question": "Which answer completes the addition tree?",
+      "image": "question graphics/AT-BEN-13-01.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-13-02",
+      "points": 3,
+      "question": "Nathalie wanted to build a large cube out of lots of small cubes. How many cubes are missing from the picture on the right that would be needed to build the large cube on the left?",
+      "image": "question graphics/AT-BEN-13-02.jpg",
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8",
+        "E": "9"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-13-03",
+      "points": 3,
+      "question": "How far must Maria walk to reach her friend Bianca?",
+      "image": "question graphics/AT-BEN-13-03.jpg",
+      "choices": {
+        "A": "300 m",
+        "B": "400 m",
+        "C": "800 m",
+        "D": "1 km",
+        "E": "700 m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-13-04",
+      "points": 3,
+      "question": "Nick can turn right but not left on his bicycle. What is the least number of right turns he must make in order to get from A to B?",
+      "image": "question graphics/AT-BEN-13-04.jpg",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "8",
+        "E": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-13-05",
+      "points": 3,
+      "question": "Anna, Bob and Chris are altogether 31 years old. How old will all three be altogether in three years time?",
+      "image": "",
+      "choices": {
+        "A": "32",
+        "B": "34",
+        "C": "35",
+        "D": "37",
+        "E": "40"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-13-06",
+      "points": 3,
+      "question": "In the following sum the same digit is used in each square: □□+□□=176 Which digit must be used so that the sum is correct?",
+      "image": "",
+      "choices": {
+        "A": "6",
+        "B": "4",
+        "C": "7",
+        "D": "9",
+        "E": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-13-07",
+      "points": 3,
+      "question": "Michael must take a tablet every 15 minutes. He takes the first at 11:05. When does he take the fourth?",
+      "image": "",
+      "choices": {
+        "A": "11:40",
+        "B": "11:50",
+        "C": "11:55",
+        "D": "12:00",
+        "E": "12:05"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-13-08",
+      "points": 3,
+      "question": "Anne has a few grey tiles like the one in the picture. What is the maximum number of these tiles that she can place on the 5 × 4 rectangle without any overlaps?",
+      "image": "question graphics/AT-BEN-13-08.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-13-09",
+      "points": 4,
+      "question": "The number 36 has the following property: 36 can be divided by its units digit without a remainder (36 is divisible by 6). With the number 38 this doesn't work. How many numbers between 20 and 30 have the same property as 36?",
+      "image": "",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-13-10",
+      "points": 4,
+      "question": "Maria drew the following figures on square sheets of paper. How many of these figures have the same perimeter as the square sheet of paper itself?",
+      "image": "question graphics/AT-BEN-13-10.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-13-13",
+      "points": 4,
+      "question": "36 children voted for five students from their class. Each child was only allowed to vote once. The winner received 12 votes, and the student placed last just 4 votes. If each student received a different number of votes, how many votes did the second placed student receive?",
+      "image": "",
+      "choices": {
+        "A": "8",
+        "B": "8 or 9",
+        "C": "9",
+        "D": "9 or 10",
+        "E": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-13-14",
+      "points": 4,
+      "question": "A 1×1×1 cube is cut out of each corner of a 3×3×3 cube. The picture shows the result after the first cube is cut out. How many faces will the final shape have?",
+      "image": "question graphics/AT-BEN-13-14.jpg",
+      "choices": {
+        "A": "16",
+        "B": "20",
+        "C": "24",
+        "D": "30",
+        "E": "36"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-13-15",
+      "points": 4,
+      "question": "How many different subtraction sums between two digit numbers are there, which have the answer 50?",
+      "image": "",
+      "choices": {
+        "A": "40",
+        "B": "30",
+        "C": "50",
+        "D": "60",
+        "E": "10"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-13-16",
+      "points": 4,
+      "question": "In the last game of the hockey match there were lots of goals. In the first half 6 goals were scored and the visiting team were leading. After the home team scored another three goals in the second half, they won the match. How many goals did the home team score in total?",
+      "image": "",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-13-18",
+      "points": 5,
+      "question": "Matthias is catching fish. If he had caught three times as many fish as he has actually caught, he would have 12 more fish. How many fish has he caught?",
+      "image": "",
+      "choices": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "4",
+        "E": "3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-13-19",
+      "points": 5,
+      "question": "Numbers are written in the 4x4 grid: any two numbers in neighbouring squares should have a difference of 1, that is squares that share an edge. The number 3 is already given. The number 9 will be used somewhere in the grid. How many different numbers will have been used once the grid is filled in completely?",
+      "image": "question graphics/AT-BEN-13-19.jpg",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-13-20",
+      "points": 5,
+      "question": "Two buttons with smiling faces and two buttons with sad faces are in a row as shown in the picture. When you press a button the face changes, and so do the faces of the neighbouring buttons. What is the minimum number of button presses needed so that only smiling faces can be seen?",
+      "image": "question graphics/AT-BEN-13-20.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-13-21",
+      "points": 5,
+      "question": "If you start with three numbers, the 'addition machine' produces three new ones by adding together each pair of two. For instance from the numbers {3, 4, 6} the addition machine makes {10, 9, 7}. If you use the addition machine again these numbers become {16, 17, 19}. We feed the three numbers {20, 1, 3} into the addition machine and let the machine calculate 2013 times. What is the biggest possible difference between two of the three resulting numbers?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "17",
+        "D": "19",
+        "E": "2013"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-13-22",
+      "points": 5,
+      "question": "From an old model train set there are only identical pieces of track to use. Matthias puts 8 such pieces in a circle (picture on the left). Martin begins his track with 2 pieces as shown in the picture on the right. He also wants to build a closed track and use the smallest number of pieces possible. How many pieces will his track use?",
+      "image": "question graphics/AT-BEN-13-22.jpg",
+      "choices": {
+        "A": "11",
+        "B": "12",
+        "C": "14",
+        "D": "15",
+        "E": "16"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-13-23",
+      "points": 5,
+      "question": "2013 people live on an island. Some of these people are truthtellers and the others are liars. The truthtellers always tell the truth whereas the liars always lie. Each day one of the people says ' when I have left the island the number of truthtellers will be the same as the number of liars.' Then he leaves the island. After 2013 days there is no longer anybody living on the island. How many liars were living there to begin with?",
+      "image": "",
+      "choices": {
+        "A": "",
+        "B": "1006",
+        "C": "1007",
+        "D": "2013",
+        "E": "It is not possible to answer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-13-24",
+      "points": 5,
+      "question": "40 boys and 28 girls hold hands in a big circle. Exactly 18 boys give their right hand to a girl. How many boys give their left hand to a girl?",
+      "image": "",
+      "choices": {
+        "A": "18",
+        "B": "9",
+        "C": "28",
+        "D": "14",
+        "E": "20"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-14-01",
+      "points": 3,
+      "question": "Arno lays out the word KANGAROO using 8 cards. However, some cards are turned. ZGVROO By turning it twice the letter K can be corrected, letter A can be corrected by turning it once (see drawing). How often does he have to turn so that the word KANGAROO can be read correctly?",
+      "image": "question graphics/AT-BEN-14-01.jpg",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-14-02",
+      "points": 3,
+      "question": "A cake weighs 900 g. Paul cuts it into 4 pieces. The biggest piece weights exactly as much as the other three pieces together. How much does the biggest piece weigh?",
+      "image": "",
+      "choices": {
+        "A": "250 g",
+        "B": "300 g",
+        "C": "400 g",
+        "D": "450 g",
+        "E": "600 g"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-14-03",
+      "points": 3,
+      "question": "A white and a grey ring are interlinked with one another. Peter sees the two rings from the front as they are seen in the diagram on the right. Paul sees the rings from the back. What does he see?",
+      "image": "",
+      "choices": {
+        "A": "(Corresponding option A diagram)",
+        "B": "(Corresponding option B diagram)",
+        "C": "(Corresponding option C diagram)",
+        "D": "(Corresponding option D diagram)",
+        "E": "(Corresponding option E diagram)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-14-04",
+      "points": 3,
+      "question": "In the addition sum to the right, three digits have been replaced with stars. How big is the sum of the three missing digits?",
+      "image": "question graphics/AT-BEN-14-04.jpg",
+      "choices": {
+        "A": "",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "10"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-14-05",
+      "points": 3,
+      "question": "How big is the difference between the smallest five-digit and the biggest four-digit number?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "10",
+        "C": "1111",
+        "D": "9000",
+        "E": "9900"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-14-06",
+      "points": 3,
+      "question": "A square with perimeter 48 cm is cut into two equally big pieces with one cut. They are fitted together to make a rectangle as shown in the diagram. How big is the perimeter of that rectangle?",
+      "image": "question graphics/AT-BEN-14-06.jpg",
+      "choices": {
+        "A": "24 cm",
+        "B": "30 cm",
+        "C": "48 cm",
+        "D": "60 cm",
+        "E": "72 cm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-14-07",
+      "points": 3,
+      "question": "Katrin has 38 matches. She uses all the matches and makes a triangle and a square. The triangle and the square do not share any matches. Each side of the triangle consists of 6 matches. One side of the square is made of how many matches?",
+      "image": "",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-14-08",
+      "points": 3,
+      "question": "Grey and white pearls are threaded on a piece of string. Monika wants to have 5 grey pearls. However, she can only pull off pearls from the end of the string. Therefore she has to pull off some white pearls as well. What is the minimum number of white pearls she has to pull off, to get 5 grey pearls?",
+      "image": "question graphics/AT-BEN-14-08.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-14-09",
+      "points": 4,
+      "question": "The little witch is taking part in a broomstick flying competition that is carried out in 5 rounds. The times in which she crossed the starting line can be seen in the table. Which round was her fastest?",
+      "image": "question graphics/AT-BEN-14-09.jpg",
+      "choices": {
+        "A": "the first",
+        "B": "the second",
+        "C": "the third",
+        "D": "the fourth",
+        "E": "the fifth"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-14-10",
+      "points": 4,
+      "question": "Which square has to replace the question mark so that the white area and the black area are equally big?",
+      "image": "",
+      "choices": {
+        "A": "(Corresponding option A diagram)",
+        "B": "(Corresponding option B diagram)",
+        "C": "(Corresponding option C diagram)",
+        "D": "(Corresponding option D diagram)",
+        "E": "(Corresponding option E diagram)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-14-11",
+      "points": 4,
+      "question": "In a holiday camp 7 children eat ice cream every day, 9 eat ice cream every other day. The remaining children don’t eat ice cream at all. Yesterday 13 children ate ice cream. How many children will eat ice cream today?",
+      "image": "",
+      "choices": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10",
+        "E": "11"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-14-12",
+      "points": 4,
+      "question": "The kangaroos A, B, C, D and E sit in this order in a clockwise direction around a round table. After a bell sounds all but one kangaroo change seats with a neighbour. Afterwards they sit in the following order in a clockwise direction: A, E, B, D, C. Which kangaroo did not change places?",
+      "image": "question graphics/AT-BEN-14-12.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-14-13",
+      "points": 4,
+      "question": "A square can be made out of four of the given pieces. Which piece will not be used?",
+      "image": "",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-14-14",
+      "points": 4,
+      "question": "If the three digits of a three-digit number are multiplied you get 135. Which result to you get, by adding the three digits?",
+      "image": "",
+      "choices": {
+        "A": "14",
+        "B": "15",
+        "C": "16",
+        "D": "17",
+        "E": "18"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-14-15",
+      "points": 4,
+      "question": "In a restaurant there are 16 tables, with either 3, 4 or 6 chairs. A total of 36 guests can sit at the tables which have 3 or 4 chairs. The restaurant seats 72 guests. How many tables with three chairs are there?",
+      "image": "",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-14-16",
+      "points": 4,
+      "question": "The points A, B, C, D, E, F are situated on a straight line in this order. The following distances on this line are known: AF=35 , AC=12 , BD=11 CE=12 and DF=16. How long is the distance BE?",
+      "image": "",
+      "choices": {
+        "A": "13",
+        "B": "14",
+        "C": "15",
+        "D": "16",
+        "E": "17"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-14-17",
+      "points": 5,
+      "question": "Lea plays with her marbles. She places them in small groups on the table. If she places them in groups of three, two marbles are left over. If she places them in groups of five, again two are left over. How many more marbles does Lea need so that she can place them in groups of three as well as groups of five without any marbles being left over?",
+      "image": "",
+      "choices": {
+        "A": "3",
+        "B": "1",
+        "C": "4",
+        "D": "10",
+        "E": "13"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-14-18",
+      "points": 5,
+      "question": "The faces of a die are labelled with the numbers 1, 2, 3, 4, 5 and 6. The faces 1 and 6 have one common edge. The same is true for the faces 1 and 5, the faces 1 and 2, the faces 6 and 5, the faces 6 and 4 and the faces 6 and 2. Which number labels the face that is opposite to face 4?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-14-19",
+      "points": 5,
+      "question": "The 3×3×3 cube consists of 27 small cubes. Some of the small cubes are removed. If you now look at the cube from the right, from above and from the front, you see the following: How many little cubes were removed?",
+      "image": "question graphics/AT-BEN-14-19.jpg",
+      "choices": {
+        "A": "1",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-14-20",
+      "points": 5,
+      "question": "There are 5 songs on an MP3-player: Song A lasts 3 mins, song B 2 mins 30 s, song C 2 mins, song D 1 min 30 s, and song E 4 mins. These 5 songs are played non-stop one after the other. Song C is playing when Andy left the house. Exactly one hour later he returns. Which song is playing when Andy came back?",
+      "image": "",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-14-21",
+      "points": 5,
+      "question": "Daniela fills a 3×3 table using the digits 1 to 9 so that each field contains only one digit. She has already placed the digits 1, 2, 3 and 4 in the table as shown in the diagram. Two numbers count as \"adjacent\" if the fields which they fill have one common side. When she has finished filling the table she realised: the sum of the numbers adjacent to 5 is 9. How big is the sum of the numbers adjacent to 6?",
+      "image": "question graphics/AT-BEN-14-21.jpg",
+      "choices": {
+        "A": "14",
+        "B": "15",
+        "C": "17",
+        "D": "28",
+        "E": "29"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-14-22",
+      "points": 5,
+      "question": "The king travels with his messengers at a speed of 5 km/h from his castle to his summer residence. Each hour he sends a messenger with a speed of 10 km/h back to the castle. How much difference is time is there between two consecutive messengers arriving at the castle?",
+      "image": "",
+      "choices": {
+        "A": "30 min",
+        "B": "60 min",
+        "C": "75 min",
+        "D": "90 min",
+        "E": "120 min"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-14-23",
+      "points": 5,
+      "question": "Mia writes three single-digit numbers on the board. Ali adds them and gets 15. Then he deletes one of the three numbers and replaces it with the number 3. Resi multiplies these three numbers and obtains 36. Which numbers could Ali have deleted?",
+      "image": "",
+      "choices": {
+        "A": "either 6 or 7",
+        "B": "either 7 or 8",
+        "C": "only 6",
+        "D": "only 7",
+        "E": "only 8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-14-24",
+      "points": 5,
+      "question": "Grandma gives 180 marbles to her ten grandchildren. No two children get the same amount of marbles. Anna gets the most. What is the minimum number of marbles that Anna could get?",
+      "image": "",
+      "choices": {
+        "A": "19",
+        "B": "20",
+        "C": "21",
+        "D": "22",
+        "E": "23"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-15-03",
+      "points": 3,
+      "question": "Sam paints the 9 small squares in the shape either white, grey or black. What is the minimum number he must paint over so that no two squares sharing a side have the same colour?",
+      "image": "question graphics/AT-BEN-15-03.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-15-04",
+      "points": 3,
+      "question": "Mr Bauer has 10 ducks. 5 of these ducks lay an egg every day. The other 5 lay an egg every second day. How many eggs will the 10 ducks have laid after 10 days?",
+      "image": "",
+      "choices": {
+        "A": "75",
+        "B": "60",
+        "C": "50",
+        "D": "25",
+        "E": "10"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-15-05",
+      "points": 3,
+      "question": "Each square in the shape has an area of 4 cm². How long is the thick line?",
+      "image": "question graphics/AT-BEN-15-05.jpg",
+      "choices": {
+        "A": "16 cm",
+        "B": "18 cm",
+        "C": "20 cm",
+        "D": "21 cm",
+        "E": "23 cm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-15-06",
+      "points": 3,
+      "question": "Which of the following fractions is smaller than 2?",
+      "image": "",
+      "choices": {
+        "A": "19/8",
+        "B": "20/9",
+        "C": "21/10",
+        "D": "22/11",
+        "E": "23/12"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-15-07",
+      "points": 3,
+      "question": "Dita and Rita's weight relationship is shown in the diagram. How much does Dita weigh?",
+      "image": "question graphics/AT-BEN-15-07.jpg",
+      "choices": {
+        "A": "2 kg",
+        "B": "3 kg",
+        "C": "4 kg",
+        "D": "5 kg",
+        "E": "6 kg"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-15-09",
+      "points": 4,
+      "question": "Each plant in John's garden has exactly 5 leaves or exactly 2 leaves and a flower. In total the plants have 6 flowers and 32 leaves. How many plants are growing in the garden?",
+      "image": "question graphics/AT-BEN-15-09.jpg",
+      "choices": {
+        "A": "10",
+        "B": "12",
+        "C": "13",
+        "D": "15",
+        "E": "16"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-15-10",
+      "points": 4,
+      "question": "Andrea has 4 equally long strips of paper. When she glues two together with an overlap of 10 cm, she gets a strip 50 cm long. With the other two she wants to make a 56 cm long strip. How long must the overlap be?",
+      "image": "question graphics/AT-BEN-15-10.jpg",
+      "choices": {
+        "A": "4 cm",
+        "B": "6 cm",
+        "C": "8 cm",
+        "D": "10 cm",
+        "E": "12 cm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-15-11",
+      "points": 4,
+      "question": "Thomas has made the following shape with 6 squares of side length 1. What is the perimeter of this shape?",
+      "image": "question graphics/AT-BEN-15-11.jpg",
+      "choices": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12",
+        "E": "13"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-15-12",
+      "points": 4,
+      "question": "Each day Maria writes down the date and then adds together the individual digits. For instance on the 23rd March she writes 23.03 and calculates 2+3+0+3=8. What is the largest total she can make in this way in the course of a year?",
+      "image": "",
+      "choices": {
+        "A": "7",
+        "B": "13",
+        "C": "14",
+        "D": "16",
+        "E": "20"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-15-13",
+      "points": 4,
+      "question": "A rectangle is formed from 4 equally sized smaller rectangles. The shorter side is 10 cm long. How long is the longer side?",
+      "image": "question graphics/AT-BEN-15-13.jpg",
+      "choices": {
+        "A": "40 cm",
+        "B": "30 cm",
+        "C": "20 cm",
+        "D": "10 cm",
+        "E": "5 cm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-15-14",
+      "points": 4,
+      "question": "In Field street there are 9 houses in a row. At least one person lives in each house. Each pair of neighbouring houses have at most 6 inhabitants. What is the maximum number of people living in Field street?",
+      "image": "",
+      "choices": {
+        "A": "23",
+        "B": "25",
+        "C": "27",
+        "D": "29",
+        "E": "31"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-15-15",
+      "points": 4,
+      "question": "Lucy and her mother were both born in January. Today on 23rd March 2015 Lucy adds together her year of birth, that of her mother, her age and that of her mother. Which answer does she get?",
+      "image": "",
+      "choices": {
+        "A": "4028",
+        "B": "4029",
+        "C": "4030",
+        "D": "4031",
+        "E": "4032"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-15-16",
+      "points": 4,
+      "question": "A rectangle has an area 12 cm². The lengths of the sides are natural numbers. Which perimeter could the rectangle have?",
+      "image": "",
+      "choices": {
+        "A": "20 cm",
+        "B": "26 cm",
+        "C": "28 cm",
+        "D": "32 cm",
+        "E": "48 cm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-15-17",
+      "points": 5,
+      "question": "Each of the 9 sides of the triangles in the picture will have, if the side colours are possible, blue, green or red. Three of the sides are already coloured red. Which colour can the sides of each triangle must be coloured in three different colours?",
+      "image": "question graphics/AT-BEN-15-17.jpg",
+      "choices": {
+        "A": "only blue",
+        "B": "only green",
+        "C": "only red",
+        "D": "each of the three colours",
+        "E": "only 3 or 4"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-15-18",
+      "points": 5,
+      "question": "3 green apples, 5 yellow apples, 7 green pears and 2 yellow pears are in a sack. Without looking, Sebastian takes either an apple or pear out of the sack. How many pieces of fruit must he take out of the sack to be sure of having at least one apple and one pear of the same colour?",
+      "image": "",
+      "choices": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12",
+        "E": "13"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-15-19",
+      "points": 5,
+      "question": "For the game of Chess a new piece, the Kangaroo, has been invented. With each jump the kangaroo jumps either 3 squares vertically and 1 horizontally, or 3 horizontally and 1 vertically. What is the smallest number of jumps the kangaroo must make to move from its current position to position A?",
+      "image": "question graphics/AT-BEN-15-19.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-15-20",
+      "points": 5,
+      "question": "Sara bought three books. For the first book she paid half of her money plus 1 Euro more. For the second book she paid again half of her left-over money plus 2 Euro’s more. For the third book she spent all of her money. How much money did she have to begin with?",
+      "image": "",
+      "choices": {
+        "A": "45",
+        "B": "36",
+        "C": "34",
+        "D": "33",
+        "E": "30"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-15-21",
+      "points": 5,
+      "question": "Nina wants to make a cube from the paper net. You can see there are 7 squares instead of 6. Which square(s) can she remove from the net, so that the other 6 remain connected and from the newly formed net a cube can be made?",
+      "image": "question graphics/AT-BEN-15-21.jpg",
+      "choices": {
+        "A": "only 4",
+        "B": "only 7",
+        "C": "only 3 or 4",
+        "D": "only 3 or 7",
+        "E": "only 3, 4 or 7"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-15-22",
+      "points": 5,
+      "question": "A train has 12 carriages. In each carriage there is the same number of compartments. Mike is sitting in the 18th compartment behind the engine, this is in the 3rd carriage. Joanna is sitting in the 50th compartment behind the engine, this is in the 7th carriage. How many compartments are in one carriage?",
+      "image": "",
+      "choices": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10",
+        "E": "12"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-15-23",
+      "points": 5,
+      "question": "In how many ways can the three kangaroos be placed in three different squares so that no kangaroo has an immediate neighbour?",
+      "image": "question graphics/AT-BEN-15-23.jpg",
+      "choices": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10",
+        "E": "11"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-15-24",
+      "points": 5,
+      "question": "Maria writes a number on each face of the cube. Then, for each corner point of the cube, she adds the numbers on the faces which meet at that corner. (For corner B she gets a total of 14, for corner C 16, for corner D 15 and for corner E 24.) Which total does she get for corner F?",
+      "image": "question graphics/AT-BEN-15-24.jpg",
+      "choices": {
+        "A": "15",
+        "B": "19",
+        "C": "22",
+        "D": "24",
+        "E": "26"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-16-02",
+      "points": 3,
+      "question": "Mike cuts a pizza into four equally big pieces. Then he cuts each piece into three equally big pieces. Into how many equally big pieces did Mike cut the pizza?",
+      "image": "",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "7",
+        "D": "8",
+        "E": "12"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-16-03",
+      "points": 3,
+      "question": "A 10 cm long piece if wire is folded so that every part is equally long (see diagram). The wire is then cut through in the two positions marked. How long are the three pieces created in this way?",
+      "image": "question graphics/AT-BEN-16-03.jpg",
+      "choices": {
+        "A": "2 cm, 3 cm, 5 cm",
+        "B": "2 cm, 2 cm, 6 cm",
+        "C": "1 cm, 4 cm, 5 cm",
+        "D": "1 cm, 3 cm, 6 cm",
+        "E": "3 cm, 3 cm, 4 cm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-16-04",
+      "points": 3,
+      "question": "Lisa has mounted 7 postcards on her fridge door using 8 strong magnets (black dots). What is the maximum amount of magnets she can remove without any postcards falling on the floor?",
+      "image": "question graphics/AT-BEN-16-04.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-16-05",
+      "points": 3,
+      "question": "Kathi draws a square with side length 10 cm. Then she joins the midpoints of each side to form a smaller square. What is the area of the smaller square?",
+      "image": "question graphics/AT-BEN-16-05.jpg",
+      "choices": {
+        "A": "10 cm²",
+        "B": "20 cm²",
+        "C": "25 cm²",
+        "D": "40 cm²",
+        "E": "50 cm²"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-16-06",
+      "points": 3,
+      "question": "Maria wants there to be a knife to the right of every plate and a fork to the left of it. In order to get the right order she always swaps one fork with one knife. What is the minimum number of swaps necessary?",
+      "image": "question graphics/AT-BEN-16-06.jpg",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-16-07",
+      "points": 3,
+      "question": "A centipede owns 25 pairs of shoes. He needs one shoe for every one of his 100 feet. How many more single shoes does the centipede still need to buy?",
+      "image": "",
+      "choices": {
+        "A": "15",
+        "B": "20",
+        "C": "35",
+        "D": "50",
+        "E": "75"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-16-08",
+      "points": 3,
+      "question": "Four girls are sleeping in a room with their heads on the grey pillows. Bea and Pia are sleeping on the left hand side of the room with their faces towards each other， Mary and Karen are on the right hand side with their backs towards each other. How many girls sleep with their right ear on the pillow?",
+      "image": "question graphics/AT-BEN-16-08.jpg",
+      "choices": {
+        "A": "",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-16-09",
+      "points": 4,
+      "question": "The given net is folded along the dotted lines to form an open box. The box is placed on the table so that the opening is on the top. Which side is facing the table?",
+      "image": "question graphics/AT-BEN-16-09.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-16-11",
+      "points": 4,
+      "question": "Mona, Asma and Nadja work in the same nursery. On each day from Monday to Friday exactly two of them are working. Mona works three times and Asma works four times per week. How many times does Nadja work per week?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-16-12",
+      "points": 4,
+      "question": "Five squirrels A, B, C, D and E are sitting on the points marked. The crosses indicate 6 nuts that they are collecting. The squirrels start to run at the same time with the same speed to the nearest nut in order to pick it up. As soon as a squirrel has picked up the first nut it immediately continues to run in order to get another nut. Which squirrel gets a second nut?",
+      "image": "question graphics/AT-BEN-16-12.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-16-13",
+      "points": 4,
+      "question": "There are 30 girls and boys in a class. Always two students share a desk. Every boy shares a desk with a girl. Exactly half the girls share a desk with a boy. How many boys are in the class?",
+      "image": "",
+      "choices": {
+        "A": "25",
+        "B": "20",
+        "C": "15",
+        "D": "10",
+        "E": "5"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-16-14",
+      "points": 4,
+      "question": "Hansi writes the number 2581953764 on a strip of paper. Twice he cuts through the strip of paper between two digits and obtains three numbers which he adds. How big is the smallest sum he can obtain in this way?",
+      "image": "",
+      "choices": {
+        "A": "2675",
+        "B": "2975",
+        "C": "2978",
+        "D": "4217",
+        "E": "4298"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-16-16",
+      "points": 4,
+      "question": "What is the maximum number of such pieces that can be cut from a 5 x 5 square?",
+      "image": "question graphics/AT-BEN-16-16.jpg",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-16-17",
+      "points": 5,
+      "question": "Tim, Tom and Jim are triplets. Their brother Carl is exactly 3 years younger. All four are having their birthdays today. How old can the four brothers be altogether?",
+      "image": "",
+      "choices": {
+        "A": "53",
+        "B": "54",
+        "C": "56",
+        "D": "59",
+        "E": "60"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-16-18",
+      "points": 5,
+      "question": "Richard writes down all numbers that have the following properties: The first digit is 1. Each of the following digits is at least as big as the previous one. The sum of the digits is 5. How many such numbers can Richard write down?",
+      "image": "",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-16-19",
+      "points": 5,
+      "question": "The perimeter of the rectangle ABCD is 30 cm. Three more rectangles are added so that their centres are in the corners A, B and D and their sides are parallel to the rectangle (see diagram). The sum of the perimeters of these three rectangles is 20 cm. What is the length of the boarder of the shape (thick black line)?",
+      "image": "question graphics/AT-BEN-16-19.jpg",
+      "choices": {
+        "A": "50 cm",
+        "B": "45 cm",
+        "C": "40 cm",
+        "D": "35 cm",
+        "E": "This cannot be calculated"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-16-20",
+      "points": 5,
+      "question": "Luigi owns a few square tables and some chairs for his little restaurant. If he sets out his tables individually with 4 chairs each, then he is 6 chairs short. If he always puts two tables together to create a bigger table with 6 chairs, then he has 4 chairs left over. How many tables does Luigi have?",
+      "image": "",
+      "choices": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "14",
+        "E": "16"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-16-21",
+      "points": 5,
+      "question": "Clara forms one big triangle made up of identical little triangles. She has already put some triangles together (see diagram). What is the minimum number of little triangles she has to add?",
+      "image": "question graphics/AT-BEN-16-21.jpg",
+      "choices": {
+        "A": "5",
+        "B": "9",
+        "C": "12",
+        "D": "15",
+        "E": "19"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-16-22",
+      "points": 5,
+      "question": "Kirsten has written numbers into 5 of the 10 circles. She wants to write numbers into the remaining circles so that the sum of the three numbers along every side of the pentagon is always the same. Which number does she have to write into the circle marked X?",
+      "image": "question graphics/AT-BEN-16-22.jpg",
+      "choices": {
+        "A": "7",
+        "B": "8",
+        "C": "11",
+        "D": "13",
+        "E": "15"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-16-23",
+      "points": 5,
+      "question": "The symbols ,  and  represent three different digits. If the digits of the number  are added, you receive the two-digit number . If the digits of the two-digit number  are added, you receive the single-digit number . Which digit is represented by ?",
+      "image": "",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8",
+        "E": "9"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-16-24",
+      "points": 5,
+      "question": "Two three-digit numbers are made up of six different digits. The first digit of the second number is twice as big as the last digit of the first number. (Note: 0 is also a digit but cannot be the first digit of a number!) How big is the smallest possible sum of the two numbers?",
+      "image": "",
+      "choices": {
+        "A": "301",
+        "B": "535",
+        "C": "537",
+        "D": "546",
+        "E": "552"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-17-01",
+      "points": 3,
+      "question": "Four cards are placed in this order: 2017. Which order cannot be obtained if only two cards are swapped?",
+      "image": "",
+      "choices": {
+        "A": "2710",
+        "B": "271",
+        "C": "217",
+        "D": "7210",
+        "E": "127"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-17-02",
+      "points": 3,
+      "question": "A fly has 6 legs, a spider 8. Therefore 3 flies and 2 spiders together have the same amount of legs as 9 chickens and which option?",
+      "image": "",
+      "choices": {
+        "A": "2 cats",
+        "B": "3 cats",
+        "C": "4 cats",
+        "D": "5 cats",
+        "E": "6 cats"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-17-04",
+      "points": 3,
+      "question": "Kevin knows that 1111×1111=1234321. Which result does he get for 1111×2222?",
+      "image": "",
+      "choices": {
+        "A": "3456543",
+        "B": "2345432",
+        "C": "2234322",
+        "D": "2468642",
+        "E": "4321234"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-17-05",
+      "points": 3,
+      "question": "The 10 islands are connected by 12 bridges. All bridges are open for traffic. What is the minimum number of bridges that need to be closed off so that the traffic between A and B comes to a halt?",
+      "image": "question graphics/AT-BEN-17-05.jpg",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-17-07",
+      "points": 3,
+      "question": "Max colours in the squares of the grid so that one third of all squares are blue and one half of all squares are yellow. The rest he colours in red. How many squares does he have to colour in red?",
+      "image": "question graphics/AT-BEN-17-07.jpg",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-17-09",
+      "points": 4,
+      "question": "A rectangle is twice as long as wide. Which fraction of the rectangle is coloured in grey?",
+      "image": "question graphics/AT-BEN-17-09.jpg",
+      "choices": {
+        "A": "1/4",
+        "B": "3/8",
+        "C": "3/4",
+        "D": "1/2",
+        "E": "3/5"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-17-10",
+      "points": 4,
+      "question": "Only four players score goals in a handball game. Each one scored a different number of goals. Michael scored the fewest number of goals. If the other players altogether managed to score 20 goals in total, what is the maximum number of goals Michael could have scored?",
+      "image": "",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-17-11",
+      "points": 4,
+      "question": "A furniture shop sells 3-seater, 2-seater and 1-seater sofas that each have an equally wide armrest on the left and the right hand side. Each seat is equally wide. Together with the armrests the 3-seater sofa is 220 cm and the 2-seater sofa 160 cm. How wide is the 1-seater sofa?",
+      "image": "question graphics/AT-BEN-17-11.jpg",
+      "choices": {
+        "A": "60 cm",
+        "B": "80 cm",
+        "C": "90 cm",
+        "D": "100 cm",
+        "E": "120 cm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-17-12",
+      "points": 4,
+      "question": "Tom strings together the numbers from 1 to 20 and obtains the 31-digit number 1234567891011121314151617181920. Then he deletes 24 digits of the number so that the remaining number is as big as possible. Which number does he obtain?",
+      "image": "",
+      "choices": {
+        "A": "9671819",
+        "B": "9567892",
+        "C": "9781920",
+        "D": "9912345",
+        "E": "9818192"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-17-13",
+      "points": 4,
+      "question": "There is a number written on every face of a special die. The sum of the numbers which are on opposite sides to each other is always equally big. Five of the six numbers are 5, 6, 9, 11 and 14. Which number is on the sixth face?",
+      "image": "",
+      "choices": {
+        "A": "4",
+        "B": "7",
+        "C": "8",
+        "D": "13",
+        "E": "15"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-17-14",
+      "points": 4,
+      "question": "Paul goes on a 5-day hiking trek. He starts on Monday and finishes on Friday. Every day he covers 2 km more than the day before. In total he hikes 70 km. Which distance does he cover on Thursday?",
+      "image": "",
+      "choices": {
+        "A": "12 km",
+        "B": "13 km",
+        "C": "14 km",
+        "D": "15 km",
+        "E": "16 km"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-17-16",
+      "points": 4,
+      "question": "Raphael has three squares. The first one has side length 2 cm, the second one has side length 4 cm and one corner is the centre of the first square. The third square has side length 6 cm and one corner is the centre of the second square. What is the total area of the figure shown?",
+      "image": "question graphics/AT-BEN-17-16.jpg",
+      "choices": {
+        "A": "51 cm²",
+        "B": "32 cm²",
+        "C": "27 cm²",
+        "D": "16 cm²",
+        "E": "6 cm²"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-17-18",
+      "points": 5,
+      "question": "The numbers 1, 2, 3, 4 and 5 have to be written into the five fields of this diagram according to the following rules: If one number is below another number it has to be greater, if one number is to the right of another it has to be greater. How many ways are there to place the numbers?",
+      "image": "question graphics/AT-BEN-17-18.jpg",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "8"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-17-19",
+      "points": 5,
+      "question": "Two kangaroos that are standing next to each other and that are looking into each others eyes are changing places by hopping past each other. This is carried out until no more jumps are possible. How often did a change of places occur?",
+      "image": "question graphics/AT-BEN-17-19.jpg",
+      "choices": {
+        "A": "2",
+        "B": "10",
+        "C": "12",
+        "D": "13",
+        "E": "16"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-17-20",
+      "points": 5,
+      "question": "A square floor is made up of triangular and square tiles in grey and white. What is the smallest number of grey tiles that have to be swapped with white tiles so that the floor looks the same from all four given viewing directions?",
+      "image": "question graphics/AT-BEN-17-20.jpg",
+      "choices": {
+        "A": "three triangles, one square",
+        "B": "one triangle, three squares",
+        "C": "one triangle, one square",
+        "D": "three triangles, three squares",
+        "E": "three triangles, two squares"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-17-21",
+      "points": 5,
+      "question": "In a bag there are only red and green marbles. If one randomly takes out five marbles there is at least one red one. If one randomly takes out six marbles there is at least one green one. What is the maximum number of marbles in the bag?",
+      "image": "",
+      "choices": {
+        "A": "11",
+        "B": "10",
+        "C": "9",
+        "D": "8",
+        "E": "7"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-17-22",
+      "points": 5,
+      "question": "Each one of the 5 keys locks exactly one padlock. Every letter on a padlock stands for exactly one digit, same letters mean same digits. Which digits are on the key with the question mark?",
+      "image": "question graphics/AT-BEN-17-22.jpg",
+      "choices": {
+        "A": "382",
+        "B": "282",
+        "C": "284",
+        "D": "823",
+        "E": "824"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-17-23",
+      "points": 5,
+      "question": "Petra likes even numbers, Ina likes numbers that are divisible by three and Celina numbers that are divisible by 5. In a basket there are 8 balls each with one number written on them. Each one of the three girls went to the basket on their own and took all balls according to their preferences. Petra took 32 and 52, Ina took 24, 33 and 45, and Celina took 20, 25 and 35. In which order did they go to the basket?",
+      "image": "",
+      "choices": {
+        "A": "Petra, Celina, Ina",
+        "B": "Celina, Ina, Petra",
+        "C": "Ina, Petra, Celina",
+        "D": "Ina, Celina, Petra",
+        "E": "Celina, Petra, Ina"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-18-01",
+      "points": 3,
+      "question": "As seen in the diagram, three darts are thrown at nine fixed balloons. If a balloon is hit it will burst and the dart continues in the same direction it had beforehand. How many balloons will not be hit by a dart?",
+      "image": "question graphics/AT-BEN-18-01.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-18-03",
+      "points": 3,
+      "question": "If you hit the target board, you score points. The number of points depends on which one of the three areas you hit. Diana throws two darts three times at the target board. On the first attempt she scores 14 points and on the second 16 points. How many points does she score on the third attempt?",
+      "image": "question graphics/AT-BEN-18-03.jpg",
+      "choices": {
+        "A": "17",
+        "B": "18",
+        "C": "19",
+        "D": "20",
+        "E": "22"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-18-04",
+      "points": 3,
+      "question": "A garden is split into equally sized square-shaped lots. A fast and a slow snail crawl in different directions along the outside edge of the garden. Both start at the corner S. The slow snail crawls 1 m in one hour and the fast one crawls 2 m in one hour. In which position will the two snails meet for the first time?",
+      "image": "question graphics/AT-BEN-18-04.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-18-05",
+      "points": 3,
+      "question": "A star consists of a square and four triangles. All sides of the triangles are equally long. The perimeter of the square is 36 cm. What is the perimeter of the star?",
+      "image": "question graphics/AT-BEN-18-05.jpg",
+      "choices": {
+        "A": "144 cm",
+        "B": "120 cm",
+        "C": "104 cm",
+        "D": "90 cm",
+        "E": "72 cm"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-18-06",
+      "points": 3,
+      "question": "A big spot of ink covers most of a calendar page of a certain month. Which day of the week does the 25th day of that month fall on?",
+      "image": "question graphics/AT-BEN-18-06.jpg",
+      "choices": {
+        "A": "Monday",
+        "B": "Wednesday",
+        "C": "Thursday",
+        "D": "Saturday",
+        "E": "Sunday"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-18-07",
+      "points": 3,
+      "question": "How many times do you have to roll an ordinary die in order to be certain that at least one number is rolled twice?",
+      "image": "",
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "12",
+        "E": "18"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-18-08",
+      "points": 3,
+      "question": "A figure is made up of three squares. The side length of the smallest square is 6 cm. How long is the side length of the biggest square?",
+      "image": "question graphics/AT-BEN-18-08.jpg",
+      "choices": {
+        "A": "8 cm",
+        "B": "10 cm",
+        "C": "12 cm",
+        "D": "14 cm",
+        "E": "16 cm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-18-09",
+      "points": 4,
+      "question": "Alice subtracts one two-digit number from another two-digit number. Afterwards she paints over two digits in the calculation. How big is the sum of the two painted digits?",
+      "image": "question graphics/AT-BEN-18-09.jpg",
+      "choices": {
+        "A": "8",
+        "B": "9",
+        "C": "12",
+        "D": "13",
+        "E": "15"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-18-10",
+      "points": 4,
+      "question": "In the diagram the circles represent light bulbs which are connected to some other light bulbs. Initially all light bulbs are switched off. If you touch a light bulb then that light bulb and all directly adjacent light bulbs switch themselves on. What is the minimum number of light bulbs you have to touch in order to switch on all the light bulbs?",
+      "image": "question graphics/AT-BEN-18-10.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-18-11",
+      "points": 4,
+      "question": "Four equally big squares are partially coloured in black. In which of the four squares is the total area of the black parts biggest?",
+      "image": "question graphics/AT-BEN-18-11.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "The total area of the black parts is always equally big"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-18-12",
+      "points": 4,
+      "question": "The four smudges hide four of the numbers 1, 2, 3, 4, 5. The calculations along the two arrows are correct. Which number hides behind the smudge with the star?",
+      "image": "question graphics/AT-BEN-18-12.jpg",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-18-13",
+      "points": 4,
+      "question": "A lion hides in one of three rooms. On the door to room number 1 a note reads: „The lion is not here“. On the door to room number 2 a note reads: „The lion is here“. On the door to room number 3 a note reads: „2 + 3 = 5“. Exactly one of the three notes is true. In which room is the lion?",
+      "image": "",
+      "choices": {
+        "A": "Room 1",
+        "B": "Room 2",
+        "C": "Room 3",
+        "D": "It can be in any room",
+        "E": "It is either in room 1 or room 2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-18-14",
+      "points": 4,
+      "question": "The two girls Eva and Olga and the three boys Adam, Isaac and Urban play together with a ball. If a girl has the ball she throws it either to the second girl or to a boy. Every boy only throws the ball to another boy however not to the one where the ball has just come from. The first throw is made by Eva to Adam. Who makes the 5th throw?",
+      "image": "",
+      "choices": {
+        "A": "Adam",
+        "B": "Eva",
+        "C": "Isaac",
+        "D": "Olga",
+        "E": "Urban"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-18-16",
+      "points": 4,
+      "question": "From a list with the numbers 1, 2, 3, 4, 5, 6, 7, Monika chooses 3 different numbers whose sum is 8. From the same list Daniel chooses 3 different numbers whose sum is 7. How many of the numbers were chosen by both Monika and Daniel?",
+      "image": "",
+      "choices": {
+        "A": "none",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "It cannot be determined"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-18-17",
+      "points": 5,
+      "question": "Emily wants to write a number into every free small triangle. The sum of the numbers in two triangles with a common side should always be the same. Two numbers are already given. How big is the sum of all numbers in the figure?",
+      "image": "question graphics/AT-BEN-18-17.jpg",
+      "choices": {
+        "A": "18",
+        "B": "20",
+        "C": "21",
+        "D": "22",
+        "E": "it cannot be calculated"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-18-18",
+      "points": 5,
+      "question": "Instead of digits Hannes uses the letters A, B, C and D in a calculation. Different letters stand for different digits. Which digit does the letter B stand for?",
+      "image": "question graphics/AT-BEN-18-18.jpg",
+      "choices": {
+        "A": "",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-18-20",
+      "points": 5,
+      "question": "The five balls weigh 30 g, 50 g, 50 g, 50 g and 80 g. Which of the balls weighs 30 g?",
+      "image": "question graphics/AT-BEN-18-20.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-18-21",
+      "points": 5,
+      "question": "Three different digits A, B and C are chosen. Then the biggest possible six-digit number is built where the digit A appears 3 times, the digit B 2 times and the digit C 1 time. Which representation is definitely not possible for this number?",
+      "image": "",
+      "choices": {
+        "A": "AAABBC",
+        "B": "CAAABB",
+        "C": "BBAAAC",
+        "D": "AAABCB",
+        "E": "AAACBB"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-18-22",
+      "points": 5,
+      "question": "The sum of Kathi’s age and the age of her mother is 36. The sum of the age of her mother and the age of her grandmother is 81. How old was Kathi’s grandmother when Kathi was born?",
+      "image": "",
+      "choices": {
+        "A": "28",
+        "B": "38",
+        "C": "45",
+        "D": "53",
+        "E": "56"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-18-23",
+      "points": 5,
+      "question": "Nick wants to split the numbers 2, 3, 4, 5, 6, 7, 8, 9, 10 into some groups so that the sum of the numbers in each group is equally big. What is the biggest number of groups he can build this way?",
+      "image": "",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6",
+        "E": "another number"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-18-24",
+      "points": 5,
+      "question": "The figure shown on the right consists of one square part and eight rectangular parts. Each part is 8 cm wide. Peter assembles all parts to form one long 8 cm wide rectangle. How long is this rectangle?",
+      "image": "question graphics/AT-BEN-18-24.jpg",
+      "choices": {
+        "A": "150 cm",
+        "B": "168 cm",
+        "C": "196 cm",
+        "D": "200 cm",
+        "E": "232 cm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-19-03",
+      "points": 3,
+      "question": "In a nursery group there are 14 girls and 12 boys. Half of the group go for a walk. What is the minimum number of girls that have to be amongst that group?",
+      "image": "",
+      "choices": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "2",
+        "E": "1"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-19-04",
+      "points": 3,
+      "question": "A digital clock shows the following time: 20:19. What time is it when it uses the exactly same digits again for the first time after that?",
+      "image": "",
+      "choices": {
+        "A": "20:91",
+        "B": "09:21",
+        "C": "21:09",
+        "D": "09:12",
+        "E": "02:19"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-19-06",
+      "points": 3,
+      "question": "Which of the following geometrical figures does not appear in the big picture?",
+      "image": "question graphics/AT-BEN-19-06.jpg",
+      "choices": {
+        "A": "Triangle",
+        "B": "Square",
+        "C": "Hexagon",
+        "D": "Octagon",
+        "E": "Dodecagon"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-19-07",
+      "points": 3,
+      "question": "In an enclosure there is a group of kangaroos. If you add up the ages of all kangaroos you get 36 years. In two years all the kangaroos together will be 60 years old. How many kangaroos are in the enclosure?",
+      "image": "",
+      "choices": {
+        "A": "12",
+        "B": "15",
+        "C": "18",
+        "D": "20",
+        "E": "24"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-19-08",
+      "points": 3,
+      "question": "Laura wants to colour in exactly one 2 × 2 square in the figure given. How many ways are there for her to do that?",
+      "image": "question graphics/AT-BEN-19-08.jpg",
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8",
+        "E": "9"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-19-09",
+      "points": 4,
+      "question": "On each of the three separate pieces of paper there is a three-digit number. The sum of the three numbers is 826. What is the sum of the two hidden digits?",
+      "image": "question graphics/AT-BEN-19-09.jpg",
+      "choices": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10",
+        "E": "11"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-19-10",
+      "points": 4,
+      "question": "The six smallest odd natural numbers are written on the sides of a die. Toni rolls the die three times and adds the numbers. Which sum will Toni not be able to make?",
+      "image": "",
+      "choices": {
+        "A": "3",
+        "B": "19",
+        "C": "21",
+        "D": "29",
+        "E": "35"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-19-13",
+      "points": 4,
+      "question": "In a witch’s garden there are 30 animals: dogs, cats and mice. The witch changes 6 dogs into 6 cats and then 5 cats into 5 mice. Now there is an equal number of dogs, cats and mice. How many cats were there to start with?",
+      "image": "",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "9",
+        "D": "10",
+        "E": "11"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-19-14",
+      "points": 4,
+      "question": "Maxi builds towers made up of little 1 cm × 1 cm × 2 cm building blocks as can be seen in the picture. He continues to build his towers in the same way. Finally he uses 28 building blocks for one tower. What is the height of this tower?",
+      "image": "question graphics/AT-BEN-19-14.jpg",
+      "choices": {
+        "A": "9 cm",
+        "B": "10 cm",
+        "C": "11 cm",
+        "D": "12 cm",
+        "E": "14 cm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-19-15",
+      "points": 4,
+      "question": "Bridget folds a square piece of paper twice and subsequently cuts it along the two lines as shown in the picture. How many pieces of paper does she obtain this way?",
+      "image": "question graphics/AT-BEN-19-15.jpg",
+      "choices": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "12",
+        "E": "16"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-19-17",
+      "points": 5,
+      "question": "A natural number greater than 0 is written on each side of the die shown. All products of opposite numbers are of the same value. What is the smallest possible sum of all 6 numbers?",
+      "image": "question graphics/AT-BEN-19-17.jpg",
+      "choices": {
+        "A": "36",
+        "B": "37",
+        "C": "41",
+        "D": "44",
+        "E": "60"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-19-18",
+      "points": 5,
+      "question": "4 equally heavy black pearls, 1 white pearl and a piece of iron weighing 30 g are placed on a beam balance as shown in the diagram. The beam balance is balanced. How heavy are 6 black and 3 white pearls altogether?",
+      "image": "question graphics/AT-BEN-19-18.jpg",
+      "choices": {
+        "A": "100 g",
+        "B": "99 g",
+        "C": "96 g",
+        "D": "94 g",
+        "E": "90 g"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-19-19",
+      "points": 5,
+      "question": "Robert makes 5 statements. One of which is wrong. (A) My son Basil has 3 sisters. (B) My daughter Ann has 2 brothers. (C) My daughter Ann has 2 sisters. (D) My son Basil has 2 brothers. (E) I have 5 children. Which statement is wrong?",
+      "image": "",
+      "choices": {
+        "A": "Statement A",
+        "B": "Statement B",
+        "C": "Statement C",
+        "D": "Statement D",
+        "E": "Statement E"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-19-20",
+      "points": 5,
+      "question": "Benjamin writes a number into the first circle. He then carries out the calculations as instructed and each time writes down the results in the respective circles. How many of the six numbers are divisible by 3?",
+      "image": "question graphics/AT-BEN-19-20.jpg",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "1 or 2",
+        "D": "2 or 3",
+        "E": "3 or 4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-19-21",
+      "points": 5,
+      "question": "Emil takes selfies with his 8 cousins. Each one of the 8 cousins are on two or three of the pictures. There are exactly 5 cousins on each of the pictures. How many selfies does Emil take?",
+      "image": "",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-19-23",
+      "points": 5,
+      "question": "Jette and Willi throw balls at two identically built pyramids each made up of 15 tins. Jette hits 6 tins and gets 25 points. Willi hits 4 tins. How many points does Willi get?",
+      "image": "question graphics/AT-BEN-19-23.jpg",
+      "choices": {
+        "A": "22",
+        "B": "23",
+        "C": "25",
+        "D": "26",
+        "E": "28"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-19-24",
+      "points": 5,
+      "question": "Linus builds a 4 × 4 × 4 cube made up of 32 white and 32 black 1 × 1 × 1 cubes. He arranges the cubes so that the surface of the big cube has as much white as possible. Which fraction of the surface is white?",
+      "image": "",
+      "choices": {
+        "A": "3/4",
+        "B": "2/3",
+        "C": "1/2",
+        "D": "3/8",
+        "E": "1/4"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-20-02",
+      "points": 3,
+      "question": "Amira is traveling from Atown to Betown and passes by two indicative signs along the road. One of them has a hidden number. What is this number?",
+      "image": "question graphics/AT-BEN-20-02.jpg",
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8",
+        "E": "9"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-20-04",
+      "points": 3,
+      "question": "Ana starts lighting a candle every 10 minutes. Each candle lasts 40 minutes. After 55 minutes, how many candles will be lit?",
+      "image": "",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-20-06",
+      "points": 3,
+      "question": "Bia has five coins as shown beside. She went to the grocery store to buy a fruit, using only three coins, without having to receive change. Among the prices of the following fruits, which one can she NOT buy?",
+      "image": "question graphics/AT-BEN-20-06.jpg",
+      "choices": {
+        "A": "1,30",
+        "B": "1,35",
+        "C": "1,40",
+        "D": "1,55",
+        "E": "1,75"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-20-07",
+      "points": 3,
+      "question": "In a garden, a bush has branches with seven leaves or branches with four leaves and a flower. Janaina counted the leaves and flowers and verified that there are 9 flowers and 120 leaves in the bush. How many branches does the bush have?",
+      "image": "",
+      "choices": {
+        "A": "14",
+        "B": "21",
+        "C": "28",
+        "D": "35",
+        "E": "42"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-20-08",
+      "points": 3,
+      "question": "Cynthia paints each region of the figure in a single color: red, blue or yellow. She paints the regions that touch each other with different colors. In how many different ways can she color the figure?",
+      "image": "question graphics/AT-BEN-20-08.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-20-09",
+      "points": 4,
+      "question": "Five boxes contain 2, 3, 4, 7 and 15 balls respectively. Peter wants to distribute the balls into the boxes so that any box has twice or half the number of balls in one of the remaining boxes. At least for how many balls should he change boxes?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-20-10",
+      "points": 4,
+      "question": "Two little mice, one white and one dark, leave, at the same time, towards the cheese, through different paths, as indicated in the picture, in which the little squares are equal. The two arrive at the same time to the cheese. If the dark mouse runs 4.5 meters per second, how many meters per second does the white mouse run?",
+      "image": "question graphics/AT-BEN-20-10.jpg",
+      "choices": {
+        "A": "1",
+        "B": "1,5",
+        "C": "2",
+        "D": "2,5",
+        "E": "3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-20-11",
+      "points": 4,
+      "question": "The circles of the figure should be numbered from 0 to 10, each with a different number. The five sums of the three numbers written on each diameter must be odd numbers. If one of these sums is the smallest possible, what will be the largest possible value of one of the remaining sums?",
+      "image": "question graphics/AT-BEN-20-11.jpg",
+      "choices": {
+        "A": "13",
+        "B": "15",
+        "C": "17",
+        "D": "19",
+        "E": "21"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-20-12",
+      "points": 4,
+      "question": "When the bat Elisa left its cave at night, the digital clock showed a certain time as picture. When she came back in the morning and hung herself upside down, she looked at her watch and saw a time as picture again. How long did she stay out of the cave?",
+      "image": "question graphics/AT-BEN-20-12.jpg",
+      "choices": {
+        "A": "2h 48m",
+        "B": "2h 59m",
+        "C": "3h 39m",
+        "D": "3h 41m",
+        "E": "3h 49m"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-20-13",
+      "points": 4,
+      "question": "On a distant island, 2020 kangaroos, holding hands, form a large circle. These kangaroos are either brown and always tell the truth, or they are grey and only tell lies. Each one of them says the same thing: \"One of my neighbors is brown and the other is gray\". What is the number of brown kangaroos in this circle?",
+      "image": "",
+      "choices": {
+        "A": "",
+        "B": "1009",
+        "C": "1010",
+        "D": "2019",
+        "E": "2020"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-20-16",
+      "points": 5,
+      "question": "Mary numbered the sides of three cards from 1 to 6. Using these cards, she can compose three digit numbers, for example 135 or 234. But some numbers cannot be obtained, like 126. Which of the following numbers CANNOT be obtained?",
+      "image": "",
+      "choices": {
+        "A": "134",
+        "B": "146",
+        "C": "235",
+        "D": "245",
+        "E": "256"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-20-19",
+      "points": 5,
+      "question": "Beatriz has five sisters with ages of 2, 3, 5, 8, 10 and 17. Beatriz writes these ages in the circles of the opposite diagram, so that the sum of the ages in the four corners of the square is equal to the sum of the ages in the four circles aligned horizontally. What is this sum?",
+      "image": "question graphics/AT-BEN-20-19.jpg",
+      "choices": {
+        "A": "13",
+        "B": "17",
+        "C": "26",
+        "D": "32",
+        "E": "There is more than one possible value"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-20-21",
+      "points": 5,
+      "question": "Inside the gray square there are three white squares and the numbers inside them indicate their areas. The white squares have sides parallel to the sides of the gray square. If the area of the gray square is 81, what is the area of the gray area not covered by the white squares?",
+      "image": "question graphics/AT-BEN-20-21.jpg",
+      "choices": {
+        "A": "25",
+        "B": "43",
+        "C": "52",
+        "D": "68",
+        "E": "81"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-20-22",
+      "points": 5,
+      "question": "John made a construction with wooden cubes of the same size, with the three views shown beside, using as many cubes as possible. Ana, John´s sister, wants to remove all the cubes she can, without modifying these three views. At most, how many cubes can she remove?",
+      "image": "question graphics/AT-BEN-20-22.jpg",
+      "choices": {
+        "A": "None",
+        "B": "12",
+        "C": "18",
+        "D": "22",
+        "E": "34"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-20-23",
+      "points": 5,
+      "question": "A panel is composed of 4 circles. When Lucy touches a circle, this circle and the others that touch this circle change their color from white to black or from black to white. Starting with all white circles, at least how many circles must Lucy touch, one after the other, so that all circles turn black?",
+      "image": "question graphics/AT-BEN-20-23.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "more than 5"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-20-25",
+      "points": 5,
+      "question": "Ten people order an ice cream for each one. They ask for four vanilla ice creams, three chocolate ice creams, two lemon ice creams and one mango ice cream. As a topping, they ask for four umbrellas, three cherries, two wafers and a chocolate gum, one topping for each ice cream. Since they don't want two ice creams the same, which of the following combinations is possible?",
+      "image": "question graphics/AT-BEN-20-25.jpg",
+      "choices": {
+        "A": "Chocolat and chocolate gum",
+        "B": "Mango and cherry",
+        "C": "Lemmon and wafer",
+        "D": "Mango and wafer",
+        "E": "Lemmon and cherry"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-20-26",
+      "points": 5,
+      "question": "We say that a three-digit number is balanced if the middle digit is the arithmetic mean of the other two digits. How many balanced numbers are divisible by 18?",
+      "image": "",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "6",
+        "D": "9",
+        "E": "18"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-20-27",
+      "points": 5,
+      "question": "Janaina bought three toys, spending all her money. For the first one she paid half of the money she had plus one Real, for the second one she paid half of what was left plus two Reais and for the third one she paid half of what was left plus three Reais. How much money did she have?",
+      "image": "",
+      "choices": {
+        "A": "34 Reais",
+        "B": "36 Reais",
+        "C": "45 Reais",
+        "D": "65 Reais",
+        "E": "100 Reais"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-20-28",
+      "points": 5,
+      "question": "Dirce built the sculpture on the side by gluing cubic boxes of half a meter on the side. Then she painted the sculpture minus the support base, with a special paint sold in cans. Each can allow to paint 4 square meters of surface. How many cans of paint did she have to buy?",
+      "image": "question graphics/AT-BEN-20-28.jpg",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-20-29",
+      "points": 5,
+      "question": "Vania has a sheet of paper divided into nine equal squares. She wants to fold the sheet as shown in the picture, initially with horizontal folds and then with vertical folds, until she leaves the colored square on top of the layers. Vania wants to write the numbers from 1 to 9, one in each square, so that these numbers are in ascending order, starting with the number 1 at the top, after the folds are made above. On the open sheet, which numbers should she write in place of a, b and c?",
+      "image": "question graphics/AT-BEN-20-29.jpg",
+      "choices": {
+        "A": "a=9, b=5, c=3",
+        "B": "a=4, b=6, c=8",
+        "C": "a=7, b=5, c=3",
+        "D": "a=3, b=5, c=7",
+        "E": "a=6, b=4, c=7"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-20-30",
+      "points": 5,
+      "question": "The figure shows a map with some islands and how they are connected by bridges. A navigator wants to pass through each of the islands exactly once. He started at Cang Island and wants to finish at Uru Island. He has just arrived at the black island in the center of the map. In which direction must he go now to be able to complete his route?",
+      "image": "question graphics/AT-BEN-20-30.jpg",
+      "choices": {
+        "A": "North",
+        "B": "East",
+        "C": "South",
+        "D": "West",
+        "E": "There is more than one possible choice"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-21-02",
+      "points": 3,
+      "question": "In how many places in the picture are two children holding each other with their left hands?",
+      "image": "question graphics/AT-BEN-21-02.jpg",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-21-04",
+      "points": 3,
+      "question": "Sofie wants to write the word KENGU by using letters from the boxes. She can only take one letter from each box. What letter must Sofie take from box 4?",
+      "image": "question graphics/AT-BEN-21-04.jpg",
+      "choices": {
+        "A": "K",
+        "B": "E",
+        "C": "N",
+        "D": "G",
+        "E": "U"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-21-05",
+      "points": 3,
+      "question": "When the 5 pieces are fitted together correctly, the result is a rectangle with a calculation written on it. What is the answer to this calculation?",
+      "image": "question graphics/AT-BEN-21-05.jpg",
+      "choices": {
+        "A": "22",
+        "B": "32",
+        "C": "41",
+        "D": "122",
+        "E": "203"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-21-06",
+      "points": 3,
+      "question": "A measuring tape is wound around a cylinder. What number should be at the place shown by the question mark?",
+      "image": "question graphics/AT-BEN-21-06.jpg",
+      "choices": {
+        "A": "53",
+        "B": "60",
+        "C": "69",
+        "D": "77",
+        "E": "81"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-21-07",
+      "points": 3,
+      "question": "The 5 figures on the grid can only move in the directions indicated by the black arrows. Which figure can leave through gate G?",
+      "image": "question graphics/AT-BEN-21-07.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-21-08",
+      "points": 3,
+      "question": "Carin is going to paint the walls in her room green. The green paint is too dark, so she mixes it with white paint. She tries different mixtures. Which of the following mixtures will give the darkest green colour?",
+      "image": "",
+      "choices": {
+        "A": "1 part green + 3 parts white",
+        "B": "2 parts green + 6 parts white",
+        "C": "3 parts green + 9 parts white",
+        "D": "4 parts green + 12 parts white",
+        "E": "They will all be equally dark"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-21-11",
+      "points": 4,
+      "question": "The number 5021972970 is written on a sheet of paper. Julian cuts the sheet twice, so he gets 3 numbers. What is the smallest sum he can get by adding these 3 numbers?",
+      "image": "",
+      "choices": {
+        "A": "3244",
+        "B": "3444",
+        "C": "5172",
+        "D": "5217",
+        "E": "5444"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-21-12",
+      "points": 4,
+      "question": "The map shows three bus stations at points A, B and C. A tour from station A to the Zoo and the Port and back to A is 10 km long. A tour from station B to the Park and the Zoo and back to B is 12 km long. A tour from station C to the Port and the Park and back to C is 13 km long. Also, a tour from the Zoo to the Park and the Port and back to the Zoo is 15 km long. How long is the shortest tour from A to B to C and back to A?",
+      "image": "question graphics/AT-BEN-21-12.jpg",
+      "choices": {
+        "A": "18 km",
+        "B": "20 km",
+        "C": "25 km",
+        "D": "35 km",
+        "E": "50 km"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-21-14",
+      "points": 4,
+      "question": "The diagram shows 3 hexagons with numbers at their vertices, but some numbers are invisible. The sum of the 6 numbers around each hexagon is 30. What is the number on the vertex marked with a question mark?",
+      "image": "question graphics/AT-BEN-21-14.jpg",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-21-15",
+      "points": 4,
+      "question": "3 rectangles of the same height are positioned as shown. The numbers within the rectangles indicate their areas in cm². AB=6 cm. What is the length of CD?",
+      "image": "question graphics/AT-BEN-21-15.jpg",
+      "choices": {
+        "A": "7 cm",
+        "B": "7.5 cm",
+        "C": "8 cm",
+        "D": "8.2 cm",
+        "E": "8.5 cm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-21-16",
+      "points": 4,
+      "question": "A triangular pyramid is built with 10 identical balls, like this. Each ball has one of the letters A, B, C, D and E on it. There are 2 balls marked with each letter. The picture shows 3 side views of the pyramid. What is the letter on the ball with the question mark?",
+      "image": "question graphics/AT-BEN-21-16.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-21-18",
+      "points": 4,
+      "question": "Three pirates were asked how many coins and how many diamonds their friend Graybeard had. Each of the three told the truth to one question but told a lie to the other. Their answers are written on the piece of paper pictured. What is the total number of coins and diamonds that Graybeard has?",
+      "image": "question graphics/AT-BEN-21-18.jpg",
+      "choices": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "14",
+        "E": "15"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-21-19",
+      "points": 4,
+      "question": "There were 20 apples and 20 pears in a box. Carl randomly took 20 pieces of fruit from the box and Luca took the rest. Which of the following statements is always true?",
+      "image": "",
+      "choices": {
+        "A": "Carl got at least one pear",
+        "B": "Carl got as many apples as pears",
+        "C": "Carl got as many pears as Luca",
+        "D": "Carl got as many pears as Luca got apples",
+        "E": "Carl got as many apples as Luca"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-21-21",
+      "points": 5,
+      "question": "Ann, Bob, Carina, Dan and Ed are sitting at a round table. Ann is not next to Bob, Dan is next to Ed and Bob is not next to Dan. Which two people are sitting next to Carina?",
+      "image": "",
+      "choices": {
+        "A": "Ann and Bob",
+        "B": "Bob and Dan",
+        "C": "Dan and Ed",
+        "D": "Ed and Ann",
+        "E": "It is not possible to be certain"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-21-22",
+      "points": 5,
+      "question": "Maurice asked the canteen chef for the recipe for his pancakes. Maurice has 6 eggs, 400g flour, 0.5 liters of milk and 200g butter. What is the largest number of pancakes he can make using this recipe?",
+      "image": "question graphics/AT-BEN-21-22.jpg",
+      "choices": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12",
+        "E": "15"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-21-24",
+      "points": 5,
+      "question": "An apple and an orange weigh as much as a pear and a peach. An apple and a pear weigh less than an orange and a peach, and a pear and an orange weigh less than an apple and a peach. Which of the pieces of fruit is the heaviest?",
+      "image": "",
+      "choices": {
+        "A": "apple",
+        "B": "orange",
+        "C": "peach",
+        "D": "pear",
+        "E": "impossible to determine"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-21-25",
+      "points": 5,
+      "question": "What is the smallest number of shaded squares that can be added to the diagram to create a design, including the grid, with 4 axes of symmetry?",
+      "image": "question graphics/AT-BEN-21-25.jpg",
+      "choices": {
+        "A": "1",
+        "B": "9",
+        "C": "12",
+        "D": "13",
+        "E": "21"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-21-26",
+      "points": 5,
+      "question": "My little brother has a 4-digit bike lock with the digits 0 to 9 on each part of the lock as shown. He started on the correct combination and turned each part the same amount in the same direction and now the lock shows the combination 6348. Which of the following CANNOT be the correct combination of my brother's lock?",
+      "image": "question graphics/AT-BEN-21-26.jpg",
+      "choices": {
+        "A": "8560",
+        "B": "3015",
+        "C": "4906",
+        "D": "1893",
+        "E": "782"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-21-27",
+      "points": 5,
+      "question": "Each shelf holds a total of 64 deciliters of apple juice. The bottles have three different sizes: large, medium and small. How many deciliters of apple juice does a medium bottle contain?",
+      "image": "question graphics/AT-BEN-21-27.jpg",
+      "choices": {
+        "A": "3",
+        "B": "6",
+        "C": "8",
+        "D": "10",
+        "E": "14"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-21-28",
+      "points": 5,
+      "question": "A large cube has side-length 7cm. On each of its 6 faces, the two diagonals are drawn in red. The large cube is then cut into small cubes with side-length 1cm. How many small cubes will have at least one red line drawn on it?",
+      "image": "",
+      "choices": {
+        "A": "54",
+        "B": "62",
+        "C": "70",
+        "D": "78",
+        "E": "86"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-21-29",
+      "points": 5,
+      "question": "In a group of 10 elves and trolls, each were given a token with a different number from 1 to 10 written upon it. They were each asked what number was on their token and all answered with a number from 1 to 10. The sum of the answers was 36. Each troll told a lie and each elf told the truth. What is the smallest number of trolls there could be in the group?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-22-02",
+      "points": 3,
+      "question": "Eva paddles around five buoys with her boat (see diagram). Which of the buoys does she paddle around in an anti-clockwise direction?",
+      "image": "question graphics/AT-BEN-22-02.jpg",
+      "choices": {
+        "A": "1 and 4",
+        "B": "2, 3 and 5",
+        "C": "2 and 3",
+        "D": "1, 4 and 5",
+        "E": "1 and 3"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-22-03",
+      "points": 3,
+      "question": "The two-sided mirrors reflect the laser beams as shown in the small picture on the left. At which letter does the laser beam leave the picture on the right?",
+      "image": "question graphics/AT-BEN-22-03.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-22-05",
+      "points": 3,
+      "question": "Marbles are sold in packages of 5, 10 or 25. Tom buys exactly 95 marbles. What is the minimum number of packages Tom has to buy?",
+      "image": "",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "7",
+        "D": "8",
+        "E": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-22-06",
+      "points": 3,
+      "question": "All vehicles in the garage can only drive forwards or backwards. The black car wants to leave the garage (see diagram). What is the minimum number of grey vehicles that need to move at least a little bit so that this is possible?",
+      "image": "question graphics/AT-BEN-22-06.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-22-07",
+      "points": 3,
+      "question": "Bodil lays these seven cards next to each other, so that the smallest possible 12-digit number which can be made from these cards is formed. What are the last three digits of this number?",
+      "image": "question graphics/AT-BEN-22-07.jpg",
+      "choices": {
+        "A": "699",
+        "B": "113",
+        "C": "551",
+        "D": "967",
+        "E": "459"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-22-08",
+      "points": 3,
+      "question": "How much does this Ferris wheel need to turn so that a white gondola is on top for the first time?",
+      "image": "question graphics/AT-BEN-22-08.jpg",
+      "choices": {
+        "A": "1/2 turn",
+        "B": "1/3 turn",
+        "C": "1/6 turn",
+        "D": "1/12 turn",
+        "E": "5/6 turn"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-22-09",
+      "points": 4,
+      "question": "The sides of the square ABCD are 10 cm long. What is the total area of the shaded part?",
+      "image": "question graphics/AT-BEN-22-09.jpg",
+      "choices": {
+        "A": "40 cm²",
+        "B": "45 cm²",
+        "C": "50 cm²",
+        "D": "55 cm²",
+        "E": "60 cm²"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-22-11",
+      "points": 4,
+      "question": "Marc builds the number 2022 as seen in the picture by glueing together 66 cubes of the same size. Afterwards he paints the entire surface of his work. On how many of the 66 cubes has Marc painted exactly four faces?",
+      "image": "question graphics/AT-BEN-22-11.jpg",
+      "choices": {
+        "A": "16",
+        "B": "30",
+        "C": "46",
+        "D": "54",
+        "E": "60"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-22-12",
+      "points": 4,
+      "question": "In a box-shaped water tank with dimensions 4 m x 2 m x 1 m, the height of the water is 25 cm. The tank is then turned on its side (see picture on the right). How high is the water in the tank now?",
+      "image": "question graphics/AT-BEN-22-12.jpg",
+      "choices": {
+        "A": "25 cm",
+        "B": "50 cm",
+        "C": "75 cm",
+        "D": "1 m",
+        "E": "1.25 m"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-22-14",
+      "points": 4,
+      "question": "The year 2022 has three equal digits. This is the third time that Tortoise Eva has experienced a year where the same digit appears three times. What is the minimum age that tortoise Eva can be this year?",
+      "image": "",
+      "choices": {
+        "A": "20",
+        "B": "22",
+        "C": "23",
+        "D": "56",
+        "E": "134"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-22-15",
+      "points": 4,
+      "question": "Four circles are always connected by a line to form chains of four in a drawing. The numbers 1, 2, 3 and 4 appear in each row, each column and each chain of four. Which number is in the circle with the question mark?",
+      "image": "question graphics/AT-BEN-22-15.jpg",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "This cannot be determined"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-22-16",
+      "points": 4,
+      "question": "Lisa has four differently heavy dogs. Each dog weighs a whole number of kilograms. All dogs together weigh 60 kg. The second heaviest dog weighs 28 kg. How heavy is the third heaviest dog?",
+      "image": "",
+      "choices": {
+        "A": "2 kg",
+        "B": "3 kg",
+        "C": "4 kg",
+        "D": "5 kg",
+        "E": "6 kg"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-22-17",
+      "points": 5,
+      "question": "Some identical glasses are stacked on top of each other. A stack with eight glasses is 42 cm high. A stack with two glasses is 18 cm high. How high is a stack with six glasses?",
+      "image": "question graphics/AT-BEN-22-17.jpg",
+      "choices": {
+        "A": "22 cm",
+        "B": "24 cm",
+        "C": "28 cm",
+        "D": "34 cm",
+        "E": "40 cm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-22-18",
+      "points": 5,
+      "question": "The bus stops in the villages A, B, C and D are situated along a road in this order. The distance between two bus stops in neighbouring villages is 10 km. 10 children live in village A, 20 in village B, 30 in village C and 40 in village D. All children take the bus to go to school. A new school is going to be built. In order to find a suitable place, the kilometers that each child would travel by bus are added together. The school is then built at the place where this sum is smallest. Where will the new school be built?",
+      "image": "",
+      "choices": {
+        "A": "in A",
+        "B": "in B",
+        "C": "in the middle between B and C",
+        "D": "in C",
+        "E": "in D"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-22-20",
+      "points": 5,
+      "question": "Werner inserts numbers in various ways into the empty squares in such a way that the calculation is correct. He always uses four of the numbers 2, 3, 4, 5 or 6 where in each calculation each number is only allowed to appear once. How many of the five numbers can Werner insert into the grey square?",
+      "image": "question graphics/AT-BEN-22-20.jpg",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-22-21",
+      "points": 5,
+      "question": "A building is made up of cubes of the same size. The three pictures show it from above (von oben), from the front (von vorne) and from the right (von rechts). What is the maximum number of cubes used to make this building?",
+      "image": "question graphics/AT-BEN-22-21.jpg",
+      "choices": {
+        "A": "18",
+        "B": "19",
+        "C": "20",
+        "D": "21",
+        "E": "22"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-22-22",
+      "points": 5,
+      "question": "Each animal in the picture on the right represents a natural number greater than zero. Different animals represent a different numbers. The sum of the two numbers of each column is written underneath each column. What is the maximum value the sum of the four numbers in the upper row can have?",
+      "image": "question graphics/AT-BEN-22-22.jpg",
+      "choices": {
+        "A": "18",
+        "B": "19",
+        "C": "20",
+        "D": "21",
+        "E": "22"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-22-23",
+      "points": 5,
+      "question": "30 people are sitting around a round table. Some of them are wearing a hat. Those who do not wear a hat, have to speak the truth. Those who wear a hat can either speak the truth or lie. They all claim: \"At least one of my two neighbouring people wears a hat.\" What is the biggest number of people that do not wear a hat?",
+      "image": "",
+      "choices": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "20",
+        "E": "25"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-22-24",
+      "points": 5,
+      "question": "Kai has to insert the numbers 3, 4, 5, 6 and 7 into the five circles of the diagram on the right in the following way: The product of the three numbers in the vertices of each triangle has to be equal to the number stated within the triangle. How big is the sum of the numbers in the vertices of the triangle with the number 168?",
+      "image": "question graphics/AT-BEN-22-24.jpg",
+      "choices": {
+        "A": "12",
+        "B": "14",
+        "C": "15",
+        "D": "17",
+        "E": "18"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-23-02",
+      "points": 3,
+      "question": "Matchsticks are arranged to form numbers as shown. To form the number 15 one needs 7 matchsticks. To form the number 8 one needs the same amount. What is the biggest number that one can build using 7 matchsticks?",
+      "image": "question graphics/AT-BEN-23-02.jpg",
+      "choices": {
+        "A": "31",
+        "B": "51",
+        "C": "74",
+        "D": "711",
+        "E": "800"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-23-04",
+      "points": 3,
+      "question": "Nine steps of a staircase arranged in a cylindrical order starting at the bottom and leading all the way to the top can be seen. All steps are equally high. How many steps cannot be seen?",
+      "image": "question graphics/AT-BEN-23-04.jpg",
+      "choices": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12",
+        "E": "13"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-23-05",
+      "points": 3,
+      "question": "Anna has five discs of different sizes. She wants to use 4 of them to build a tower. She always has to place a smaller one on top of a bigger one. How many ways are there for Anna to build the tower?",
+      "image": "question graphics/AT-BEN-23-05.jpg",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "9",
+        "D": "12",
+        "E": "20"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-23-06",
+      "points": 3,
+      "question": "Four ribbons M, N, P and Q are wrapped around a box. In which order were they wrapped around the box?",
+      "image": "question graphics/AT-BEN-23-06.jpg",
+      "choices": {
+        "A": "M, N, Q, P",
+        "B": "N, M, P, Q",
+        "C": "N, Q, M, P",
+        "D": "N, M, Q, P",
+        "E": "Q, N, M, P"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-23-07",
+      "points": 3,
+      "question": "Alice has four jigsaw pieces. Which two can be fitted together to form a hexagon?",
+      "image": "question graphics/AT-BEN-23-07.jpg",
+      "choices": {
+        "A": "1 and 2",
+        "B": "1 and 3",
+        "C": "2 and 3",
+        "D": "2 and 4",
+        "E": "1 and 4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-23-08",
+      "points": 3,
+      "question": "A dark disc with three holes is placed on top of a dial of a watch (see diagram). Then the disc is rotated around its centre. Which numbers can be seen at the same time?",
+      "image": "question graphics/AT-BEN-23-08.jpg",
+      "choices": {
+        "A": "4, 6 and 12",
+        "B": "1, 5 and 10",
+        "C": "2, 4 and 9",
+        "D": "3, 6 and 9",
+        "E": "5, 7 and 12"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-23-10",
+      "points": 4,
+      "question": "Franziska writes down three consecutive two-digit numbers. They are in increasing order. Instead of the digits she uses symbols and writes ◻◊, ○Δ, ♡◻. What does Franziska’s next number look like?",
+      "image": "",
+      "choices": {
+        "A": "◻♡",
+        "B": "◻◻",
+        "C": "♡♡",
+        "D": "◊◻",
+        "E": "♡◊"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-23-11",
+      "points": 4,
+      "question": "A terrace is covered with square tiles of different sizes. The smallest tile has a perimeter of 80 cm. A snake lay down along the edges of the tiles (see diagram). How long is the snake?",
+      "image": "question graphics/AT-BEN-23-11.jpg",
+      "choices": {
+        "A": "380 cm",
+        "B": "400 cm",
+        "C": "420 cm",
+        "D": "440 cm",
+        "E": "1680 cm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-23-13",
+      "points": 4,
+      "question": "Maria, Peter, Richard and Tina play football in the classroom. While doing so a window pane broke. When the head mistress wanted to find out who broke the window pane she got the following answers: Maria: It was Peter. Peter: It was Richard. Richard: It wasn't me. Tina: It wasn't me. Later is became clear that only one child spoke the truth. Who broke the window pane?",
+      "image": "",
+      "choices": {
+        "A": "Maria",
+        "B": "Tina",
+        "C": "Peter",
+        "D": "Richard",
+        "E": "It cannot be determined"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-23-14",
+      "points": 4,
+      "question": "The sums of the numbers in the white and in the grey fields should be equally big. Which two numbers have to be swapped so that the sums are equally big?",
+      "image": "question graphics/AT-BEN-23-14.jpg",
+      "choices": {
+        "A": "1 and 11",
+        "B": "2 and 8",
+        "C": "3 and 7",
+        "D": "4 and 13",
+        "E": "7 and 13"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-23-15",
+      "points": 4,
+      "question": "The big rectangle is made up of five small rectangles (see diagram). Lukas wants to colour in the small rectangles in red, blue and yellow. Two rectangles next to each other should be coloured in different colours. How many ways are there for Lukas to do that?",
+      "image": "question graphics/AT-BEN-23-15.jpg",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-23-16",
+      "points": 4,
+      "question": "4 posts are placed along a 120 m long running track. How many more posts have to be placed so that the running track is split into equally long sections that way?",
+      "image": "question graphics/AT-BEN-23-16.jpg",
+      "choices": {
+        "A": "12",
+        "B": "15",
+        "C": "17",
+        "D": "20",
+        "E": "37"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-23-17",
+      "points": 5,
+      "question": "In a game one is allowed to take (some or all) building blocks from the top of a stack of building blocks, turn them upside down and place them back in the same position within one move. Goran starts with this stack of building blocks. In the end all building blocks should be ordered according to size like this. What is the minimum number of moves Goran needs to make?",
+      "image": "",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-23-18",
+      "points": 5,
+      "question": "Robert and Sonja play a game with the following rules: taking it in turn they can take 1, 2, 3, 4 or 5 cards from the pile on each move. Whoever takes the last card has lost. At the moment there are 10 cards on the pile and it is Robert’s turn. How many cards should he leave for Sonja so that he can be certain to win?",
+      "image": "",
+      "choices": {
+        "A": "9",
+        "B": "8",
+        "C": "7",
+        "D": "6",
+        "E": "5"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-23-19",
+      "points": 5,
+      "question": "A rabbit, a beaver and a kangaroo are having a competition. All three begin at the same time from the Start and hop in the same direction. The beaver always moves one position forwards with each jump. The rabbit always moves two positions forwards with one jump and the kangaroo always three positions. Whoever takes the least amount of jumps to land exactly in the position labelled Ziel is the winner. Who wins the competition?",
+      "image": "question graphics/AT-BEN-23-19.jpg",
+      "choices": {
+        "A": "Kangaroo and rabbit",
+        "B": "Rabbit",
+        "C": "Kangaroo",
+        "D": "Beaver",
+        "E": "Kangaroo and beaver"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-23-21",
+      "points": 5,
+      "question": "A tower is made up of bricks that are labelled with the numbers from 1 to 50 from bottom to top. Bob uses these bricks to build a new tower. Each time he takes the two topmost bricks off the old tower and places them down on top of the new tower without changing their order. Which two bricks lie on top of each other when he is finished with the re-arrangement?",
+      "image": "question graphics/AT-BEN-23-21.jpg",
+      "choices": {
+        "A": "29 and 28",
+        "B": "34 and 35",
+        "C": "29 and 26",
+        "D": "31 and 33",
+        "E": "27 and 30"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-23-22",
+      "points": 5,
+      "question": "Martin has three cards that are labelled on both sides with a number. Martin places the three cards on the table without paying attention to back or front. He adds the three numbers that he can then see. How many different sums can Martin get that way?",
+      "image": "question graphics/AT-BEN-23-22.jpg",
+      "choices": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "9",
+        "E": "A different amount"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-23-23",
+      "points": 5,
+      "question": "Anna has two machines R and S. If she places a square piece of paper in machine R it is rotated 90° in a clockwise direction. If she places the piece of paper in machine S, it gets printed on. She wants to produce this picture. In which order does Anna use the two machines so that this picture is made?",
+      "image": "",
+      "choices": {
+        "A": "SRRR",
+        "B": "RSRR",
+        "C": "SRSR",
+        "D": "RRRS",
+        "E": "SRRS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-23-24",
+      "points": 5,
+      "question": "Monika wants to find a path through the labyrinth from Start to Ziel. She has to stick to the following rules: She is only allowed to move horizontally and vertically respectively. She has to enter every white circle exactly once but is not allowed to enter a black circle. In which direction does Monika have to move forwards when she reaches the circle marked with x?",
+      "image": "question graphics/AT-BEN-23-24.jpg",
+      "choices": {
+        "A": "￬",
+        "B": "￪",
+        "C": "￫",
+        "D": "￩",
+        "E": "there are several possibilities"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-24-01",
+      "points": 3,
+      "question": "Kangaroo Joey wants to jump through the maze. Joey starts in the square on the bottom left (see picture). The number of arrows decides how long the jump must be. A square with three arrows means that Joey has to jump over two squares in the direction of the arrows and land in the third square. Where will Joey leave the maze?",
+      "image": "question graphics/AT-BEN-24-01.jpg",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "Joey cannot leave the maze anywhere"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-24-02",
+      "points": 3,
+      "question": "The picture shows the foot prints of the first few jumps of a type of hopscotch. The prints show whether one is allowed to land in that square with the left foot, the right foot or both feet. Mia starts with both feet in the field with the number 1 and repeats the jumping pattern in the direction of the arrow. In which of the following squares is Mia allowed to land with her right foot only?",
+      "image": "question graphics/AT-BEN-24-02.jpg",
+      "choices": {
+        "A": "square no. 10",
+        "B": "square no. 1",
+        "C": "square no. 20",
+        "D": "square no. 22",
+        "E": "square no. 23"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-24-04",
+      "points": 3,
+      "question": "Mona wants to draw the figure shown without lifting her pen. The lengths of the segments are known. Mona can start her drawing anywhere and go over segments more than once. What is the minimum distance in cm that Mona has to move her pen across the paper?",
+      "image": "question graphics/AT-BEN-24-04.jpg",
+      "choices": {
+        "A": "6 cm",
+        "B": "7 cm",
+        "C": "8 cm",
+        "D": "9 cm",
+        "E": "10 cm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-24-05",
+      "points": 3,
+      "question": "Pieter has a parcel that weighs 445 g and the following eight weights: 500, 200, 200, 100, 50, 20, 20. He places the parcel on the right scale pan (see picture). Pieter is allowed to place weights on either side of the scale. What is the minimum number of weights that he needs to balance the scale?",
+      "image": "question graphics/AT-BEN-24-05.jpg",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-24-09",
+      "points": 4,
+      "question": "Pia writes a number into each of the 16 little circles (see picture). Numbers in neighbouring circles differ by 1. She writes the number 5 into one of the circles and the number 13 into another one. How many different numbers does Pia write in the 16 circles?",
+      "image": "question graphics/AT-BEN-24-09.jpg",
+      "choices": {
+        "A": "9",
+        "B": "10",
+        "C": "13",
+        "D": "14",
+        "E": "16"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-24-10",
+      "points": 4,
+      "question": "The picture on the right is 45 cm wide, 30 cm high and made up of identical rectangles. What is the area of one such rectangle?",
+      "image": "question graphics/AT-BEN-24-10.jpg",
+      "choices": {
+        "A": "24 cm²",
+        "B": "27 cm²",
+        "C": "30 cm²",
+        "D": "33 cm²",
+        "E": "36 cm²"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-24-11",
+      "points": 4,
+      "question": "The rooms in a hotel are numbered in ascending order (No. 1, 2, 3, ...). No number is left out. Beaver Benji counts the digits of all the room numbers and finds the digit ‘2’ 14 times and the digit ‘5’ 3 times. What is the biggest possible room number in this hotel?",
+      "image": "",
+      "choices": {
+        "A": "25",
+        "B": "26",
+        "C": "34",
+        "D": "35",
+        "E": "41"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-24-12",
+      "points": 4,
+      "question": "Christian cuts out four small grey squares from one big square. The white shape remains (see picture). This shape has half the area of the big square. The side lengths of the small grey squares are stated in the drawing. What is the perimeter of the white shape?",
+      "image": "question graphics/AT-BEN-24-12.jpg",
+      "choices": {
+        "A": "36",
+        "B": "40",
+        "C": "44",
+        "D": "48",
+        "E": "52"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-24-13",
+      "points": 4,
+      "question": "The number 2024 is made up of the four digits 2, 0, 2 and 4. How many different four-digit numbers bigger than 2024 can be formed with exactly those digits?",
+      "image": "",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-24-14",
+      "points": 4,
+      "question": "Simon has four cups with matching saucers (see picture). He places a randomly chosen cup on each saucer. Which statement is definitely true?",
+      "image": "question graphics/AT-BEN-24-14.jpg",
+      "choices": {
+        "A": "It is certain that none of the 4 cups are on the matching saucer",
+        "B": "It is certain that exactly one cup is on the matching saucer",
+        "C": "It is impossible that exactly 2 cups are on the matching saucers",
+        "D": "It is impossible that exactly 3 cups are on the matching saucers",
+        "E": "It is impossible that all 4 cups are on the matching saucers"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-24-15",
+      "points": 4,
+      "question": "The picture on the right shows four rectangles that touch each other. What is the area of the rectangle with the question mark?",
+      "image": "question graphics/AT-BEN-24-15.jpg",
+      "choices": {
+        "A": "12 cm²",
+        "B": "14 cm²",
+        "C": "16 cm²",
+        "D": "18 cm²",
+        "E": "20 cm²"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-24-16",
+      "points": 4,
+      "question": "Blind people use Braille, in which numbers and letters are displayed as a code with up to 6 tactile dots (black in the picture). The numbers 0 to 9 can be seen on the right. How many two-digit numbers have exactly four black dots?",
+      "image": "question graphics/AT-BEN-24-16.jpg",
+      "choices": {
+        "A": "11",
+        "B": "12",
+        "C": "21",
+        "D": "22",
+        "E": "23"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-24-17",
+      "points": 5,
+      "question": "The two large squares have the same area. Parts of them are coloured grey (see picture). In the left square, the dots divide the sides into two equal pieces. In the right square, the dots divide the sides into three equal pieces. The four grey parts in the left square have a combined area of 9 cm². What is the area of the four grey parts in the right square?",
+      "image": "question graphics/AT-BEN-24-17.jpg",
+      "choices": {
+        "A": "4 cm²",
+        "B": "8 cm²",
+        "C": "9 cm²",
+        "D": "10 cm²",
+        "E": "12 cm²"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-24-18",
+      "points": 5,
+      "question": "Annie wants to write the numbers 1 to 10 in the ten circles (see picture on the right). Each circle should have a different number. Annie wants the sum of the four numbers along each line to be exactly 23. Which number does she have to write in the circle with the question mark?",
+      "image": "question graphics/AT-BEN-24-18.jpg",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-24-19",
+      "points": 5,
+      "question": "The map shows the seven subway lines of a city. The stations are represented by circles. Martin wants to colour in the subway lines in the plan. If two lines have a common station, they must have different colours. What is the smallest number of different colours he can use?",
+      "image": "question graphics/AT-BEN-24-19.jpg",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-24-21",
+      "points": 5,
+      "question": "Mary wants to write the numbers 1 to 8 in the corners of the cube. For each of the six sides, the sum of the four numbers at the corners should be the same. She has already entered the numbers 6, 7 and 8 (see picture). What number does Mary have to write in the corner with the question mark?",
+      "image": "question graphics/AT-BEN-24-21.jpg",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-24-22",
+      "points": 5,
+      "question": "Daniel wants to cut a rope into 12 equal pieces and marks the places where he has to cut. Mohammed wants to cut the same rope into 16 equal pieces and marks the cuts as well. Maya finally cuts the rope at all the marked spots. How many pieces does Maya get?",
+      "image": "",
+      "choices": {
+        "A": "24",
+        "B": "25",
+        "C": "27",
+        "D": "28",
+        "E": "29"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-24-23",
+      "points": 5,
+      "question": "The following image shows a honeycomb with 16 cells. Some cells (but not all) are filled with honey. The numbers in the cells indicate how many of the neighbouring cells are filled with honey. How many cells of the honeycomb are filled with honey?",
+      "image": "question graphics/AT-BEN-24-23.jpg",
+      "choices": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10",
+        "E": "11"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-24-24",
+      "points": 5,
+      "question": "There are three identical dice on a table. What is the sum of the three numbers that are on the bottom of the dice and touching the table?",
+      "image": "question graphics/AT-BEN-24-24.jpg",
+      "choices": {
+        "A": "26",
+        "B": "40",
+        "C": "43",
+        "D": "47",
+        "E": "56"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-25-03",
+      "points": 3,
+      "question": "A bookshelf with three rows has 17 books in the top row, 15 books in the middle row and 7 books in the bottom row. Monika would like to have the same number of books in each row, but she wants to rearrange as few books as possible. How many books does she have to move from the middle row to the bottom row?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-25-04",
+      "points": 3,
+      "question": "Grey squares of equal size are glued onto a cube (see picture). All surfaces of the cube then look the same. How many grey squares were used in total?",
+      "image": "",
+      "choices": {
+        "A": "14",
+        "B": "15",
+        "C": "16",
+        "D": "18",
+        "E": "30"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-25-06",
+      "points": 3,
+      "question": "The picture on the right shows the menu of a burger restaurant. The rain has washed away some of the numbers. The burgers are ordered by price. Which of the following prices was on the board?",
+      "image": "",
+      "choices": {
+        "A": "4.1",
+        "B": "5.5",
+        "C": "5.6",
+        "D": "6.3",
+        "E": "6.6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-25-07",
+      "points": 3,
+      "question": "Six children were running a race. Ariadne finished third. Bill finished sixth, just behind Ernest. Fatima finished between Ariadne and Ernest. Diana overtook Charles just before the finish line. Who won the race?",
+      "image": "",
+      "choices": {
+        "A": "Ariadne",
+        "B": "Charles",
+        "C": "Diana",
+        "D": "Ernest",
+        "E": "Fatima"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-25-08",
+      "points": 3,
+      "question": "There are numbers on the middle part of a 3-part unfolded card. The left and right parts of the card have holes. Mike folds the right part along the dotted line onto the middle part. He can now see the numbers 2, 3, 5 and 6 through the holes. Then he folds the left part along the dotted line onto the other two parts. What is the sum of the numbers that he can still see through the holes?",
+      "image": "",
+      "choices": {
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "12",
+        "E": "14"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-25-09",
+      "points": 4,
+      "question": "Three turtles are competing in a 10 km race. Each of them moves at a constant speed. When the first turtle finishes the competition, the second has completed 1/4 of the distance and the third has completed 1/5 of the distance. How far is the third turtle from the finish line when the second turtle finishes the race?",
+      "image": "",
+      "choices": {
+        "A": "1 km",
+        "B": "2 km",
+        "C": "3 km",
+        "D": "4 km",
+        "E": "5 km"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-25-10",
+      "points": 4,
+      "question": "Vera has built a tower of cubes. She wants to replace the two cubes with question marks with cubes with numbers. Vera wants the number on each cube to be at least 2 higher than the number on the cube below it. How many ways can she replace the two cubes?",
+      "image": "",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-25-11",
+      "points": 4,
+      "question": "In the picture you can see five different wheels of fortune. Each wheel of fortune is divided into equal-sized parts, but the number of parts are different. Anna spins all of the wheels of fortune. If a wheel of fortune stops at the arrow with a dark sector, she wins. Which of the wheels of fortune gives Anna the best chance of winning?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-BEN-25-14",
+      "points": 4,
+      "question": "Jana cuts four small squares of the same size from the corners of a square piece of paper (see picture). The total cut-away area is 16 cm², the area of the remaining figure (cross) is 9 cm². What is the perimeter of the cross?",
+      "image": "",
+      "choices": {
+        "A": "9 cm",
+        "B": "16 cm",
+        "C": "20 cm",
+        "D": "25 cm",
+        "E": "32 cm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-25-16",
+      "points": 4,
+      "question": "The diagram shown on the right consists of squares of equal size. Point B is in the middle of A and C, point D in the middle of C and E. Maria wants to divide the figure into two parts with equal areas using a straight line. Which of the points A, B, C, D or E must she connect to S to obtain this result?",
+      "image": "",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-25-17",
+      "points": 5,
+      "question": "Hassan writes either the number 0 or the number 1 in each field of the table. The sum in each row, column and diagonal should be exactly 3. Hassan has entered 0 in one field and then fills out the table completely. What is the sum of the numbers in the fields with question marks?",
+      "image": "",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "cannot be determined"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-25-18",
+      "points": 5,
+      "question": "A witch has 10 apples, 9 bananas and 6 pears. One day she enchants all of her fruits into different types of fruit. For example, she turns each apple into either a banana or a pear. After that she has 15 apples, 7 bananas and 3 pears. How many apples did she turn into bananas?",
+      "image": "",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-25-19",
+      "points": 5,
+      "question": "The square shown on the right has sides of 10 cm. The square is divided into two equal-sized rectangles by the vertical centre line. What is the area of the grey section?",
+      "image": "",
+      "choices": {
+        "A": "12.5 cm²",
+        "B": "25 cm²",
+        "C": "30 cm²",
+        "D": "40 cm²",
+        "E": "50 cm²"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-BEN-25-20",
+      "points": 5,
+      "question": "Joanna divides the figure into five equal-sized, same-shaped parts, each of which consists of three squares. Which of the letters is in the part with the star?",
+      "image": "",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-BEN-25-21",
+      "points": 5,
+      "question": "Fabio never tells the truth on Tuesdays, Thursdays and Saturdays, while he always tells the truth on the other days of the week. One day Mateo had the following conversation with Fabio: Mateo: “What day is today?” Fabio: “Saturday” Mateo: “What day will tomorrow be?” Fabio: “Wednesday” On which day of the week did the conversation take place?",
+      "image": "",
+      "choices": {
+        "A": "Monday",
+        "B": "Tuesday",
+        "C": "Wednesday",
+        "D": "Thursday",
+        "E": "Friday"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-BEN-25-22",
+      "points": 5,
+      "question": "Julio wants to make the shape shown in the top picture on the right. He has several of each of the five tiles shown in the bottom picture on the right. The tiles must be placed next to each other without overlapping. What is the smallest number of tiles he must use?",
+      "image": "",
+      "choices": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "15",
+        "E": "17"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-BEN-25-24",
+      "points": 5,
+      "question": "Zita would like to buy some flowers. She can choose between flowers for 3€, 4€ and 5€. How many different bouquets can she buy for exactly 23€?",
+      "image": "",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "answer": "D"
+    }
+  ]
+}
