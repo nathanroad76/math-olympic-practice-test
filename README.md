@@ -1,4 +1,4 @@
-# Math Olympic Practice Test
+# Math Kangaroo G4 Practice Test
 
 一个本地运行的数学奥林匹克练习测试系统，无需账号登录。
 
@@ -26,7 +26,7 @@
 ## 文件结构
 
 ```
-C:\Math Olympic Project\
+C:\Math Kangaroo G4 Project\
 ├── index.html              # 主页面
 ├── styles.css              # 样式文件
 ├── app.js                  # JavaScript逻辑
@@ -49,7 +49,7 @@ C:\Math Olympic Project\
 
 ```bash
 # 进入项目目录
-cd "C:\Math Olympic Project"
+cd "C:\Math Kangaroo G4 Project"
 
 # 启动服务器（Python 3）
 python -m http.server 8000
@@ -67,7 +67,7 @@ python -m SimpleHTTPServer 8000
 npm install -g http-server
 
 # 进入项目目录
-cd "C:\Math Olympic Project"
+cd "C:\Math Kangaroo G4 Project"
 
 # 启动服务器
 http-server -p 8000

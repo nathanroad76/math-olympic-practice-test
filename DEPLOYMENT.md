@@ -21,7 +21,7 @@
 2. 点击右上角的 "+" 按钮，选择 "New repository"
 3. 填写仓库信息：
    - **Repository name**: `math-olympic-practice-test`（或其他你喜欢的名字）
-   - **Description**: "数学奥林匹克练习测试系统"
+   - **Description**: "Math Kangaroo G4数学竞赛练习测试系统"
    - **Public/Private**: 选择Public（公开）或Private（私有）
    - **不要**勾选 "Initialize this repository with a README"
 4. 点击 "Create repository"
@@ -31,7 +31,7 @@
 在命令行中执行以下命令（将`YOUR_USERNAME`替换为你的GitHub用户名）：
 
 ```bash
-cd "C:\Math Olympic Project"
+cd "C:\Math Kangaroo G4 Project"
 
 # 添加远程仓库
 git remote add origin https://github.com/YOUR_USERNAME/math-olympic-practice-test.git
@@ -96,12 +96,12 @@ vercel login
 #### 步骤3: 部署
 
 ```bash
-cd "C:\Math Olympic Project"
+cd "C:\Math Kangaroo G4 Project"
 vercel
 ```
 
 首次部署时会询问一些问题：
-- Set up and deploy "C:\Math Olympic Project"? `Y`
+- Set up and deploy "C:\Math Kangaroo G4 Project"? `Y`
 - Which scope? 选择你的账号
 - Link to existing project? `N`
 - What's your project's name? `math-olympic-practice-test`
@@ -120,7 +120,7 @@ vercel --prod
 1. 访问 [Vercel](https://vercel.com) 并登录
 2. 点击 "Add New..." → "Project"
 3. 在Import Git Repository下方，点击 "Browse"
-4. 选择文件夹 `C:\Math Olympic Project`
+4. 选择文件夹 `C:\Math Kangaroo G4 Project`
 5. 点击 "Deploy"
 
 ## 🎉 部署完成！
@@ -139,7 +139,7 @@ https://math-olympic-practice-test.vercel.app
 每次你更新代码并推送到GitHub，Vercel会**自动重新部署**！
 
 ```bash
-cd "C:\Math Olympic Project"
+cd "C:\Math Kangaroo G4 Project"
 
 # 修改文件后
 git add .
@@ -152,7 +152,7 @@ git push
 ### 如果使用Vercel CLI方式：
 
 ```bash
-cd "C:\Math Olympic Project"
+cd "C:\Math Kangaroo G4 Project"
 vercel --prod
 ```
 
