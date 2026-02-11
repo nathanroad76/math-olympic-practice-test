@@ -214,7 +214,10 @@ function renderChoices(question) {
     const choices = ['A', 'B', 'C', 'D', 'E'];
 
     choices.forEach(choice => {
-        if (!question.choices[choice] || !question.choices[choice].trim()) {
+        // Skip if choice doesn't exist or is empty string (but allow "0")
+        if (question.choices[choice] === undefined ||
+            question.choices[choice] === null ||
+            (typeof question.choices[choice] === 'string' && question.choices[choice].trim() === '')) {
             return; // Skip empty choices
         }
 
@@ -387,7 +390,10 @@ function showReview() {
         let choicesHTML = '';
 
         choices.forEach(choice => {
-            if (!question.choices[choice] || !question.choices[choice].trim()) {
+            // Skip if choice doesn't exist or is empty string (but allow "0")
+            if (question.choices[choice] === undefined ||
+                question.choices[choice] === null ||
+                (typeof question.choices[choice] === 'string' && question.choices[choice].trim() === '')) {
                 return;
             }
 

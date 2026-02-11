@@ -1457,7 +1457,7 @@
       "question": "2013 people live on an island. Some of these people are truthtellers and the others are liars. The truthtellers always tell the truth whereas the liars always lie. Each day one of the people says ' when I have left the island the number of truthtellers will be the same as the number of liars.' Then he leaves the island. After 2013 days there is no longer anybody living on the island. How many liars were living there to begin with?",
       "image": "",
       "choices": {
-        "A": "",
+        "A": "0",
         "B": "1006",
         "C": "1007",
         "D": "2013",
@@ -1527,7 +1527,7 @@
       "question": "In the addition sum to the right, three digits have been replaced with stars. How big is the sum of the three missing digits?",
       "image": "question graphics/AT-BEN-14-04.jpg",
       "choices": {
-        "A": "",
+        "A": "0",
         "B": "1",
         "C": "2",
         "D": "3",
@@ -2199,7 +2199,7 @@
       "question": "Four girls are sleeping in a room with their heads on the grey pillows. Bea and Pia are sleeping on the left hand side of the room with their faces towards each other， Mary and Karen are on the right hand side with their backs towards each other. How many girls sleep with their right ear on the pillow?",
       "image": "question graphics/AT-BEN-16-08.jpg",
       "choices": {
-        "A": "",
+        "A": "0",
         "B": "1",
         "C": "2",
         "D": "3",
@@ -2871,7 +2871,7 @@
       "question": "Instead of digits Hannes uses the letters A, B, C and D in a calculation. Different letters stand for different digits. Which digit does the letter B stand for?",
       "image": "question graphics/AT-BEN-18-18.jpg",
       "choices": {
-        "A": "",
+        "A": "0",
         "B": "2",
         "C": "4",
         "D": "5",
@@ -3319,7 +3319,7 @@
       "question": "On a distant island, 2020 kangaroos, holding hands, form a large circle. These kangaroos are either brown and always tell the truth, or they are grey and only tell lies. Each one of them says the same thing: \"One of my neighbors is brown and the other is gray\". What is the number of brown kangaroos in this circle?",
       "image": "",
       "choices": {
-        "A": "",
+        "A": "0",
         "B": "1009",
         "C": "1010",
         "D": "2019",
