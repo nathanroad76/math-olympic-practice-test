@@ -8,7 +8,8 @@ let state = {
     startTime: null,
     endTime: null,
     timerInterval: null,
-    timeRemaining: 60 * 60 // 60 minutes in seconds
+    timeRemaining: 60 * 60, // 60 minutes in seconds
+    isPaused: false
 };
 
 // Initialize Application
@@ -38,6 +39,8 @@ function setupEventListeners() {
     document.getElementById('next-btn').addEventListener('click', () => navigateQuestion(1));
     document.getElementById('mark-btn').addEventListener('click', toggleMark);
     document.getElementById('submit-test-btn').addEventListener('click', confirmSubmit);
+    document.getElementById('pause-btn').addEventListener('click', togglePause);
+    document.getElementById('resume-btn').addEventListener('click', togglePause);
     document.getElementById('view-answers-btn').addEventListener('click', showReview);
     document.getElementById('retake-test-btn').addEventListener('click', retakeTest);
     document.getElementById('back-to-results-btn').addEventListener('click', backToResults);
@@ -81,6 +84,10 @@ function startTest() {
     state.markedQuestions = new Set();
     state.startTime = Date.now();
     state.timeRemaining = 60 * 60;
+    state.isPaused = false;
+
+    document.getElementById('pause-btn').textContent = '⏸ Pause';
+    document.getElementById('pause-overlay').style.display = 'none';
 
     showScreen('test-screen');
     renderQuestionGrid();
@@ -294,9 +301,37 @@ function confirmSubmit() {
     }
 }
 
+// Toggle Pause
+function togglePause() {
+    if (state.isPaused) {
+        // Resume
+        state.isPaused = false;
+        document.getElementById('pause-btn').textContent = '⏸ Pause';
+        document.getElementById('pause-overlay').style.display = 'none';
+        state.timerInterval = setInterval(() => {
+            state.timeRemaining--;
+            updateTimerDisplay();
+            if (state.timeRemaining <= 0) {
+                clearInterval(state.timerInterval);
+                alert('Time is up! The test will be submitted automatically.');
+                submitTest();
+            }
+        }, 1000);
+    } else {
+        // Pause
+        state.isPaused = true;
+        clearInterval(state.timerInterval);
+        state.timerInterval = null;
+        document.getElementById('pause-btn').textContent = '▶ Resume';
+        document.getElementById('pause-overlay').style.display = 'flex';
+    }
+}
+
 // Submit Test
 function submitTest() {
     clearInterval(state.timerInterval);
+    state.isPaused = false;
+    document.getElementById('pause-overlay').style.display = 'none';
     state.endTime = Date.now();
 
     // Scroll to top first
@@ -359,6 +394,57 @@ function displayResults(results) {
         results.wrongCount + results.unanswered;
     document.getElementById('accuracy').textContent = `${results.accuracy}%`;
     document.getElementById('time-taken').textContent = results.timeTaken;
+    renderResultTables();
+}
+
+// Render Result Breakdown Tables
+function renderResultTables() {
+    const groups = [
+        { label: 'Questions 1–8 (3 pts each)', start: 0, end: 8 },
+        { label: 'Questions 9–16 (4 pts each)', start: 8, end: 16 },
+        { label: 'Questions 17–24 (5 pts each)', start: 16, end: 24 }
+    ];
+
+    const container = document.getElementById('result-breakdown');
+    container.innerHTML = '';
+
+    groups.forEach(group => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'result-table-wrapper';
+
+        const title = document.createElement('div');
+        title.className = 'result-table-title';
+        title.textContent = group.label;
+
+        const table = document.createElement('table');
+        table.className = 'result-table';
+
+        const thead = document.createElement('thead');
+        const trNum = document.createElement('tr');
+        const tbody = document.createElement('tbody');
+        const trResult = document.createElement('tr');
+
+        for (let i = group.start; i < group.end; i++) {
+            const th = document.createElement('th');
+            th.textContent = i + 1;
+            trNum.appendChild(th);
+
+            const td = document.createElement('td');
+            const isCorrect = state.userAnswers[i] === state.testQuestions[i].answer;
+            td.textContent = isCorrect ? '✓' : '✗';
+            td.className = isCorrect ? 'result-correct' : 'result-wrong';
+            trResult.appendChild(td);
+        }
+
+        thead.appendChild(trNum);
+        tbody.appendChild(trResult);
+        table.appendChild(thead);
+        table.appendChild(tbody);
+
+        wrapper.appendChild(title);
+        wrapper.appendChild(table);
+        container.appendChild(wrapper);
+    });
 }
 
 // Show Review

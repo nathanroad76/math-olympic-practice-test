@@ -40,11 +40,23 @@
             <div class="container">
                 <div class="header-content">
                     <h2>Math Kangaroo G4 Practice Test</h2>
-                    <div class="timer" id="timer">
-                        <span class="timer-icon">⏱️</span>
-                        <span id="timer-display">60:00</span>
+                    <div class="header-right">
+                        <div class="timer" id="timer">
+                            <span class="timer-icon">⏱️</span>
+                            <span id="timer-display">60:00</span>
+                        </div>
+                        <button id="pause-btn" class="btn btn-secondary pause-btn">⏸ Pause</button>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Pause Overlay -->
+        <div id="pause-overlay" class="pause-overlay" style="display: none;">
+            <div class="pause-message">
+                <div class="pause-icon">⏸</div>
+                <p>Test Paused</p>
+                <button id="resume-btn" class="btn btn-primary">▶ Resume</button>
             </div>
         </div>
 
@@ -116,6 +128,8 @@
                         </div>
                     </div>
                 </div>
+
+                <div id="result-breakdown" class="result-breakdown"></div>
 
                 <div class="results-actions">
                     <button id="view-answers-btn" class="btn btn-primary">View Detailed Answers</button>
