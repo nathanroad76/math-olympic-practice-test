@@ -1,9 +1,18 @@
 // ── Supabase Client ──────────────────────────────────────────────────────────
-// TODO: Replace these placeholder values with your actual Supabase project credentials.
-// Find them in: Supabase Dashboard → Project Settings → API
 const SUPABASE_URL = 'https://vobwnrxglnxnsppelowe.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZvYnducnhnbG54bnNwcGVsb3dlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE0OTg1MzQsImV4cCI6MjA4NzA3NDUzNH0._RGKCldlYIRPpJVff_mw5eQez9RT0tiArWmODgEUrEk';
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+// Initialize Supabase defensively — if CDN fails to load, the app runs in guest-only mode
+let supabase = null;
+try {
+    if (window.supabase && window.supabase.createClient) {
+        supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    } else {
+        console.warn('Supabase SDK not available. Running in guest-only mode.');
+    }
+} catch (e) {
+    console.error('Supabase initialization failed:', e);
+}
 
 // ── Application State ────────────────────────────────────────────────────────
 let state = {
@@ -50,9 +59,11 @@ async function init() {
         }
 
         // Check for an existing Supabase session (user was previously logged in)
-        const { data: { session } } = await supabase.auth.getSession();
-        if (session) {
-            await handleUserLogin(session.user);
+        if (supabase) {
+            const { data: { session } } = await supabase.auth.getSession();
+            if (session) {
+                await handleUserLogin(session.user);
+            }
         }
 
         setupEventListeners();
@@ -68,6 +79,7 @@ async function init() {
 
 // ── Auth State Listener ──────────────────────────────────────────────────────
 function setupAuthListeners() {
+    if (!supabase) return;
     supabase.auth.onAuthStateChange(async (event, session) => {
         if (event === 'SIGNED_IN' && !state.isRecoveryMode) {
             await handleUserLogin(session.user);
