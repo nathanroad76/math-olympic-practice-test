@@ -339,7 +339,14 @@ async function handleRecoverySubmit() {
 // ── Setup Event Listeners ────────────────────────────────────────────────────
 function setupEventListeners() {
     // Existing test flow
-    document.getElementById('start-test-btn').addEventListener('click', startTest);
+    document.getElementById('start-test-btn').addEventListener('click', async () => {
+        try {
+            await startTest();
+        } catch (e) {
+            console.error('startTest error:', e);
+            alert('Error starting test: ' + e.message);
+        }
+    });
     document.getElementById('prev-btn').addEventListener('click', () => navigateQuestion(-1));
     document.getElementById('next-btn').addEventListener('click', () => navigateQuestion(1));
     document.getElementById('mark-btn').addEventListener('click', toggleMark);
@@ -544,6 +551,10 @@ function updateQuestionGrid() {
 
 // ── Display Question ──────────────────────────────────────────────────────────
 function displayQuestion() {
+    if (!state.testQuestions.length) {
+        console.error('No test questions loaded.');
+        return;
+    }
     const question = state.testQuestions[state.currentQuestionIndex];
 
     document.getElementById('question-number').textContent =
