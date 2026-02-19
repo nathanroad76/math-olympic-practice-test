@@ -184,7 +184,7 @@ body {
     background: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
-    top: 0;
+    top: 56px; /* below the 56px top nav */
     z-index: 100;
 }
 
@@ -293,7 +293,7 @@ body {
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
-    top: 100px;
+    top: 140px; /* 56px nav + ~84px test header */
     height: fit-content;
 }
 
@@ -645,7 +645,7 @@ body {
 /* Floating Back to Results Button */
 #back-to-results-btn {
     position: fixed;
-    top: 20px;
+    top: 76px; /* 56px nav + 20px gap */
     right: 20px;
     z-index: 1000;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
@@ -772,7 +772,7 @@ body {
     }
 
     .question-content {
-        scroll-margin-top: 100px; /* More space on mobile to account for header */
+        scroll-margin-top: 160px; /* nav + test header on mobile */
     }
 
     .score-stats {
@@ -852,5 +852,526 @@ body {
     .review-header h2 {
         font-size: 20px;
         padding-right: 10px;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   USER SYSTEM STYLES
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Top Navigation Bar ───────────────────────────────────────────────────── */
+.top-nav {
+    background: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-color);
+    white-space: nowrap;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-user-email {
+    font-size: 13px;
+    color: var(--gray-600);
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.btn-nav {
+    padding: 7px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    background: var(--gray-100);
+    color: var(--gray-700);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.btn-nav:hover {
+    background: var(--gray-200);
+    transform: translateY(-1px);
+}
+
+.btn-nav-primary {
+    background: var(--primary-color);
+    color: white;
+}
+
+.btn-nav-primary:hover {
+    background: var(--primary-hover);
+}
+
+.btn-nav-outline {
+    background: white;
+    border: 1px solid var(--gray-300);
+}
+
+.btn-nav-outline:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background: white;
+}
+
+/* ── Auth Modal ───────────────────────────────────────────────────────────── */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.modal-box {
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    width: 100%;
+    max-width: 420px;
+    position: relative;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25);
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    color: var(--gray-500, #6b7280);
+    line-height: 1;
+    padding: 2px 8px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.modal-close-btn:hover {
+    background: var(--gray-100);
+}
+
+.auth-panel h2 {
+    font-size: 24px;
+    color: var(--gray-800);
+    margin-bottom: 24px;
+}
+
+/* ── Form Groups ─────────────────────────────────────────────────────────── */
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gray-700);
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 11px 14px;
+    border: 2px solid var(--gray-300);
+    border-radius: 8px;
+    font-size: 15px;
+    color: var(--gray-800);
+    outline: none;
+    transition: border-color 0.2s;
+    background: white;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: var(--primary-color);
+}
+
+.btn-full {
+    width: 100%;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.auth-links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.auth-links a {
+    font-size: 14px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
+
+.auth-error {
+    background: #fee2e2;
+    color: var(--danger-color);
+    padding: 11px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    border-left: 4px solid var(--danger-color);
+}
+
+.auth-success {
+    background: #dcfce7;
+    color: var(--success-color);
+    padding: 11px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    border-left: 4px solid var(--success-color);
+}
+
+.auth-description {
+    color: var(--gray-600);
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: -12px;
+}
+
+/* ── Auth Standalone Card (recovery screen) ──────────────────────────────── */
+.auth-standalone-card {
+    background: white;
+    border-radius: 16px;
+    padding: 48px;
+    max-width: 420px;
+    margin: 48px auto;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+}
+
+.auth-standalone-card h2 {
+    font-size: 24px;
+    color: var(--gray-800);
+    margin-bottom: 24px;
+}
+
+/* ── Guest Note ──────────────────────────────────────────────────────────── */
+.guest-note {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    color: var(--gray-600);
+}
+
+.guest-note a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.guest-note a:hover {
+    text-decoration: underline;
+}
+
+/* ── Shared Screen Header (History / Favorites) ──────────────────────────── */
+.screen-header {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 14px 0;
+    margin-bottom: 28px;
+    position: sticky;
+    top: 56px;
+    z-index: 100;
+}
+
+.screen-header .container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.screen-header h2 {
+    color: var(--primary-color);
+    font-size: 22px;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--gray-600);
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.back-btn:hover {
+    background: var(--gray-100);
+    color: var(--gray-800);
+}
+
+.screen-body {
+    padding-bottom: 60px;
+}
+
+/* ── Favorite Button States ──────────────────────────────────────────────── */
+#favorite-btn.favorited,
+.review-fav-btn.favorited {
+    background: #fef3c7;
+    border-color: var(--warning-color);
+    color: #92400e;
+}
+
+/* ── Review Header Actions ───────────────────────────────────────────────── */
+.review-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ── Small Button Variant ────────────────────────────────────────────────── */
+.btn-sm {
+    padding: 6px 14px;
+    font-size: 13px;
+}
+
+/* ── History Screen ──────────────────────────────────────────────────────── */
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.history-item {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.history-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.history-exam-num {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--gray-800);
+}
+
+.history-date {
+    font-size: 14px;
+    color: var(--gray-600);
+}
+
+.history-stats {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.history-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+}
+
+.history-stat-label {
+    font-size: 11px;
+    color: var(--gray-600);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.history-stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--gray-800);
+}
+
+.grade-high { color: var(--success-color); }
+.grade-mid  { color: var(--warning-color); }
+.grade-low  { color: var(--danger-color); }
+
+/* ── Favorites Screen ────────────────────────────────────────────────────── */
+.favorites-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.fav-item {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.fav-question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.fav-question-text {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+    color: var(--gray-800);
+}
+
+.fav-image {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.fav-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.fav-choices {
+    margin: 12px 0;
+}
+
+.fav-choice {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    font-size: 15px;
+    background: var(--gray-50);
+}
+
+.fav-choice.fav-choice-correct {
+    background: #dcfce7;
+    border: 1px solid var(--success-color);
+}
+
+.fav-choice-label {
+    font-weight: 700;
+    color: var(--gray-700);
+    min-width: 24px;
+    flex-shrink: 0;
+}
+
+.fav-correct-mark {
+    margin-left: auto;
+    color: var(--success-color);
+    font-weight: 600;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+/* ── Loading / Empty States ──────────────────────────────────────────────── */
+.loading-text,
+.empty-state {
+    text-align: center;
+    color: var(--gray-600);
+    font-size: 16px;
+    padding: 48px 20px;
+    line-height: 1.6;
+}
+
+/* ── Responsive adjustments for user system ──────────────────────────────── */
+@media (max-width: 968px) {
+    #back-to-results-btn {
+        top: 72px;
+    }
+}
+
+@media (max-width: 640px) {
+    .nav-user-email {
+        display: none;
+    }
+
+    .nav-right {
+        gap: 6px;
+    }
+
+    .btn-nav {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .modal-box {
+        padding: 28px 20px;
+    }
+
+    .auth-standalone-card {
+        padding: 32px 20px;
+        margin: 24px auto;
+    }
+
+    .history-stats {
+        gap: 16px;
+    }
+
+    .review-header-actions {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 6px;
+    }
+
+    #favorite-btn {
+        order: 4;
+        width: 100%;
+    }
+
+    #back-to-results-btn {
+        top: 68px;
+        right: 12px;
+        font-size: 12px;
+        padding: 7px 14px;
     }
 }

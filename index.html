@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math Kangaroo G4 Practice Test</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Top Navigation Bar -->
+    <nav id="top-nav" class="top-nav">
+        <div class="nav-container">
+            <span class="nav-brand">🦘 Math Kangaroo G4</span>
+            <div class="nav-right" id="nav-right"></div>
+        </div>
+    </nav>
+
     <!-- Welcome Screen -->
     <div id="welcome-screen" class="screen active">
         <div class="container">
@@ -29,6 +39,9 @@
                     </ul>
                 </div>
                 <button id="start-test-btn" class="btn btn-primary">Start Test</button>
+                <p class="guest-note" id="guest-note" style="display:none;">
+                    No account? <a href="#" id="guest-continue-link">Continue as guest</a> — history and favorites won't be saved.
+                </p>
             </div>
         </div>
     </div>
@@ -89,6 +102,7 @@
                         <div class="question-actions">
                             <button id="prev-btn" class="btn btn-secondary">← Previous</button>
                             <button id="mark-btn" class="btn btn-outline">🔖 Mark for Review</button>
+                            <button id="favorite-btn" class="btn btn-outline">☆ Favorite</button>
                             <button id="next-btn" class="btn btn-secondary">Next →</button>
                         </div>
                     </div>
@@ -133,6 +147,7 @@
 
                 <div class="results-actions">
                     <button id="view-answers-btn" class="btn btn-primary">View Detailed Answers</button>
+                    <button id="view-history-btn" class="btn btn-secondary" style="display:none;">📋 View History</button>
                     <button id="retake-test-btn" class="btn btn-secondary">Take New Test</button>
                 </div>
             </div>
@@ -151,6 +166,132 @@
         </div>
         <div class="container">
             <div id="review-content" class="review-content"></div>
+        </div>
+    </div>
+
+    <!-- History Screen -->
+    <div id="history-screen" class="screen">
+        <div class="screen-header">
+            <div class="container">
+                <button class="back-btn" id="history-back-btn">← Back</button>
+                <h2>📊 Exam History</h2>
+            </div>
+        </div>
+        <div class="container screen-body">
+            <div id="history-list" class="history-list"></div>
+        </div>
+    </div>
+
+    <!-- Favorites Screen -->
+    <div id="favorites-screen" class="screen">
+        <div class="screen-header">
+            <div class="container">
+                <button class="back-btn" id="favorites-back-btn">← Back</button>
+                <h2>⭐ Favorite Questions</h2>
+            </div>
+        </div>
+        <div class="container screen-body">
+            <div id="favorites-list" class="favorites-list"></div>
+        </div>
+    </div>
+
+    <!-- Password Recovery Screen (shown when user arrives from reset email link) -->
+    <div id="recovery-screen" class="screen">
+        <div class="container">
+            <div class="auth-standalone-card">
+                <h2>🔑 Set New Password</h2>
+                <div id="recovery-error" class="auth-error" style="display:none;"></div>
+                <div id="recovery-success" class="auth-success" style="display:none;"></div>
+                <div class="form-group">
+                    <label for="recovery-password">New Password</label>
+                    <input type="password" id="recovery-password" placeholder="Min. 6 characters" autocomplete="new-password">
+                </div>
+                <div class="form-group">
+                    <label for="recovery-password-confirm">Confirm Password</label>
+                    <input type="password" id="recovery-password-confirm" placeholder="Repeat password" autocomplete="new-password">
+                </div>
+                <button id="recovery-submit-btn" class="btn btn-primary btn-full">Set New Password</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auth Modal -->
+    <div id="auth-modal" class="modal-overlay" style="display:none;">
+        <div class="modal-box">
+            <button id="auth-modal-close" class="modal-close-btn">&times;</button>
+
+            <!-- Login Panel -->
+            <div id="auth-panel-login" class="auth-panel">
+                <h2>Log In</h2>
+                <div id="auth-login-error" class="auth-error" style="display:none;"></div>
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" placeholder="you@example.com" autocomplete="email">
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" placeholder="Password" autocomplete="current-password">
+                </div>
+                <button id="login-submit-btn" class="btn btn-primary btn-full">Log In</button>
+                <div class="auth-links">
+                    <a href="#" id="goto-forgot-link">Forgot password?</a>
+                    <a href="#" id="goto-register-link">Create account →</a>
+                </div>
+            </div>
+
+            <!-- Register Panel -->
+            <div id="auth-panel-register" class="auth-panel" style="display:none;">
+                <h2>Create Account</h2>
+                <div id="auth-register-error" class="auth-error" style="display:none;"></div>
+                <div class="form-group">
+                    <label for="register-email">Email</label>
+                    <input type="email" id="register-email" placeholder="you@example.com" autocomplete="email">
+                </div>
+                <div class="form-group">
+                    <label for="register-password">Password</label>
+                    <input type="password" id="register-password" placeholder="Min. 6 characters" autocomplete="new-password">
+                </div>
+                <div class="form-group">
+                    <label for="register-confirm">Confirm Password</label>
+                    <input type="password" id="register-confirm" placeholder="Repeat password" autocomplete="new-password">
+                </div>
+                <button id="register-submit-btn" class="btn btn-primary btn-full">Create Account</button>
+                <div class="auth-links">
+                    <a href="#" id="goto-login-link">← Already have an account? Log in</a>
+                </div>
+            </div>
+
+            <!-- Forgot Password Panel -->
+            <div id="auth-panel-forgot" class="auth-panel" style="display:none;">
+                <h2>Reset Password</h2>
+                <p class="auth-description">Enter your email and we'll send you a reset link.</p>
+                <div id="auth-forgot-error" class="auth-error" style="display:none;"></div>
+                <div id="auth-forgot-success" class="auth-success" style="display:none;"></div>
+                <div class="form-group">
+                    <label for="forgot-email">Email</label>
+                    <input type="email" id="forgot-email" placeholder="you@example.com">
+                </div>
+                <button id="forgot-submit-btn" class="btn btn-primary btn-full">Send Reset Link</button>
+                <div class="auth-links">
+                    <a href="#" id="forgot-back-link">← Back to Login</a>
+                </div>
+            </div>
+
+            <!-- Change Password Panel -->
+            <div id="auth-panel-change-pw" class="auth-panel" style="display:none;">
+                <h2>Change Password</h2>
+                <div id="auth-change-pw-error" class="auth-error" style="display:none;"></div>
+                <div id="auth-change-pw-success" class="auth-success" style="display:none;"></div>
+                <div class="form-group">
+                    <label for="new-password">New Password</label>
+                    <input type="password" id="new-password" placeholder="Min. 6 characters" autocomplete="new-password">
+                </div>
+                <div class="form-group">
+                    <label for="new-password-confirm">Confirm New Password</label>
+                    <input type="password" id="new-password-confirm" placeholder="Repeat new password" autocomplete="new-password">
+                </div>
+                <button id="change-pw-submit-btn" class="btn btn-primary btn-full">Update Password</button>
+            </div>
         </div>
     </div>
 
