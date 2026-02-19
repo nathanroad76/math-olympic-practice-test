@@ -3,10 +3,11 @@ const SUPABASE_URL = 'https://vobwnrxglnxnsppelowe.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZvYnducnhnbG54bnNwcGVsb3dlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE0OTg1MzQsImV4cCI6MjA4NzA3NDUzNH0._RGKCldlYIRPpJVff_mw5eQez9RT0tiArWmODgEUrEk';
 
 // Initialize Supabase defensively — if CDN fails to load, the app runs in guest-only mode
-let supabase = null;
+// Note: variable named 'db' to avoid conflict with the global 'supabase' exposed by the CDN
+let db = null;
 try {
     if (window.supabase && window.supabase.createClient) {
-        supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        db = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
     } else {
         console.warn('Supabase SDK not available. Running in guest-only mode.');
     }
@@ -59,8 +60,8 @@ async function init() {
         }
 
         // Check for an existing Supabase session (user was previously logged in)
-        if (supabase) {
-            const { data: { session } } = await supabase.auth.getSession();
+        if (db) {
+            const { data: { session } } = await db.auth.getSession();
             if (session) {
                 await handleUserLogin(session.user);
             }
@@ -79,8 +80,8 @@ async function init() {
 
 // ── Auth State Listener ──────────────────────────────────────────────────────
 function setupAuthListeners() {
-    if (!supabase) return;
-    supabase.auth.onAuthStateChange(async (event, session) => {
+    if (!db) return;
+    db.auth.onAuthStateChange(async (event, session) => {
         if (event === 'SIGNED_IN' && !state.isRecoveryMode) {
             await handleUserLogin(session.user);
             renderNav();
@@ -187,7 +188,7 @@ async function login() {
     btn.disabled = true;
     btn.textContent = 'Logging in...';
 
-    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    const { error } = await db.auth.signInWithPassword({ email, password });
 
     btn.disabled = false;
     btn.textContent = 'Log In';
@@ -218,7 +219,7 @@ async function register() {
     btn.disabled = true;
     btn.textContent = 'Creating account...';
 
-    const { error } = await supabase.auth.signUp({ email, password });
+    const { error } = await db.auth.signUp({ email, password });
 
     btn.disabled = false;
     btn.textContent = 'Create Account';
@@ -228,7 +229,7 @@ async function register() {
 }
 
 async function logout() {
-    await supabase.auth.signOut();
+    await db.auth.signOut();
     showScreen('welcome-screen');
 }
 
@@ -243,7 +244,7 @@ async function sendPasswordReset() {
     btn.disabled = true;
     btn.textContent = 'Sending...';
 
-    const { error } = await supabase.auth.resetPasswordForEmail(email, {
+    const { error } = await db.auth.resetPasswordForEmail(email, {
         redirectTo: window.location.origin + window.location.pathname
     });
 
@@ -279,7 +280,7 @@ async function changePassword() {
     btn.disabled = true;
     btn.textContent = 'Updating...';
 
-    const { error } = await supabase.auth.updateUser({ password: newPw });
+    const { error } = await db.auth.updateUser({ password: newPw });
 
     btn.disabled = false;
     btn.textContent = 'Update Password';
@@ -316,7 +317,7 @@ async function handleRecoverySubmit() {
     btn.disabled = true;
     btn.textContent = 'Saving...';
 
-    const { error } = await supabase.auth.updateUser({ password: newPw });
+    const { error } = await db.auth.updateUser({ password: newPw });
 
     btn.disabled = false;
     btn.textContent = 'Set New Password';
@@ -771,7 +772,7 @@ async function saveExamResult(results) {
     const correctAnswers = {};
     state.testQuestions.forEach((q, i) => { correctAnswers[i] = q.answer; });
 
-    const { error } = await supabase.from('exam_results').insert({
+    const { error } = await db.from('exam_results').insert({
         user_id: state.currentUser.id,
         score: results.totalScore,
         max_score: results.maxScore,
@@ -790,7 +791,7 @@ async function saveExamResult(results) {
 
 // ── Question Progress (Smart Generation) ─────────────────────────────────────
 async function loadQuestionProgress() {
-    const { data, error } = await supabase
+    const { data, error } = await db
         .from('question_progress')
         .select('*')
         .eq('user_id', state.currentUser.id);
@@ -816,7 +817,7 @@ async function saveQuestionProgress() {
         last_updated: new Date().toISOString()
     }));
 
-    const { error } = await supabase
+    const { error } = await db
         .from('question_progress')
         .upsert(upserts, { onConflict: 'user_id,points' });
 
@@ -825,7 +826,7 @@ async function saveQuestionProgress() {
 
 // ── Favorites ─────────────────────────────────────────────────────────────────
 async function loadFavorites() {
-    const { data, error } = await supabase
+    const { data, error } = await db
         .from('favorites')
         .select('question_id')
         .eq('user_id', state.currentUser.id);
@@ -854,14 +855,14 @@ async function toggleFavorite() {
         return;
     }
     if (state.favoritedQuestionIds.has(question.id)) {
-        const { error } = await supabase
+        const { error } = await db
             .from('favorites')
             .delete()
             .eq('user_id', state.currentUser.id)
             .eq('question_id', question.id);
         if (!error) state.favoritedQuestionIds.delete(question.id);
     } else {
-        const { error } = await supabase
+        const { error } = await db
             .from('favorites')
             .insert({ user_id: state.currentUser.id, question_id: question.id });
         if (!error) state.favoritedQuestionIds.add(question.id);
@@ -870,7 +871,7 @@ async function toggleFavorite() {
 }
 
 async function removeFavorite(questionId) {
-    const { error } = await supabase
+    const { error } = await db
         .from('favorites')
         .delete()
         .eq('user_id', state.currentUser.id)
@@ -883,7 +884,7 @@ async function showFavoritesScreen() {
     const listEl = document.getElementById('favorites-list');
     listEl.innerHTML = '<p class="loading-text">Loading favorites...</p>';
 
-    const { data, error } = await supabase
+    const { data, error } = await db
         .from('favorites')
         .select('question_id, favorited_at')
         .eq('user_id', state.currentUser.id)
@@ -960,7 +961,7 @@ async function showHistoryScreen() {
     const listEl = document.getElementById('history-list');
     listEl.innerHTML = '<p class="loading-text">Loading history...</p>';
 
-    const { data, error } = await supabase
+    const { data, error } = await db
         .from('exam_results')
         .select('*')
         .eq('user_id', state.currentUser.id)
@@ -1090,7 +1091,7 @@ function showReview() {
                 btn.classList.remove('favorited');
                 btn.textContent = '☆ Favorite';
             } else {
-                const { error } = await supabase.from('favorites')
+                const { error } = await db.from('favorites')
                     .insert({ user_id: state.currentUser.id, question_id: qid });
                 if (!error) {
                     state.favoritedQuestionIds.add(qid);
