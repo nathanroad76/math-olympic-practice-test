@@ -1,8 +1,8 @@
 // ── Supabase Client ──────────────────────────────────────────────────────────
 // TODO: Replace these placeholder values with your actual Supabase project credentials.
 // Find them in: Supabase Dashboard → Project Settings → API
-const SUPABASE_URL = 'REPLACE_WITH_YOUR_SUPABASE_URL';
-const SUPABASE_ANON_KEY = 'REPLACE_WITH_YOUR_SUPABASE_ANON_KEY';
+const SUPABASE_URL = 'https://vobwnrxglnxnsppelowe.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZvYnducnhnbG54bnNwcGVsb3dlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE0OTg1MzQsImV4cCI6MjA4NzA3NDUzNH0._RGKCldlYIRPpJVff_mw5eQez9RT0tiArWmODgEUrEk';
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // ── Application State ────────────────────────────────────────────────────────
