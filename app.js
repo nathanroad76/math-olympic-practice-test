@@ -38,7 +38,9 @@ let state = {
         3: { used: [], round: 1 },
         4: { used: [], round: 1 },
         5: { used: [], round: 1 }
-    }
+    },
+    // Cached exam history records (for history detail view)
+    historyData: []
 };
 
 // ── Initialize Application ───────────────────────────────────────────────────
@@ -115,8 +117,9 @@ function renderNav() {
     if (!navRight) return;
 
     if (state.currentUser) {
+        const displayName = state.currentUser.user_metadata?.display_name || state.currentUser.email;
         navRight.innerHTML = `
-            <span class="nav-user-email">${state.currentUser.email}</span>
+            <span class="nav-user-email">${displayName}</span>
             <button class="btn-nav" id="nav-history-btn">History</button>
             <button class="btn-nav" id="nav-favorites-btn">Favorites</button>
             <button class="btn-nav btn-nav-outline" id="nav-change-pw-btn">Change Password</button>
@@ -198,10 +201,15 @@ async function login() {
 }
 
 async function register() {
+    const name = document.getElementById('register-name').value.trim();
     const email = document.getElementById('register-email').value.trim();
     const password = document.getElementById('register-password').value;
     const confirm = document.getElementById('register-confirm').value;
 
+    if (!name) {
+        showAuthError('register', 'Please enter a display name.');
+        return;
+    }
     if (!email || !password || !confirm) {
         showAuthError('register', 'Please fill in all fields.');
         return;
@@ -219,10 +227,11 @@ async function register() {
     btn.disabled = true;
     btn.textContent = 'Creating account...';
 
-    const { error } = await db.auth.signUp({ email, password });
+    const { error } = await db.auth.signUp({ email, password, options: { data: { display_name: name } } });
 
     btn.disabled = false;
     btn.textContent = 'Create Account';
+    document.getElementById('register-name').value = '';
 
     if (error) showAuthError('register', error.message);
     // Success: onAuthStateChange fires SIGNED_IN immediately (email confirmation is OFF)
@@ -360,8 +369,10 @@ function setupEventListeners() {
 
     // New user-system buttons
     document.getElementById('favorite-btn').addEventListener('click', toggleFavorite);
+    document.getElementById('quit-test-btn').addEventListener('click', quitTest);
     document.getElementById('view-history-btn').addEventListener('click', showHistoryScreen);
     document.getElementById('history-back-btn').addEventListener('click', () => showScreen('welcome-screen'));
+    document.getElementById('history-detail-back-btn').addEventListener('click', showHistoryScreen);
     document.getElementById('favorites-back-btn').addEventListener('click', () => showScreen('welcome-screen'));
     document.getElementById('recovery-submit-btn').addEventListener('click', handleRecoverySubmit);
 
@@ -385,6 +396,7 @@ function setupEventListeners() {
 
     // Enter key support in auth forms
     document.getElementById('login-password').addEventListener('keydown', (e) => { if (e.key === 'Enter') login(); });
+    document.getElementById('register-name').addEventListener('keydown', (e) => { if (e.key === 'Enter') register(); });
     document.getElementById('register-confirm').addEventListener('keydown', (e) => { if (e.key === 'Enter') register(); });
     document.getElementById('forgot-email').addEventListener('keydown', (e) => { if (e.key === 'Enter') sendPasswordReset(); });
 
@@ -650,6 +662,19 @@ function toggleMark() {
         markBtn.textContent = '🔖 Mark for Review';
     }
     updateQuestionGrid();
+}
+
+// ── Quit Test ─────────────────────────────────────────────────────────────────
+function quitTest() {
+    if (!confirm('Are you sure you want to quit? Your progress will not be saved.')) return;
+    clearInterval(state.timerInterval);
+    state.isPaused = false;
+    document.getElementById('pause-overlay').style.display = 'none';
+    state.testQuestions = [];
+    state.userAnswers = {};
+    state.markedQuestions = new Set();
+    state.currentQuestionIndex = 0;
+    showScreen('welcome-screen');
 }
 
 // ── Confirm Submit ────────────────────────────────────────────────────────────
@@ -972,6 +997,7 @@ async function showHistoryScreen() {
         return;
     }
 
+    state.historyData = data;
     listEl.innerHTML = '';
     data.forEach((result, idx) => {
         const date = new Date(result.taken_at);
@@ -1018,9 +1044,159 @@ async function showHistoryScreen() {
                     <span class="history-stat-value">${timeStr}</span>
                 </div>
             </div>
+            <div class="history-item-actions">
+                <button class="btn btn-sm btn-secondary view-details-btn" data-idx="${idx}">View Details</button>
+                <button class="btn btn-sm btn-danger delete-record-btn" data-id="${result.id}">Delete</button>
+            </div>
         `;
         listEl.appendChild(item);
     });
+
+    listEl.querySelectorAll('.view-details-btn').forEach(btn =>
+        btn.addEventListener('click', () => showHistoryDetail(state.historyData[+btn.dataset.idx])));
+    listEl.querySelectorAll('.delete-record-btn').forEach(btn =>
+        btn.addEventListener('click', () => deleteHistoryRecord(btn.dataset.id)));
+}
+
+// ── History Detail View ───────────────────────────────────────────────────────
+function showHistoryDetail(record) {
+    window.scrollTo(0, 0);
+    const questions = record.question_ids.map(id => state.allQuestions.find(q => q.id === id));
+    const userAnswers = record.user_answers;
+
+    // Score summary
+    const date = new Date(record.taken_at);
+    const dateStr = date.toLocaleDateString('en-US', {
+        year: 'numeric', month: 'short', day: 'numeric',
+        hour: '2-digit', minute: '2-digit'
+    });
+    const mins = Math.floor(record.time_taken_seconds / 60);
+    const secs = record.time_taken_seconds % 60;
+    const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
+    const pct = Math.round((record.score / record.max_score) * 100);
+    const gradeClass = pct >= 80 ? 'grade-high' : pct >= 60 ? 'grade-mid' : 'grade-low';
+
+    document.getElementById('history-detail-summary').innerHTML = `
+        <div class="results-card" style="margin-bottom:24px;">
+            <p style="color:var(--gray-500);margin-bottom:12px;">${dateStr}</p>
+            <div class="score-summary">
+                <div class="score-main">
+                    <div class="score-label">Score</div>
+                    <div class="score-value ${gradeClass}">${record.score}</div>
+                    <div class="score-total">out of ${record.max_score}</div>
+                </div>
+                <div class="score-stats">
+                    <div class="stat-item"><div class="stat-label">Correct</div><div class="stat-value">${record.correct_count}</div></div>
+                    <div class="stat-item"><div class="stat-label">Wrong</div><div class="stat-value">${record.wrong_count}</div></div>
+                    <div class="stat-item"><div class="stat-label">Unanswered</div><div class="stat-value">${record.unanswered_count}</div></div>
+                    <div class="stat-item"><div class="stat-label">Accuracy</div><div class="stat-value">${record.accuracy}%</div></div>
+                    <div class="stat-item"><div class="stat-label">Time</div><div class="stat-value">${timeStr}</div></div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    // Tier breakdown table
+    const groups = [
+        { label: 'Questions 1–8 (3 pts each)', start: 0, end: 8 },
+        { label: 'Questions 9–16 (4 pts each)', start: 8, end: 16 },
+        { label: 'Questions 17–24 (5 pts each)', start: 16, end: 24 }
+    ];
+    const breakdownEl = document.getElementById('history-detail-breakdown');
+    breakdownEl.innerHTML = '';
+    groups.forEach(group => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'result-table-wrapper';
+        const title = document.createElement('div');
+        title.className = 'result-table-title';
+        title.textContent = group.label;
+        const table = document.createElement('table');
+        table.className = 'result-table';
+        const thead = document.createElement('thead');
+        const trNum = document.createElement('tr');
+        const tbody = document.createElement('tbody');
+        const trResult = document.createElement('tr');
+        for (let i = group.start; i < group.end; i++) {
+            const th = document.createElement('th');
+            th.textContent = i + 1;
+            trNum.appendChild(th);
+            const td = document.createElement('td');
+            const q = questions[i];
+            const correct = q && userAnswers[i] === q.answer;
+            td.textContent = correct ? '✓' : '✗';
+            td.className = correct ? 'result-correct' : 'result-wrong';
+            trResult.appendChild(td);
+        }
+        thead.appendChild(trNum);
+        tbody.appendChild(trResult);
+        table.appendChild(thead);
+        table.appendChild(tbody);
+        wrapper.appendChild(title);
+        wrapper.appendChild(table);
+        breakdownEl.appendChild(wrapper);
+    });
+
+    // Question-by-question review
+    const reviewEl = document.getElementById('history-detail-questions');
+    reviewEl.innerHTML = '';
+    questions.forEach((question, index) => {
+        if (!question) return;
+        const userAnswer = userAnswers[index];
+        const correctAnswer = question.answer;
+        const isCorrect = userAnswer === correctAnswer;
+
+        const reviewItem = document.createElement('div');
+        reviewItem.className = `review-item ${isCorrect ? 'correct' : 'wrong'}`;
+
+        let imageHTML = '';
+        if (question.image) {
+            imageHTML = `<div class="review-image"><img src="${question.image}" alt="Question image"></div>`;
+        }
+
+        const choices = ['A', 'B', 'C', 'D', 'E'];
+        let choicesHTML = '';
+        choices.forEach(choice => {
+            if (question.choices[choice] === undefined || question.choices[choice] === null ||
+                (typeof question.choices[choice] === 'string' && question.choices[choice].trim() === '')) return;
+            let choiceClass = '';
+            if (choice === correctAnswer) choiceClass = 'correct-answer';
+            else if (choice === userAnswer && !isCorrect) choiceClass = 'user-wrong';
+            choicesHTML += `
+                <div class="review-choice ${choiceClass}">
+                    <span class="review-choice-label">${choice})</span>
+                    <span>${question.choices[choice]}</span>
+                </div>
+            `;
+        });
+
+        reviewItem.innerHTML = `
+            <div class="review-header-info">
+                <span class="review-question-num">Question ${index + 1} (${question.points} points)</span>
+                <span class="review-result ${isCorrect ? 'correct' : 'wrong'}">
+                    ${isCorrect ? '✓ Correct' : userAnswer ? '✗ Wrong' : '✗ Not Answered'}
+                </span>
+            </div>
+            <div class="review-question-text">${question.question}</div>
+            ${imageHTML}
+            <div class="review-choices">${choicesHTML}</div>
+            ${!isCorrect ? `<p style="margin-top:12px;color:var(--success-color);font-weight:600;">Correct Answer: ${correctAnswer}</p>` : ''}
+            ${userAnswer && !isCorrect ? `<p style="margin-top:4px;color:var(--danger-color);">Your Answer: ${userAnswer}</p>` : ''}
+            ${!userAnswer ? `<p style="margin-top:4px;color:var(--gray-600);">You did not answer this question.</p>` : ''}
+        `;
+        reviewEl.appendChild(reviewItem);
+    });
+
+    showScreen('history-detail-screen');
+}
+
+// ── Delete History Record ─────────────────────────────────────────────────────
+async function deleteHistoryRecord(recordId) {
+    if (!confirm('Delete this exam record? This cannot be undone.')) return;
+    const { error } = await db.from('exam_results').delete()
+        .eq('id', recordId)
+        .eq('user_id', state.currentUser.id);
+    if (error) { alert('Failed to delete: ' + error.message); return; }
+    showHistoryScreen();
 }
 
 // ── Show Review ───────────────────────────────────────────────────────────────

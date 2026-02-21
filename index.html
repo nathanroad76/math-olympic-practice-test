@@ -81,6 +81,7 @@
                         <h3>Questions</h3>
                         <div id="question-grid" class="question-grid"></div>
                         <button id="submit-test-btn" class="btn btn-success">Submit Test</button>
+                        <button id="quit-test-btn" class="btn btn-danger" style="margin-top:8px;">Quit Test</button>
                     </div>
 
                     <!-- Question Content -->
@@ -181,6 +182,21 @@
         </div>
     </div>
 
+    <!-- History Detail Screen -->
+    <div id="history-detail-screen" class="screen">
+        <div class="screen-header">
+            <div class="container">
+                <button class="back-btn" id="history-detail-back-btn">← Back to History</button>
+                <h2>📝 Exam Detail</h2>
+            </div>
+        </div>
+        <div class="container screen-body">
+            <div id="history-detail-summary"></div>
+            <div id="history-detail-breakdown"></div>
+            <div id="history-detail-questions" class="review-content"></div>
+        </div>
+    </div>
+
     <!-- Favorites Screen -->
     <div id="favorites-screen" class="screen">
         <div class="screen-header">
@@ -242,6 +258,10 @@
             <div id="auth-panel-register" class="auth-panel" style="display:none;">
                 <h2>Create Account</h2>
                 <div id="auth-register-error" class="auth-error" style="display:none;"></div>
+                <div class="form-group">
+                    <label for="register-name">Display Name</label>
+                    <input type="text" id="register-name" placeholder="Your name" autocomplete="name">
+                </div>
                 <div class="form-group">
                     <label for="register-email">Email</label>
                     <input type="email" id="register-email" placeholder="you@example.com" autocomplete="email">
