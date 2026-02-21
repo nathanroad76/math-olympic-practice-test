@@ -1648,20 +1648,6 @@
       "answer": "B"
     },
     {
-      "id": "AT-BEN-14-13",
-      "points": 4,
-      "question": "A square can be made out of four of the given pieces. Which piece will not be used?",
-      "image": "",
-      "choices": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "D",
-        "E": "E"
-      },
-      "answer": "B"
-    },
-    {
       "id": "AT-BEN-14-14",
       "points": 4,
       "question": "If the three digits of a three-digit number are multiplied you get 135. Which result to you get, by adding the three digits?",
