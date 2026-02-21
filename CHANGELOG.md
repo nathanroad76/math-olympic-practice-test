@@ -1,5 +1,46 @@
 # 更新日志
 
+## [2.1.0] - 2026-02-21
+
+### ✨ 历史详情/删除、退出考试、注册显示名称
+
+#### 新功能
+
+1. **历史记录 — View Details（查看详情）**
+   - 每条历史记录新增 "View Details" 按钮
+   - 点击后进入专属详情页面，显示：
+     - 考试日期、总分、正确/错误/未答/准确率/用时摘要
+     - 三档题目（Q1–8 / Q9–16 / Q17–24）的 ✓/✗ 得分表格
+     - 逐题作答明细：高亮正确答案（绿色）和用户的错误答案（红色）
+
+2. **历史记录 — Delete（删除）**
+   - 每条历史记录新增 "Delete" 按钮
+   - 二次确认后从 Supabase 删除该条记录，自动刷新列表
+
+3. **考试中 — Quit Test（退出考试）**
+   - 考试侧边栏 Submit Test 按钮下方新增红色 "Quit Test" 按钮
+   - 弹出确认框，确认后清除计时器、重置状态，返回初始页面
+   - 不计入 Exam History
+
+4. **注册 — 自定义显示名称**
+   - 注册表单新增 "Display Name" 输入项（必填）
+   - 名称存储至 Supabase `user_metadata.display_name`
+   - 登录后导航栏显示自定义名称而非邮箱
+   - 已有账户（无 display_name）自动降级显示邮箱，向下兼容
+
+#### 题库更新
+
+- 删除题目 `AT-BEN-14-13`（4分题），题库由 343 题减至 342 题
+
+#### 技术说明
+
+- 新增 `history-detail-screen` 页面
+- 新增 `showHistoryDetail()`、`deleteHistoryRecord()`、`quitTest()` 函数
+- `state` 新增 `historyData` 缓存字段
+- CSS 新增 `.btn-danger`、`.history-item-actions` 样式
+
+---
+
 ## [2.0.0] - 2026-02-19
 
 ### 🚀 用户系统上线（Supabase 云端后端）
