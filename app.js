@@ -42,7 +42,9 @@ let state = {
     // Cached exam history records (for history detail view)
     historyData: [],
     // Tracks the in-flight DB save after a test submit (so history can wait for it)
-    pendingSave: null
+    pendingSave: null,
+    // Stores the last calculated results for retry
+    lastResults: null
 };
 
 // ── Initialize Application ───────────────────────────────────────────────────
@@ -703,11 +705,43 @@ async function submitTest() {
     const results = calculateResults();
     displayResults(results);
 
+    const saveStatusEl = document.getElementById('save-status');
     if (state.currentUser) {
-        // Track the save promise so showHistoryScreen can wait for it before querying
-        state.pendingSave = Promise.all([saveExamResult(results), saveQuestionProgress()]);
+        // Show "Saving..." while the write is in flight
+        saveStatusEl.className = 'save-status-msg saving';
+        saveStatusEl.textContent = 'Saving result to history...';
+        saveStatusEl.style.display = 'block';
+
+        // Keep a reference to results so the retry button can use it
+        state.lastResults = results;
+
+        const saveProm = Promise.all([saveExamResult(results), saveQuestionProgress()]);
+        state.pendingSave = saveProm;
+
+        saveProm.then(([saved]) => {
+            if (saved) {
+                saveStatusEl.className = 'save-status-msg save-ok';
+                saveStatusEl.textContent = '✓ Result saved to history';
+            } else {
+                saveStatusEl.className = 'save-status-msg save-fail';
+                saveStatusEl.innerHTML = '⚠ Failed to save result. <a href="#" id="retry-save-link">Retry</a>';
+                document.getElementById('retry-save-link').addEventListener('click', (e) => {
+                    e.preventDefault();
+                    retrySave();
+                });
+            }
+        }).catch(() => {
+            saveStatusEl.className = 'save-status-msg save-fail';
+            saveStatusEl.innerHTML = '⚠ Failed to save result. <a href="#" id="retry-save-link">Retry</a>';
+            document.getElementById('retry-save-link').addEventListener('click', (e) => {
+                e.preventDefault();
+                retrySave();
+            });
+        });
+
         document.getElementById('view-history-btn').style.display = '';
     } else {
+        saveStatusEl.style.display = 'none';
         document.getElementById('view-history-btn').style.display = 'none';
     }
 
@@ -798,7 +832,7 @@ async function saveExamResult(results) {
     const correctAnswers = {};
     state.testQuestions.forEach((q, i) => { correctAnswers[i] = q.answer; });
 
-    const { error } = await db.from('exam_results').insert({
+    const insertPromise = db.from('exam_results').insert({
         user_id: state.currentUser.id,
         score: results.totalScore,
         max_score: results.maxScore,
@@ -812,7 +846,43 @@ async function saveExamResult(results) {
         correct_answers: correctAnswers
     });
 
-    if (error) console.error('Failed to save exam result:', error);
+    // 10-second timeout to prevent hanging on slow/broken network
+    const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error('Save timed out after 10s')), 10000));
+
+    try {
+        const { error } = await Promise.race([insertPromise, timeoutPromise]);
+        if (error) {
+            console.error('Failed to save exam result:', error);
+            return false;
+        }
+        return true;
+    } catch (e) {
+        console.error('Failed to save exam result:', e);
+        return false;
+    }
+}
+
+// ── Retry Save (called from results screen Retry link) ────────────────────────
+async function retrySave() {
+    if (!state.lastResults || !state.currentUser) return;
+    const saveStatusEl = document.getElementById('save-status');
+    saveStatusEl.className = 'save-status-msg saving';
+    saveStatusEl.textContent = 'Retrying save...';
+
+    const saved = await saveExamResult(state.lastResults);
+    if (saved) {
+        state.pendingSave = null;
+        saveStatusEl.className = 'save-status-msg save-ok';
+        saveStatusEl.textContent = '✓ Result saved to history';
+    } else {
+        saveStatusEl.className = 'save-status-msg save-fail';
+        saveStatusEl.innerHTML = '⚠ Still failed. Check your connection and <a href="#" id="retry-save-link">try again</a>.';
+        document.getElementById('retry-save-link').addEventListener('click', (e) => {
+            e.preventDefault();
+            retrySave();
+        });
+    }
 }
 
 // ── Question Progress (Smart Generation) ─────────────────────────────────────
@@ -987,9 +1057,16 @@ async function showHistoryScreen() {
     const listEl = document.getElementById('history-list');
     listEl.innerHTML = '<p class="loading-text">Loading history...</p>';
 
-    // Wait for any in-flight DB write from the most recent test submit
+    // Wait for any in-flight DB write, with a 12s timeout to prevent infinite loading
     if (state.pendingSave) {
-        try { await state.pendingSave; } catch (e) { console.error('Save error:', e); }
+        try {
+            await Promise.race([
+                state.pendingSave,
+                new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 12000))
+            ]);
+        } catch (e) {
+            console.error('Pending save timed out or failed:', e);
+        }
         state.pendingSave = null;
     }
 

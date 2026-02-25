@@ -1397,3 +1397,17 @@ body {
         padding: 7px 14px;
     }
 }
+
+/* Save status indicator on results screen */
+.save-status-msg {
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.save-status-msg.saving { color: var(--gray-600); }
+.save-status-msg.save-ok { color: var(--success-color); }
+.save-status-msg.save-fail { color: var(--danger-color); }
+.save-status-msg a { color: var(--danger-color); font-weight: 700; text-decoration: underline; }
