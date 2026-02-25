@@ -40,7 +40,9 @@ let state = {
         5: { used: [], round: 1 }
     },
     // Cached exam history records (for history detail view)
-    historyData: []
+    historyData: [],
+    // Tracks the in-flight DB save after a test submit (so history can wait for it)
+    pendingSave: null
 };
 
 // ── Initialize Application ───────────────────────────────────────────────────
@@ -702,9 +704,8 @@ async function submitTest() {
     displayResults(results);
 
     if (state.currentUser) {
-        // Fire-and-forget: save to DB without blocking UI
-        saveExamResult(results);
-        saveQuestionProgress();
+        // Track the save promise so showHistoryScreen can wait for it before querying
+        state.pendingSave = Promise.all([saveExamResult(results), saveQuestionProgress()]);
         document.getElementById('view-history-btn').style.display = '';
     } else {
         document.getElementById('view-history-btn').style.display = 'none';
@@ -986,13 +987,24 @@ async function showHistoryScreen() {
     const listEl = document.getElementById('history-list');
     listEl.innerHTML = '<p class="loading-text">Loading history...</p>';
 
+    // Wait for any in-flight DB write from the most recent test submit
+    if (state.pendingSave) {
+        try { await state.pendingSave; } catch (e) { console.error('Save error:', e); }
+        state.pendingSave = null;
+    }
+
     const { data, error } = await db
         .from('exam_results')
         .select('*')
         .eq('user_id', state.currentUser.id)
         .order('taken_at', { ascending: false });
 
-    if (error || !data || data.length === 0) {
+    if (error) {
+        listEl.innerHTML = '<p class="empty-state" style="color:var(--danger-color);">Failed to load history. Please check your connection and try again.</p>';
+        console.error('Failed to load history:', error);
+        return;
+    }
+    if (!data || data.length === 0) {
         listEl.innerHTML = '<p class="empty-state">No exams taken yet. Complete a test to see your history here.</p>';
         return;
     }
@@ -1169,12 +1181,20 @@ function showHistoryDetail(record) {
             `;
         });
 
+        const isFav = state.currentUser && state.favoritedQuestionIds.has(question.id);
+        const favBtnHTML = state.currentUser
+            ? `<button class="btn btn-sm btn-outline review-fav-btn ${isFav ? 'favorited' : ''}" data-qid="${question.id}">${isFav ? '★ Favorited' : '☆ Favorite'}</button>`
+            : '';
+
         reviewItem.innerHTML = `
             <div class="review-header-info">
                 <span class="review-question-num">Question ${index + 1} (${question.points} points)</span>
-                <span class="review-result ${isCorrect ? 'correct' : 'wrong'}">
-                    ${isCorrect ? '✓ Correct' : userAnswer ? '✗ Wrong' : '✗ Not Answered'}
-                </span>
+                <div class="review-header-actions">
+                    ${favBtnHTML}
+                    <span class="review-result ${isCorrect ? 'correct' : 'wrong'}">
+                        ${isCorrect ? '✓ Correct' : userAnswer ? '✗ Wrong' : '✗ Not Answered'}
+                    </span>
+                </div>
             </div>
             <div class="review-question-text">${question.question}</div>
             ${imageHTML}
@@ -1184,6 +1204,26 @@ function showHistoryDetail(record) {
             ${!userAnswer ? `<p style="margin-top:4px;color:var(--gray-600);">You did not answer this question.</p>` : ''}
         `;
         reviewEl.appendChild(reviewItem);
+    });
+
+    // Bind favorite buttons in history detail view
+    reviewEl.querySelectorAll('.review-fav-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            const qid = btn.dataset.qid;
+            if (state.favoritedQuestionIds.has(qid)) {
+                await removeFavorite(qid);
+                btn.classList.remove('favorited');
+                btn.textContent = '☆ Favorite';
+            } else {
+                const { error } = await db.from('favorites')
+                    .insert({ user_id: state.currentUser.id, question_id: qid });
+                if (!error) {
+                    state.favoritedQuestionIds.add(qid);
+                    btn.classList.add('favorited');
+                    btn.textContent = '★ Favorited';
+                }
+            }
+        });
     });
 
     showScreen('history-detail-screen');
