@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math Kangaroo G4 Practice Test</title>
+    <title>Math Kangaroo Practice Test</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,16 +11,33 @@
     <!-- Top Navigation Bar -->
     <nav id="top-nav" class="top-nav">
         <div class="nav-container">
-            <span class="nav-brand">🦘 Math Kangaroo G4</span>
+            <span class="nav-brand">🦘 Math Kangaroo</span>
             <div class="nav-right" id="nav-right"></div>
         </div>
     </nav>
 
-    <!-- Welcome Screen -->
-    <div id="welcome-screen" class="screen active">
+    <!-- Grade Selection Screen (Homepage) -->
+    <div id="grade-selection-screen" class="screen active">
+        <div class="container">
+            <div class="grade-selection-card">
+                <h1>🦘 Math Kangaroo Practice Test</h1>
+                <p class="grade-subtitle">Select Your Grade Level</p>
+                <div class="grade-buttons">
+                    <button id="select-g34-btn" class="grade-btn">G3-4</button>
+                    <button id="select-g56-btn" class="grade-btn">G5-6</button>
+                </div>
+                <p class="guest-note" id="guest-note" style="display:none;">
+                    No account? <a href="#" id="guest-continue-link">Continue as guest</a> — history and favorites won't be saved.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Welcome Screen (Test Info) -->
+    <div id="welcome-screen" class="screen">
         <div class="container">
             <div class="welcome-card">
-                <h1>🦘 Math Kangaroo G4 Practice Test</h1>
+                <h1 id="welcome-title">🦘 Math Kangaroo Practice Test</h1>
                 <div class="test-info">
                     <h2>Test Information</h2>
                     <ul>
@@ -38,9 +55,6 @@
                     </ul>
                 </div>
                 <button id="start-test-btn" class="btn btn-primary">Start Test</button>
-                <p class="guest-note" id="guest-note" style="display:none;">
-                    No account? <a href="#" id="guest-continue-link">Continue as guest</a> — history and favorites won't be saved.
-                </p>
             </div>
         </div>
     </div>
@@ -51,7 +65,7 @@
         <div class="test-header">
             <div class="container">
                 <div class="header-content">
-                    <h2>Math Kangaroo G4 Practice Test</h2>
+                    <h2 id="test-header-title">Math Kangaroo Practice Test</h2>
                     <div class="header-right">
                         <div class="timer" id="timer">
                             <span class="timer-icon">⏱️</span>

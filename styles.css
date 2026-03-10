@@ -116,6 +116,95 @@ body {
     border-color: var(--warning-color);
 }
 
+/* Grade Selection Screen (Homepage) */
+#grade-selection-screen {
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    min-height: calc(100vh - 56px);
+}
+
+#grade-selection-screen.active {
+    display: flex !important;
+}
+
+#grade-selection-screen .container {
+    max-width: 600px;
+    width: 100%;
+}
+
+.grade-selection-card {
+    background: white;
+    border-radius: 16px;
+    padding: 56px 48px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+
+.grade-selection-card h1 {
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.grade-subtitle {
+    font-size: 18px;
+    color: var(--gray-600);
+    margin-bottom: 40px;
+}
+
+.grade-buttons {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.grade-btn {
+    background: white;
+    border: 3px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 26px;
+    font-weight: 700;
+    padding: 24px 56px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+    letter-spacing: 1px;
+}
+
+.grade-btn:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.3);
+}
+
+.grade-btn:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 640px) {
+    .grade-selection-card {
+        padding: 40px 24px;
+    }
+
+    .grade-selection-card h1 {
+        font-size: 28px;
+    }
+
+    .grade-buttons {
+        gap: 16px;
+    }
+
+    .grade-btn {
+        font-size: 22px;
+        padding: 20px 40px;
+    }
+}
+
 /* Welcome Screen */
 #welcome-screen {
     padding: 40px 20px;
@@ -466,6 +555,14 @@ body {
     flex: 1;
     font-size: 16px;
     color: var(--gray-800);
+}
+
+.choice-image {
+    max-width: 220px;
+    max-height: 160px;
+    height: auto;
+    border-radius: 6px;
+    display: block;
 }
 
 .question-actions {

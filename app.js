@@ -17,8 +17,13 @@ try {
 
 // ── Application State ────────────────────────────────────────────────────────
 let state = {
-    // Questions
+    // Question databases (loaded at init)
+    g56Questions: [],        // G5-6 questions from questions.json
+    g34Questions: [],        // G3-4 questions from eco_questions.json
+    // Active question pool (set when grade is selected)
     allQuestions: [],
+    selectedGrade: null,     // 'G3-4' or 'G5-6'
+    // Test state
     testQuestions: [],
     currentQuestionIndex: 0,
     userAnswers: {},
@@ -33,11 +38,11 @@ let state = {
     isRecoveryMode: false,
     // Favorites
     favoritedQuestionIds: new Set(),
-    // Smart question generation progress (loaded from DB on login)
+    // Smart question generation progress (per grade, per tier)
+    // DB stores G5-6 as points 3/4/5 and G3-4 as points 103/104/105
     questionProgress: {
-        3: { used: [], round: 1 },
-        4: { used: [], round: 1 },
-        5: { used: [], round: 1 }
+        'G3-4': { 3: { used: [], round: 1 }, 4: { used: [], round: 1 }, 5: { used: [], round: 1 } },
+        'G5-6': { 3: { used: [], round: 1 }, 4: { used: [], round: 1 }, 5: { used: [], round: 1 } }
     },
     // Cached exam history records (for history detail view)
     historyData: [],
@@ -50,9 +55,13 @@ let state = {
 // ── Initialize Application ───────────────────────────────────────────────────
 async function init() {
     try {
-        const response = await fetch('questions.json');
-        const data = await response.json();
-        state.allQuestions = data.questions;
+        // Load both question databases in parallel
+        const [benData, ecoData] = await Promise.all([
+            fetch('questions.json').then(r => r.json()),
+            fetch('eco_questions.json').then(r => r.json())
+        ]);
+        state.g56Questions = benData.questions;
+        state.g34Questions = ecoData.questions;
 
         // Check for password recovery redirect (user clicked reset link in email).
         // Supabase appends #type=recovery&access_token=... to the redirect URL.
@@ -76,7 +85,7 @@ async function init() {
         setupEventListeners();
         setupAuthListeners();
         renderNav();
-        showScreen('welcome-screen');
+        showScreen('grade-selection-screen');
 
     } catch (error) {
         console.error('Error initializing app:', error);
@@ -109,9 +118,8 @@ function handleUserLogout() {
     state.currentUser = null;
     state.favoritedQuestionIds = new Set();
     state.questionProgress = {
-        3: { used: [], round: 1 },
-        4: { used: [], round: 1 },
-        5: { used: [], round: 1 }
+        'G3-4': { 3: { used: [], round: 1 }, 4: { used: [], round: 1 }, 5: { used: [], round: 1 } },
+        'G5-6': { 3: { used: [], round: 1 }, 4: { used: [], round: 1 }, 5: { used: [], round: 1 } }
     };
 }
 
@@ -243,7 +251,7 @@ async function register() {
 
 async function logout() {
     await db.auth.signOut();
-    showScreen('welcome-screen');
+    showScreen('grade-selection-screen');
 }
 
 async function sendPasswordReset() {
@@ -345,14 +353,18 @@ async function handleRecoverySubmit() {
             history.replaceState(null, '', window.location.pathname);
             state.isRecoveryMode = false;
             renderNav();
-            showScreen('welcome-screen');
+            showScreen('grade-selection-screen');
         }, 2000);
     }
 }
 
 // ── Setup Event Listeners ────────────────────────────────────────────────────
 function setupEventListeners() {
-    // Existing test flow
+    // Grade selection
+    document.getElementById('select-g34-btn').addEventListener('click', () => selectGrade('G3-4'));
+    document.getElementById('select-g56-btn').addEventListener('click', () => selectGrade('G5-6'));
+
+    // Test flow
     document.getElementById('start-test-btn').addEventListener('click', async () => {
         try {
             await startTest();
@@ -371,13 +383,13 @@ function setupEventListeners() {
     document.getElementById('retake-test-btn').addEventListener('click', retakeTest);
     document.getElementById('back-to-results-btn').addEventListener('click', backToResults);
 
-    // New user-system buttons
+    // User system buttons
     document.getElementById('favorite-btn').addEventListener('click', toggleFavorite);
     document.getElementById('quit-test-btn').addEventListener('click', quitTest);
     document.getElementById('view-history-btn').addEventListener('click', showHistoryScreen);
-    document.getElementById('history-back-btn').addEventListener('click', () => showScreen('welcome-screen'));
+    document.getElementById('history-back-btn').addEventListener('click', () => showScreen('grade-selection-screen'));
     document.getElementById('history-detail-back-btn').addEventListener('click', showHistoryScreen);
-    document.getElementById('favorites-back-btn').addEventListener('click', () => showScreen('welcome-screen'));
+    document.getElementById('favorites-back-btn').addEventListener('click', () => showScreen('grade-selection-screen'));
     document.getElementById('recovery-submit-btn').addEventListener('click', handleRecoverySubmit);
 
     // Auth modal
@@ -404,9 +416,25 @@ function setupEventListeners() {
     document.getElementById('register-confirm').addEventListener('keydown', (e) => { if (e.key === 'Enter') register(); });
     document.getElementById('forgot-email').addEventListener('keydown', (e) => { if (e.key === 'Enter') sendPasswordReset(); });
 
-    // Guest continue link (just closes modal / does nothing — welcome screen is already visible)
+    // Guest continue link
     const guestLink = document.getElementById('guest-continue-link');
     if (guestLink) guestLink.addEventListener('click', (e) => e.preventDefault());
+}
+
+// ── Grade Selection ──────────────────────────────────────────────────────────
+function selectGrade(grade) {
+    state.selectedGrade = grade;
+    state.allQuestions = grade === 'G3-4' ? state.g34Questions : state.g56Questions;
+
+    // Update welcome screen title to reflect selected grade
+    const titleEl = document.getElementById('welcome-title');
+    if (titleEl) titleEl.textContent = `🦘 Math Kangaroo ${grade} Practice Test`;
+
+    // Update test screen header title
+    const testHeaderEl = document.getElementById('test-header-title');
+    if (testHeaderEl) testHeaderEl.textContent = `Math Kangaroo ${grade} Practice Test`;
+
+    showScreen('welcome-screen');
 }
 
 // ── Generate Test ────────────────────────────────────────────────────────────
@@ -441,20 +469,21 @@ function generateSmartTest() {
 // When all questions in the tier have been used, resets and starts a new round.
 function selectQuestionsForTier(points, count) {
     const all = state.allQuestions.filter(q => q.points === points);
-    const progress = state.questionProgress[points];
+    const grade = state.selectedGrade;
+    const progress = state.questionProgress[grade][points];
     const usedIds = new Set(progress.used);
     let available = all.filter(q => !usedIds.has(q.id));
 
     if (available.length < count) {
         // All questions in this tier have been used — start a new round
-        state.questionProgress[points] = { used: [], round: progress.round + 1 };
+        state.questionProgress[grade][points] = { used: [], round: progress.round + 1 };
         available = [...all];
     }
 
     const selected = shuffleArray(available).slice(0, count);
     // Mark selected as used in memory; persisted to DB after test submit
-    state.questionProgress[points].used = [
-        ...state.questionProgress[points].used,
+    state.questionProgress[grade][points].used = [
+        ...state.questionProgress[grade][points].used,
         ...selected.map(q => q.id)
     ];
     return selected;
@@ -608,17 +637,35 @@ function displayQuestion() {
     scrollToQuestion();
 }
 
+// ── Choice Content Helper ─────────────────────────────────────────────────────
+// Returns HTML string for a choice value (handles text strings, {type:'text'}, {type:'image'})
+function choiceContentHTML(choiceVal) {
+    if (choiceVal === null || choiceVal === undefined) return '';
+    if (typeof choiceVal === 'string') return choiceVal;
+    if (choiceVal.type === 'image') {
+        return `<img src="${choiceVal.src}" alt="Choice image" class="choice-image">`;
+    }
+    if (choiceVal.type === 'text') return choiceVal.value;
+    return '';
+}
+
+// Returns true if a choice value is empty/null/undefined
+function isChoiceEmpty(choiceVal) {
+    if (choiceVal === null || choiceVal === undefined) return true;
+    if (typeof choiceVal === 'string' && choiceVal.trim() === '') return true;
+    if (choiceVal.type === 'text' && choiceVal.value.trim() === '') return true;
+    return false;
+}
+
 // ── Render Choices ────────────────────────────────────────────────────────────
 function renderChoices(question) {
     const container = document.getElementById('choices-container');
     container.innerHTML = '';
     const choices = ['A', 'B', 'C', 'D', 'E'];
     choices.forEach(choice => {
-        if (question.choices[choice] === undefined ||
-            question.choices[choice] === null ||
-            (typeof question.choices[choice] === 'string' && question.choices[choice].trim() === '')) {
-            return;
-        }
+        const choiceVal = question.choices[choice];
+        if (isChoiceEmpty(choiceVal)) return;
+
         const choiceDiv = document.createElement('div');
         choiceDiv.className = 'choice';
         if (state.userAnswers[state.currentQuestionIndex] === choice) {
@@ -627,7 +674,7 @@ function renderChoices(question) {
         choiceDiv.innerHTML = `
             <div class="choice-radio"></div>
             <div class="choice-label">${choice}</div>
-            <div class="choice-text">${question.choices[choice]}</div>
+            <div class="choice-text">${choiceContentHTML(choiceVal)}</div>
         `;
         choiceDiv.addEventListener('click', () => selectAnswer(choice));
         container.appendChild(choiceDiv);
@@ -678,7 +725,7 @@ function quitTest() {
     state.userAnswers = {};
     state.markedQuestions = new Set();
     state.currentQuestionIndex = 0;
-    showScreen('welcome-screen');
+    showScreen('grade-selection-screen');
 }
 
 // ── Confirm Submit ────────────────────────────────────────────────────────────
@@ -886,6 +933,7 @@ async function retrySave() {
 }
 
 // ── Question Progress (Smart Generation) ─────────────────────────────────────
+// DB mapping: G5-6 uses points 3/4/5, G3-4 uses points 103/104/105
 async function loadQuestionProgress() {
     const { data, error } = await db
         .from('question_progress')
@@ -896,20 +944,36 @@ async function loadQuestionProgress() {
 
     if (data) {
         data.forEach(row => {
-            state.questionProgress[row.points] = {
-                used: row.used_question_ids || [],
-                round: row.round_number
-            };
+            const pts = row.points;
+            if (pts <= 5) {
+                // G5-6
+                state.questionProgress['G5-6'][pts] = {
+                    used: row.used_question_ids || [],
+                    round: row.round_number
+                };
+            } else {
+                // G3-4 (stored as 103, 104, 105)
+                const actualPts = pts - 100;
+                if (actualPts >= 3 && actualPts <= 5) {
+                    state.questionProgress['G3-4'][actualPts] = {
+                        used: row.used_question_ids || [],
+                        round: row.round_number
+                    };
+                }
+            }
         });
     }
 }
 
 async function saveQuestionProgress() {
+    const grade = state.selectedGrade;
+    const offset = grade === 'G3-4' ? 100 : 0;
+
     const upserts = [3, 4, 5].map(points => ({
         user_id: state.currentUser.id,
-        points,
-        used_question_ids: state.questionProgress[points].used,
-        round_number: state.questionProgress[points].round,
+        points: points + offset,
+        used_question_ids: state.questionProgress[grade][points].used,
+        round_number: state.questionProgress[grade][points].round,
         last_updated: new Date().toISOString()
     }));
 
@@ -975,6 +1039,12 @@ async function removeFavorite(questionId) {
     if (!error) state.favoritedQuestionIds.delete(questionId);
 }
 
+// ── Find Question By ID (searches both grade pools) ──────────────────────────
+function findQuestionById(id) {
+    return state.g56Questions.find(q => q.id === id) ||
+           state.g34Questions.find(q => q.id === id);
+}
+
 async function showFavoritesScreen() {
     showScreen('favorites-screen');
     const listEl = document.getElementById('favorites-list');
@@ -992,7 +1062,7 @@ async function showFavoritesScreen() {
     }
 
     const favQuestions = data
-        .map(row => state.allQuestions.find(q => q.id === row.question_id))
+        .map(row => findQuestionById(row.question_id))
         .filter(Boolean);
 
     listEl.innerHTML = '';
@@ -1037,14 +1107,14 @@ async function showFavoritesScreen() {
 function renderFavChoices(question) {
     const choices = ['A', 'B', 'C', 'D', 'E'];
     return choices
-        .filter(c => question.choices[c] !== undefined && question.choices[c] !== null &&
-            !(typeof question.choices[c] === 'string' && question.choices[c].trim() === ''))
+        .filter(c => !isChoiceEmpty(question.choices[c]))
         .map(c => {
             const isCorrect = c === question.answer;
+            const content = choiceContentHTML(question.choices[c]);
             return `
                 <div class="fav-choice ${isCorrect ? 'fav-choice-correct' : ''}">
                     <span class="fav-choice-label">${c})</span>
-                    <span>${question.choices[c]}</span>
+                    <span>${content}</span>
                     ${isCorrect ? '<span class="fav-correct-mark">✓ Correct Answer</span>' : ''}
                 </div>
             `;
@@ -1150,7 +1220,8 @@ async function showHistoryScreen() {
 // ── History Detail View ───────────────────────────────────────────────────────
 function showHistoryDetail(record) {
     window.scrollTo(0, 0);
-    const questions = record.question_ids.map(id => state.allQuestions.find(q => q.id === id));
+    // Search both grade pools for questions
+    const questions = record.question_ids.map(id => findQuestionById(id));
     const userAnswers = record.user_answers;
 
     // Score summary
@@ -1245,15 +1316,16 @@ function showHistoryDetail(record) {
         const choices = ['A', 'B', 'C', 'D', 'E'];
         let choicesHTML = '';
         choices.forEach(choice => {
-            if (question.choices[choice] === undefined || question.choices[choice] === null ||
-                (typeof question.choices[choice] === 'string' && question.choices[choice].trim() === '')) return;
+            const choiceVal = question.choices[choice];
+            if (isChoiceEmpty(choiceVal)) return;
             let choiceClass = '';
             if (choice === correctAnswer) choiceClass = 'correct-answer';
             else if (choice === userAnswer && !isCorrect) choiceClass = 'user-wrong';
+            const content = choiceContentHTML(choiceVal);
             choicesHTML += `
                 <div class="review-choice ${choiceClass}">
                     <span class="review-choice-label">${choice})</span>
-                    <span>${question.choices[choice]}</span>
+                    <span>${content}</span>
                 </div>
             `;
         });
@@ -1338,15 +1410,16 @@ function showReview() {
         const choices = ['A', 'B', 'C', 'D', 'E'];
         let choicesHTML = '';
         choices.forEach(choice => {
-            if (question.choices[choice] === undefined || question.choices[choice] === null ||
-                (typeof question.choices[choice] === 'string' && question.choices[choice].trim() === '')) return;
+            const choiceVal = question.choices[choice];
+            if (isChoiceEmpty(choiceVal)) return;
             let choiceClass = '';
             if (choice === correctAnswer) choiceClass = 'correct-answer';
             else if (choice === userAnswer && !isCorrect) choiceClass = 'user-wrong';
+            const content = choiceContentHTML(choiceVal);
             choicesHTML += `
                 <div class="review-choice ${choiceClass}">
                     <span class="review-choice-label">${choice})</span>
-                    <span>${question.choices[choice]}</span>
+                    <span>${content}</span>
                 </div>
             `;
         });
@@ -1405,7 +1478,7 @@ function backToResults() {
 
 function retakeTest() {
     if (confirm('Are you sure you want to take a new test? Your current results will be lost.')) {
-        showScreen('welcome-screen');
+        showScreen('grade-selection-screen');
     }
 }
 

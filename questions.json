@@ -21,7 +21,8 @@
         "D": "In the circle but in neither the square or the triangle",
         "E": "In the square but in neither the circle or the triangle"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-02",
@@ -35,7 +36,8 @@
         "D": "200×9",
         "E": "200+9"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-03",
@@ -49,7 +51,8 @@
         "D": "23",
         "E": "more than 23"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-04",
@@ -63,7 +66,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-05",
@@ -77,7 +81,8 @@
         "D": "red or green",
         "E": "not possible to answer"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-06",
@@ -91,7 +96,8 @@
         "D": "8",
         "E": "12"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-07",
@@ -105,7 +111,8 @@
         "D": "440 cm",
         "E": "1680 cm"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-08",
@@ -119,7 +126,8 @@
         "D": "13",
         "E": "14"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-09",
@@ -133,7 +141,8 @@
         "D": "240 m",
         "E": "270 m"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-10",
@@ -147,7 +156,8 @@
         "D": "a quarter the size",
         "E": "a sixth of the size"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-11",
@@ -161,7 +171,8 @@
         "D": "all",
         "E": "None of these answers"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-12",
@@ -175,7 +186,8 @@
         "D": "52",
         "E": "60"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-13",
@@ -189,7 +201,8 @@
         "D": "174",
         "E": "184"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-14",
@@ -203,7 +216,8 @@
         "D": "7 cm",
         "E": "8 cm"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-15",
@@ -217,7 +231,8 @@
         "D": "1200",
         "E": "96000"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-16",
@@ -231,7 +246,8 @@
         "D": "35",
         "E": "41"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-17",
@@ -245,7 +261,8 @@
         "D": "64",
         "E": "65"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-18",
@@ -259,7 +276,8 @@
         "D": "The card numbered 2 is in B",
         "E": "The card numbered 5 is in B"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-19",
@@ -273,7 +291,8 @@
         "D": "Doris",
         "E": "It cannot be determined"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-20",
@@ -287,7 +306,8 @@
         "D": "18",
         "E": "24"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-21",
@@ -301,7 +321,8 @@
         "D": "95 times",
         "E": "100 times"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-22",
@@ -315,7 +336,8 @@
         "D": "52 cm²",
         "E": "58 cm²"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-23",
@@ -329,7 +351,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-09-24",
@@ -343,7 +366,8 @@
         "D": "D",
         "E": "There are two possibilities"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-01",
@@ -357,7 +381,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-03",
@@ -371,7 +396,8 @@
         "D": "12",
         "E": "13"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-04",
@@ -385,7 +411,8 @@
         "D": "the 12th",
         "E": "the 10th"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-05",
@@ -399,7 +426,8 @@
         "D": "35",
         "E": "40"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-06",
@@ -413,7 +441,8 @@
         "D": "5 cats",
         "E": "6 cats"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-07",
@@ -427,7 +456,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-08",
@@ -441,7 +471,8 @@
         "D": "3,4,6,7",
         "E": "1,4,5,8"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-09",
@@ -455,7 +486,8 @@
         "D": "42",
         "E": "46"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-11",
@@ -469,7 +501,8 @@
         "D": "20×10+10×20",
         "E": "(20÷10)·20+10"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-13",
@@ -483,7 +516,8 @@
         "D": "567",
         "E": "728"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-14",
@@ -497,7 +531,8 @@
         "D": "22",
         "E": "24"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-15",
@@ -511,7 +546,8 @@
         "D": "8, 52 and 53",
         "E": "8, 53 and 54"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-16",
@@ -525,7 +561,8 @@
         "D": "13×13",
         "E": "14×14"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-17",
@@ -539,7 +576,8 @@
         "D": "9",
         "E": "10"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-18",
@@ -553,7 +591,8 @@
         "D": "3/8",
         "E": "2/9"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-19",
@@ -567,7 +606,8 @@
         "D": "16 g",
         "E": "It cannot be calculated"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-20",
@@ -581,7 +621,8 @@
         "D": "48",
         "E": "72"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-21",
@@ -595,7 +636,8 @@
         "D": "Petra",
         "E": "Arno"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-22",
@@ -609,7 +651,8 @@
         "D": "17",
         "E": "20"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-23",
@@ -623,7 +666,8 @@
         "D": "7",
         "E": "This is not possible"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-10-24",
@@ -637,7 +681,8 @@
         "D": "yellow",
         "E": "Nobody speaks the truth"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-01",
@@ -651,7 +696,8 @@
         "D": "Thursday",
         "E": "Friday"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-02",
@@ -665,7 +711,8 @@
         "D": "58",
         "E": "62"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-03",
@@ -679,7 +726,8 @@
         "D": "A pentagon",
         "E": "An equilateral triangle"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-04",
@@ -693,7 +741,8 @@
         "D": "45",
         "E": "47"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-06",
@@ -707,7 +756,8 @@
         "D": "660",
         "E": "500"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-07",
@@ -721,7 +771,8 @@
         "D": "13",
         "E": "8"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-10",
@@ -735,7 +786,8 @@
         "D": "1120 ml",
         "E": "1960 ml"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-11",
@@ -749,7 +801,8 @@
         "D": "15",
         "E": "16"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-12",
@@ -763,7 +816,8 @@
         "D": "909",
         "E": "990"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-13",
@@ -777,7 +831,8 @@
         "D": "81",
         "E": "100"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-14",
@@ -791,7 +846,8 @@
         "D": "56",
         "E": "72"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-15",
@@ -805,7 +861,8 @@
         "D": "3720",
         "E": "30720"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-16",
@@ -819,7 +876,8 @@
         "D": "4:1",
         "E": "0:1"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-17",
@@ -833,7 +891,8 @@
         "D": "4",
         "E": "That depends on the triangle"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-18",
@@ -847,7 +906,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-19",
@@ -861,7 +921,8 @@
         "D": "16",
         "E": "20"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-20",
@@ -875,7 +936,8 @@
         "D": "5",
         "E": "7"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-21",
@@ -889,7 +951,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-22",
@@ -903,7 +966,8 @@
         "D": "56 cm²",
         "E": "64 cm²"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-11-24",
@@ -917,7 +981,8 @@
         "D": "5",
         "E": "10"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-02",
@@ -931,7 +996,8 @@
         "D": "10",
         "E": "11"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-03",
@@ -945,7 +1011,8 @@
         "D": "3",
         "E": "5"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-04",
@@ -959,7 +1026,8 @@
         "D": "1.75 m",
         "E": "2 m"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-05",
@@ -973,7 +1041,8 @@
         "D": "20 days",
         "E": "15 days"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-07",
@@ -987,7 +1056,8 @@
         "D": "(6+3)×2+1",
         "E": "6+3×(2+1)"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-08",
@@ -1001,7 +1071,8 @@
         "D": "3",
         "E": "2"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-09",
@@ -1015,7 +1086,8 @@
         "D": "144",
         "E": "150"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-10",
@@ -1029,7 +1101,8 @@
         "D": "30 kg",
         "E": "20 kg"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-11",
@@ -1043,7 +1116,8 @@
         "D": "20",
         "E": "21"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-12",
@@ -1057,7 +1131,8 @@
         "D": "2,3,6",
         "E": "2,5,6"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-13",
@@ -1071,7 +1146,8 @@
         "D": "D",
         "E": "The picture is not possible"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-14",
@@ -1085,7 +1161,8 @@
         "D": "red or blue",
         "E": "impossible to say"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-15",
@@ -1099,7 +1176,8 @@
         "D": "72 cm²",
         "E": "128 cm²"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-17",
@@ -1113,7 +1191,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-18",
@@ -1127,7 +1206,8 @@
         "D": "8",
         "E": "9"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-19",
@@ -1141,7 +1221,8 @@
         "D": "10 mm",
         "E": "12 mm"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-21",
@@ -1155,7 +1236,8 @@
         "D": "15 cm",
         "E": "20 cm"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-23",
@@ -1169,7 +1251,8 @@
         "D": "16 cm²",
         "E": "24 cm²"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-12-24",
@@ -1183,7 +1266,8 @@
         "D": "6.5",
         "E": "6"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-01",
@@ -1197,7 +1281,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-02",
@@ -1211,7 +1296,8 @@
         "D": "8",
         "E": "9"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-03",
@@ -1225,7 +1311,8 @@
         "D": "1 km",
         "E": "700 m"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-04",
@@ -1239,7 +1326,8 @@
         "D": "8",
         "E": "10"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-05",
@@ -1253,7 +1341,8 @@
         "D": "37",
         "E": "40"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-06",
@@ -1267,7 +1356,8 @@
         "D": "9",
         "E": "8"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-07",
@@ -1281,7 +1371,8 @@
         "D": "12:00",
         "E": "12:05"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-08",
@@ -1295,7 +1386,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-09",
@@ -1309,7 +1401,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-10",
@@ -1323,7 +1416,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-13",
@@ -1337,7 +1431,8 @@
         "D": "9 or 10",
         "E": "10"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-14",
@@ -1351,7 +1446,8 @@
         "D": "30",
         "E": "36"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-15",
@@ -1365,7 +1461,8 @@
         "D": "60",
         "E": "10"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-16",
@@ -1379,7 +1476,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-18",
@@ -1393,7 +1491,8 @@
         "D": "4",
         "E": "3"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-19",
@@ -1407,7 +1506,8 @@
         "D": "7",
         "E": "8"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-20",
@@ -1421,7 +1521,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-21",
@@ -1435,7 +1536,8 @@
         "D": "19",
         "E": "2013"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-22",
@@ -1449,7 +1551,8 @@
         "D": "15",
         "E": "16"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-23",
@@ -1463,7 +1566,8 @@
         "D": "2013",
         "E": "It is not possible to answer"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-13-24",
@@ -1477,7 +1581,8 @@
         "D": "14",
         "E": "20"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-01",
@@ -1491,7 +1596,8 @@
         "D": "7",
         "E": "8"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-02",
@@ -1505,7 +1611,8 @@
         "D": "450 g",
         "E": "600 g"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-03",
@@ -1519,7 +1626,8 @@
         "D": "(Corresponding option D diagram)",
         "E": "(Corresponding option E diagram)"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-04",
@@ -1533,7 +1641,8 @@
         "D": "3",
         "E": "10"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-05",
@@ -1547,7 +1656,8 @@
         "D": "9000",
         "E": "9900"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-06",
@@ -1561,7 +1671,8 @@
         "D": "60 cm",
         "E": "72 cm"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-07",
@@ -1575,7 +1686,8 @@
         "D": "7",
         "E": "8"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-08",
@@ -1589,7 +1701,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-09",
@@ -1603,7 +1716,8 @@
         "D": "the fourth",
         "E": "the fifth"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-10",
@@ -1617,7 +1731,8 @@
         "D": "(Corresponding option D diagram)",
         "E": "(Corresponding option E diagram)"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-11",
@@ -1631,7 +1746,8 @@
         "D": "10",
         "E": "11"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-12",
@@ -1645,7 +1761,8 @@
         "D": "D",
         "E": "E"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-14",
@@ -1659,7 +1776,8 @@
         "D": "17",
         "E": "18"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-15",
@@ -1673,7 +1791,8 @@
         "D": "7",
         "E": "8"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-16",
@@ -1687,7 +1806,8 @@
         "D": "16",
         "E": "17"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-17",
@@ -1701,7 +1821,8 @@
         "D": "10",
         "E": "13"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-18",
@@ -1715,7 +1836,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-19",
@@ -1729,7 +1851,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-20",
@@ -1743,7 +1866,8 @@
         "D": "D",
         "E": "E"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-21",
@@ -1757,7 +1881,8 @@
         "D": "28",
         "E": "29"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-22",
@@ -1771,7 +1896,8 @@
         "D": "90 min",
         "E": "120 min"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-23",
@@ -1785,7 +1911,8 @@
         "D": "only 7",
         "E": "only 8"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-14-24",
@@ -1799,7 +1926,8 @@
         "D": "22",
         "E": "23"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-03",
@@ -1813,7 +1941,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-04",
@@ -1827,7 +1956,8 @@
         "D": "25",
         "E": "10"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-05",
@@ -1841,7 +1971,8 @@
         "D": "21 cm",
         "E": "23 cm"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-06",
@@ -1855,7 +1986,8 @@
         "D": "22/11",
         "E": "23/12"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-07",
@@ -1869,7 +2001,8 @@
         "D": "5 kg",
         "E": "6 kg"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-09",
@@ -1883,7 +2016,8 @@
         "D": "15",
         "E": "16"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-10",
@@ -1897,7 +2031,8 @@
         "D": "10 cm",
         "E": "12 cm"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-11",
@@ -1911,7 +2046,8 @@
         "D": "12",
         "E": "13"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-12",
@@ -1925,7 +2061,8 @@
         "D": "16",
         "E": "20"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-13",
@@ -1939,7 +2076,8 @@
         "D": "10 cm",
         "E": "5 cm"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-14",
@@ -1953,7 +2091,8 @@
         "D": "29",
         "E": "31"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-15",
@@ -1967,7 +2106,8 @@
         "D": "4031",
         "E": "4032"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-16",
@@ -1981,7 +2121,8 @@
         "D": "32 cm",
         "E": "48 cm"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-17",
@@ -1995,7 +2136,8 @@
         "D": "each of the three colours",
         "E": "only 3 or 4"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-18",
@@ -2009,7 +2151,8 @@
         "D": "12",
         "E": "13"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-19",
@@ -2023,7 +2166,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-20",
@@ -2037,7 +2181,8 @@
         "D": "33",
         "E": "30"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-21",
@@ -2051,7 +2196,8 @@
         "D": "only 3 or 7",
         "E": "only 3, 4 or 7"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-22",
@@ -2065,7 +2211,8 @@
         "D": "10",
         "E": "12"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-23",
@@ -2079,7 +2226,8 @@
         "D": "10",
         "E": "11"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-15-24",
@@ -2093,7 +2241,8 @@
         "D": "24",
         "E": "26"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-02",
@@ -2107,7 +2256,8 @@
         "D": "8",
         "E": "12"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-03",
@@ -2121,7 +2271,8 @@
         "D": "1 cm, 3 cm, 6 cm",
         "E": "3 cm, 3 cm, 4 cm"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-04",
@@ -2135,7 +2286,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-05",
@@ -2149,7 +2301,8 @@
         "D": "40 cm²",
         "E": "50 cm²"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-06",
@@ -2163,7 +2316,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-07",
@@ -2177,7 +2331,8 @@
         "D": "50",
         "E": "75"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-08",
@@ -2191,7 +2346,8 @@
         "D": "3",
         "E": "4"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-09",
@@ -2205,7 +2361,8 @@
         "D": "D",
         "E": "E"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-11",
@@ -2219,7 +2376,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-12",
@@ -2233,7 +2391,8 @@
         "D": "D",
         "E": "E"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-13",
@@ -2247,7 +2406,8 @@
         "D": "10",
         "E": "5"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-14",
@@ -2261,7 +2421,8 @@
         "D": "4217",
         "E": "4298"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-16",
@@ -2275,7 +2436,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-17",
@@ -2289,7 +2451,8 @@
         "D": "59",
         "E": "60"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-18",
@@ -2303,7 +2466,8 @@
         "D": "7",
         "E": "8"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-19",
@@ -2317,7 +2481,8 @@
         "D": "35 cm",
         "E": "This cannot be calculated"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-20",
@@ -2331,7 +2496,8 @@
         "D": "14",
         "E": "16"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-21",
@@ -2345,7 +2511,8 @@
         "D": "15",
         "E": "19"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-22",
@@ -2359,7 +2526,8 @@
         "D": "13",
         "E": "15"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-23",
@@ -2373,7 +2541,8 @@
         "D": "8",
         "E": "9"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-16-24",
@@ -2387,7 +2556,8 @@
         "D": "546",
         "E": "552"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-01",
@@ -2401,7 +2571,8 @@
         "D": "7210",
         "E": "127"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-02",
@@ -2415,7 +2586,8 @@
         "D": "5 cats",
         "E": "6 cats"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-04",
@@ -2429,7 +2601,8 @@
         "D": "2468642",
         "E": "4321234"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-05",
@@ -2443,7 +2616,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-07",
@@ -2457,7 +2631,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-09",
@@ -2471,7 +2646,8 @@
         "D": "1/2",
         "E": "3/5"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-10",
@@ -2485,7 +2661,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-11",
@@ -2499,7 +2676,8 @@
         "D": "100 cm",
         "E": "120 cm"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-12",
@@ -2513,7 +2691,8 @@
         "D": "9912345",
         "E": "9818192"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-13",
@@ -2527,7 +2706,8 @@
         "D": "13",
         "E": "15"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-14",
@@ -2541,7 +2721,8 @@
         "D": "15 km",
         "E": "16 km"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-16",
@@ -2555,7 +2736,8 @@
         "D": "16 cm²",
         "E": "6 cm²"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-18",
@@ -2569,7 +2751,8 @@
         "D": "6",
         "E": "8"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-19",
@@ -2583,7 +2766,8 @@
         "D": "13",
         "E": "16"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-20",
@@ -2597,7 +2781,8 @@
         "D": "three triangles, three squares",
         "E": "three triangles, two squares"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-21",
@@ -2611,7 +2796,8 @@
         "D": "8",
         "E": "7"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-22",
@@ -2625,7 +2811,8 @@
         "D": "823",
         "E": "824"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-17-23",
@@ -2639,7 +2826,8 @@
         "D": "Ina, Celina, Petra",
         "E": "Celina, Petra, Ina"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-01",
@@ -2653,7 +2841,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-03",
@@ -2667,7 +2856,8 @@
         "D": "20",
         "E": "22"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-04",
@@ -2681,7 +2871,8 @@
         "D": "D",
         "E": "E"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-05",
@@ -2695,7 +2886,8 @@
         "D": "90 cm",
         "E": "72 cm"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-06",
@@ -2709,7 +2901,8 @@
         "D": "Saturday",
         "E": "Sunday"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-07",
@@ -2723,7 +2916,8 @@
         "D": "12",
         "E": "18"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-08",
@@ -2737,7 +2931,8 @@
         "D": "14 cm",
         "E": "16 cm"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-09",
@@ -2751,7 +2946,8 @@
         "D": "13",
         "E": "15"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-10",
@@ -2765,7 +2961,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-11",
@@ -2779,7 +2976,8 @@
         "D": "D",
         "E": "The total area of the black parts is always equally big"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-12",
@@ -2793,7 +2991,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-13",
@@ -2807,7 +3006,8 @@
         "D": "It can be in any room",
         "E": "It is either in room 1 or room 2"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-14",
@@ -2821,7 +3021,8 @@
         "D": "Olga",
         "E": "Urban"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-16",
@@ -2835,7 +3036,8 @@
         "D": "3",
         "E": "It cannot be determined"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-17",
@@ -2849,7 +3051,8 @@
         "D": "22",
         "E": "it cannot be calculated"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-18",
@@ -2863,7 +3066,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-20",
@@ -2877,7 +3081,8 @@
         "D": "D",
         "E": "E"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-21",
@@ -2891,7 +3096,8 @@
         "D": "AAABCB",
         "E": "AAACBB"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-22",
@@ -2905,7 +3111,8 @@
         "D": "53",
         "E": "56"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-23",
@@ -2919,7 +3126,8 @@
         "D": "6",
         "E": "another number"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-18-24",
@@ -2933,7 +3141,8 @@
         "D": "200 cm",
         "E": "232 cm"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-03",
@@ -2947,7 +3156,8 @@
         "D": "2",
         "E": "1"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-04",
@@ -2961,7 +3171,8 @@
         "D": "09:12",
         "E": "02:19"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-06",
@@ -2975,7 +3186,8 @@
         "D": "Octagon",
         "E": "Dodecagon"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-07",
@@ -2989,7 +3201,8 @@
         "D": "20",
         "E": "24"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-08",
@@ -3003,7 +3216,8 @@
         "D": "8",
         "E": "9"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-09",
@@ -3017,7 +3231,8 @@
         "D": "10",
         "E": "11"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-10",
@@ -3031,7 +3246,8 @@
         "D": "29",
         "E": "35"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-13",
@@ -3045,7 +3261,8 @@
         "D": "10",
         "E": "11"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-14",
@@ -3059,7 +3276,8 @@
         "D": "12 cm",
         "E": "14 cm"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-15",
@@ -3073,7 +3291,8 @@
         "D": "12",
         "E": "16"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-17",
@@ -3087,7 +3306,8 @@
         "D": "44",
         "E": "60"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-18",
@@ -3101,7 +3321,8 @@
         "D": "94 g",
         "E": "90 g"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-19",
@@ -3115,7 +3336,8 @@
         "D": "Statement D",
         "E": "Statement E"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-20",
@@ -3129,7 +3351,8 @@
         "D": "2 or 3",
         "E": "3 or 4"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-21",
@@ -3143,7 +3366,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-23",
@@ -3157,7 +3381,8 @@
         "D": "26",
         "E": "28"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-19-24",
@@ -3171,7 +3396,8 @@
         "D": "3/8",
         "E": "1/4"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-02",
@@ -3185,7 +3411,8 @@
         "D": "8",
         "E": "9"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-04",
@@ -3199,7 +3426,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-06",
@@ -3213,7 +3441,8 @@
         "D": "1,55",
         "E": "1,75"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-07",
@@ -3227,7 +3456,8 @@
         "D": "35",
         "E": "42"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-08",
@@ -3241,7 +3471,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-09",
@@ -3255,7 +3486,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-10",
@@ -3269,7 +3501,8 @@
         "D": "2,5",
         "E": "3"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-11",
@@ -3283,7 +3516,8 @@
         "D": "19",
         "E": "21"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-12",
@@ -3297,7 +3531,8 @@
         "D": "3h 41m",
         "E": "3h 49m"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-13",
@@ -3311,7 +3546,8 @@
         "D": "2019",
         "E": "2020"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-16",
@@ -3325,7 +3561,8 @@
         "D": "245",
         "E": "256"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-19",
@@ -3339,7 +3576,8 @@
         "D": "32",
         "E": "There is more than one possible value"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-21",
@@ -3353,7 +3591,8 @@
         "D": "68",
         "E": "81"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-22",
@@ -3367,7 +3606,8 @@
         "D": "22",
         "E": "34"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-23",
@@ -3381,7 +3621,8 @@
         "D": "5",
         "E": "more than 5"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-25",
@@ -3395,7 +3636,8 @@
         "D": "Mango and wafer",
         "E": "Lemmon and cherry"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-26",
@@ -3409,7 +3651,8 @@
         "D": "9",
         "E": "18"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-27",
@@ -3423,7 +3666,8 @@
         "D": "65 Reais",
         "E": "100 Reais"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-28",
@@ -3437,7 +3681,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-29",
@@ -3451,7 +3696,8 @@
         "D": "a=3, b=5, c=7",
         "E": "a=6, b=4, c=7"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-20-30",
@@ -3465,7 +3711,8 @@
         "D": "West",
         "E": "There is more than one possible choice"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-02",
@@ -3479,7 +3726,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-04",
@@ -3493,7 +3741,8 @@
         "D": "G",
         "E": "U"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-05",
@@ -3507,7 +3756,8 @@
         "D": "122",
         "E": "203"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-06",
@@ -3521,7 +3771,8 @@
         "D": "77",
         "E": "81"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-07",
@@ -3535,7 +3786,8 @@
         "D": "D",
         "E": "E"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-08",
@@ -3549,7 +3801,8 @@
         "D": "4 parts green + 12 parts white",
         "E": "They will all be equally dark"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-11",
@@ -3563,7 +3816,8 @@
         "D": "5217",
         "E": "5444"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-12",
@@ -3577,7 +3831,8 @@
         "D": "35 km",
         "E": "50 km"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-14",
@@ -3591,7 +3846,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-15",
@@ -3605,7 +3861,8 @@
         "D": "8.2 cm",
         "E": "8.5 cm"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-16",
@@ -3619,7 +3876,8 @@
         "D": "D",
         "E": "E"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-18",
@@ -3633,7 +3891,8 @@
         "D": "14",
         "E": "15"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-19",
@@ -3647,7 +3906,8 @@
         "D": "Carl got as many pears as Luca got apples",
         "E": "Carl got as many apples as Luca"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-21",
@@ -3661,7 +3921,8 @@
         "D": "Ed and Ann",
         "E": "It is not possible to be certain"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-22",
@@ -3675,7 +3936,8 @@
         "D": "12",
         "E": "15"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-24",
@@ -3689,7 +3951,8 @@
         "D": "pear",
         "E": "impossible to determine"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-25",
@@ -3703,7 +3966,8 @@
         "D": "13",
         "E": "21"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-26",
@@ -3717,7 +3981,8 @@
         "D": "1893",
         "E": "782"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-27",
@@ -3731,7 +3996,8 @@
         "D": "10",
         "E": "14"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-28",
@@ -3745,7 +4011,8 @@
         "D": "78",
         "E": "86"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-21-29",
@@ -3759,7 +4026,8 @@
         "D": "5",
         "E": "7"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-02",
@@ -3773,7 +4041,8 @@
         "D": "1, 4 and 5",
         "E": "1 and 3"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-03",
@@ -3787,7 +4056,8 @@
         "D": "D",
         "E": "E"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-05",
@@ -3801,7 +4071,8 @@
         "D": "8",
         "E": "10"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-06",
@@ -3815,7 +4086,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-07",
@@ -3829,7 +4101,8 @@
         "D": "967",
         "E": "459"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-08",
@@ -3843,7 +4116,8 @@
         "D": "1/12 turn",
         "E": "5/6 turn"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-09",
@@ -3857,7 +4131,8 @@
         "D": "55 cm²",
         "E": "60 cm²"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-11",
@@ -3871,7 +4146,8 @@
         "D": "54",
         "E": "60"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-12",
@@ -3885,7 +4161,8 @@
         "D": "1 m",
         "E": "1.25 m"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-14",
@@ -3899,7 +4176,8 @@
         "D": "56",
         "E": "134"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-15",
@@ -3913,7 +4191,8 @@
         "D": "4",
         "E": "This cannot be determined"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-16",
@@ -3927,7 +4206,8 @@
         "D": "5 kg",
         "E": "6 kg"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-17",
@@ -3941,7 +4221,8 @@
         "D": "34 cm",
         "E": "40 cm"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-18",
@@ -3955,7 +4236,8 @@
         "D": "in C",
         "E": "in D"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-20",
@@ -3969,7 +4251,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-21",
@@ -3983,7 +4266,8 @@
         "D": "21",
         "E": "22"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-22",
@@ -3997,7 +4281,8 @@
         "D": "21",
         "E": "22"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-23",
@@ -4011,7 +4296,8 @@
         "D": "20",
         "E": "25"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-22-24",
@@ -4025,7 +4311,8 @@
         "D": "17",
         "E": "18"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-02",
@@ -4039,7 +4326,8 @@
         "D": "711",
         "E": "800"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-04",
@@ -4053,7 +4341,8 @@
         "D": "12",
         "E": "13"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-05",
@@ -4067,7 +4356,8 @@
         "D": "12",
         "E": "20"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-06",
@@ -4081,7 +4371,8 @@
         "D": "N, M, Q, P",
         "E": "Q, N, M, P"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-07",
@@ -4095,7 +4386,8 @@
         "D": "2 and 4",
         "E": "1 and 4"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-08",
@@ -4109,7 +4401,8 @@
         "D": "3, 6 and 9",
         "E": "5, 7 and 12"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-10",
@@ -4123,7 +4416,8 @@
         "D": "◊◻",
         "E": "♡◊"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-11",
@@ -4137,7 +4431,8 @@
         "D": "440 cm",
         "E": "1680 cm"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-13",
@@ -4151,7 +4446,8 @@
         "D": "Richard",
         "E": "It cannot be determined"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-14",
@@ -4165,7 +4461,8 @@
         "D": "4 and 13",
         "E": "7 and 13"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-15",
@@ -4179,7 +4476,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-16",
@@ -4193,7 +4491,8 @@
         "D": "20",
         "E": "37"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-17",
@@ -4207,7 +4506,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-18",
@@ -4221,7 +4521,8 @@
         "D": "6",
         "E": "5"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-19",
@@ -4235,7 +4536,8 @@
         "D": "Beaver",
         "E": "Kangaroo and beaver"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-21",
@@ -4249,7 +4551,8 @@
         "D": "31 and 33",
         "E": "27 and 30"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-22",
@@ -4263,7 +4566,8 @@
         "D": "9",
         "E": "A different amount"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-23",
@@ -4277,7 +4581,8 @@
         "D": "RRRS",
         "E": "SRRS"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-23-24",
@@ -4291,7 +4596,8 @@
         "D": "￩",
         "E": "there are several possibilities"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-01",
@@ -4305,7 +4611,8 @@
         "D": "D",
         "E": "Joey cannot leave the maze anywhere"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-02",
@@ -4319,7 +4626,8 @@
         "D": "square no. 22",
         "E": "square no. 23"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-04",
@@ -4333,7 +4641,8 @@
         "D": "9 cm",
         "E": "10 cm"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-05",
@@ -4347,7 +4656,8 @@
         "D": "5",
         "E": "6"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-09",
@@ -4361,7 +4671,8 @@
         "D": "14",
         "E": "16"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-10",
@@ -4375,7 +4686,8 @@
         "D": "33 cm²",
         "E": "36 cm²"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-11",
@@ -4389,7 +4701,8 @@
         "D": "35",
         "E": "41"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-12",
@@ -4403,7 +4716,8 @@
         "D": "48",
         "E": "52"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-13",
@@ -4417,7 +4731,8 @@
         "D": "7",
         "E": "8"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-14",
@@ -4431,7 +4746,8 @@
         "D": "It is impossible that exactly 3 cups are on the matching saucers",
         "E": "It is impossible that all 4 cups are on the matching saucers"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-15",
@@ -4445,7 +4761,8 @@
         "D": "18 cm²",
         "E": "20 cm²"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-16",
@@ -4459,7 +4776,8 @@
         "D": "22",
         "E": "23"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-17",
@@ -4473,7 +4791,8 @@
         "D": "10 cm²",
         "E": "12 cm²"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-18",
@@ -4487,7 +4806,8 @@
         "D": "7",
         "E": "8"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-19",
@@ -4501,7 +4821,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-21",
@@ -4515,7 +4836,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-22",
@@ -4529,7 +4851,8 @@
         "D": "28",
         "E": "29"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-23",
@@ -4543,7 +4866,8 @@
         "D": "10",
         "E": "11"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-24-24",
@@ -4557,7 +4881,8 @@
         "D": "47",
         "E": "56"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-03",
@@ -4571,7 +4896,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-04",
@@ -4585,7 +4911,8 @@
         "D": "18",
         "E": "30"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-06",
@@ -4599,7 +4926,8 @@
         "D": "6.3",
         "E": "6.6"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-07",
@@ -4613,7 +4941,8 @@
         "D": "Ernest",
         "E": "Fatima"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-08",
@@ -4627,7 +4956,8 @@
         "D": "12",
         "E": "14"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-09",
@@ -4641,7 +4971,8 @@
         "D": "4 km",
         "E": "5 km"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-10",
@@ -4655,7 +4986,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-11",
@@ -4669,7 +5001,8 @@
         "D": "4",
         "E": "5"
       },
-      "answer": "A"
+      "answer": "A",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-14",
@@ -4683,7 +5016,8 @@
         "D": "25 cm",
         "E": "32 cm"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-16",
@@ -4697,7 +5031,8 @@
         "D": "D",
         "E": "E"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-17",
@@ -4711,7 +5046,8 @@
         "D": "4",
         "E": "cannot be determined"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-18",
@@ -4725,7 +5061,8 @@
         "D": "6",
         "E": "7"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-19",
@@ -4739,7 +5076,8 @@
         "D": "40 cm²",
         "E": "50 cm²"
       },
-      "answer": "B"
+      "answer": "B",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-20",
@@ -4753,7 +5091,8 @@
         "D": "D",
         "E": "E"
       },
-      "answer": "E"
+      "answer": "E",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-21",
@@ -4767,7 +5106,8 @@
         "D": "Thursday",
         "E": "Friday"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-22",
@@ -4781,7 +5121,8 @@
         "D": "15",
         "E": "17"
       },
-      "answer": "C"
+      "answer": "C",
+      "grade": "G5-6"
     },
     {
       "id": "AT-BEN-25-24",
@@ -4795,7 +5136,8 @@
         "D": "7",
         "E": "8"
       },
-      "answer": "D"
+      "answer": "D",
+      "grade": "G5-6"
     }
   ]
 }

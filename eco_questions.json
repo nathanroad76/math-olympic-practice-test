@@ -1,0 +1,2818 @@
+{
+  "stats": {
+    "total": 94,
+    "byPoints": {
+      "3": 31,
+      "4": 31,
+      "5": 32
+    },
+    "withImage": 74
+  },
+  "questions": [
+    {
+      "id": "AT-ECO-25-01",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Nico and his little sister are playing with their shells and marbles. Each shell has a value of 6 and each marble has a value of 1. Which picture shows the value 16?",
+      "image": "eco/question_graphics/AT-ECO-25-01.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-01-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-01-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-01-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-01-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-01-CHOICE_E.jpg"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-25-02",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Kenny the Kangaroo hops from his school to the zoo. He hops like this: ↑ 2, ↔ 2, ↔ 1, ↔ 4. From the zoo, Kenny hops like this: → 3, ↗ 2, ↑ 2. Which house does Kenny land at?",
+      "image": "eco/question_graphics/AT-ECO-25-02.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-02-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-02-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-02-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-02-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-02-CHOICE_E.jpg"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-25-03",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Mia builds a large cube out of small cubes. While she is building it, she takes a photo at five different times. Which of the five photos shown is the fourth?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-03-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-03-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-03-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-03-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-03-CHOICE_E.jpg"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-25-04",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Simona writes the numbers 2, 0, 2 and 5 in the boxes. □ + □ - □ + □. In what order can she write the numbers so that the calculation produces the biggest result?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "0, 2, 2, 5"
+        },
+        "B": {
+          "type": "text",
+          "value": "0, 5, 2, 2"
+        },
+        "C": {
+          "type": "text",
+          "value": "2, 5, 2, 0"
+        },
+        "D": {
+          "type": "text",
+          "value": "5, 0, 2, 2"
+        },
+        "E": {
+          "type": "text",
+          "value": "5, 2, 0, 2"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-25-05",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Markus pulls on both ends of each rope at the same time. Which rope forms a knot?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-05-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-05-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-05-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-05-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-05-CHOICE_E.jpg"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-25-06",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Larissa has a toy windmill that rotates in the wind (see picture on the right) and then stops. What does it look like now?",
+      "image": "eco/question_graphics/AT-ECO-25-06.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-06-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-06-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-06-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-06-CHOICE_D.jpg"
+        },
+        "E": null
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-25-07",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Alex steps on some lines on the ground (see picture on the right). What does the ground look like under his shoe?",
+      "image": "eco/question_graphics/AT-ECO-25-07.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-07-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-07-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-07-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-07-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-07-CHOICE_E.jpg"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-25-08",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "If you add up the numbers on two opposite sides of a die, you always get 7. Which of the pictures can show such a die?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-08-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-08-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-08-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-08-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-08-CHOICE_E.jpg"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-25-09",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "George has these three poles: Which windmill can he make with them?",
+      "image": "eco/question_graphics/AT-ECO-25-09.jpg   \n",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-09-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-09-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-09-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-09-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-09-CHOICE_E.jpg"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-25-10",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Max draws a large circle in the sand. Lisa adds the letters A, B, C and D. Lisa and Max start at the same time from point A. Lisa goes clockwise around the circle, Max runs anti-clockwise around the circle. They meet for the first time at point B, then at C, at D and then again at point A. How many times has Max run around the circle by then?",
+      "image": "eco/question_graphics/AT-ECO-25-10.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1-time"
+        },
+        "B": {
+          "type": "text",
+          "value": "2-times"
+        },
+        "C": {
+          "type": "text",
+          "value": "3-times"
+        },
+        "D": {
+          "type": "text",
+          "value": "4-times"
+        },
+        "E": {
+          "type": "text",
+          "value": "5-times"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-25-11",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Anna, Bonnie and Caspar have some kangaroo cookies on their plates (see picture). There are 15 more cookies left. They distribute these in such a way that each child ends up with the same number of cookies on their plate. How many cookies does Anna get added to her plate?",
+      "image": "eco/question_graphics/AT-ECO-25-11.jpg\n",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "3"
+        },
+        "B": {
+          "type": "text",
+          "value": "4"
+        },
+        "C": {
+          "type": "text",
+          "value": "5"
+        },
+        "D": {
+          "type": "text",
+          "value": "6"
+        },
+        "E": {
+          "type": "text",
+          "value": "7"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-25-12",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "In the morning, the five friends Anna, Bob, Cristina, David and Eduard each have a fully charged cell-phone battery. By the evening, Bob has used up as much of his battery as Anna and Cristina combined. Bob's battery is empty. David hasn't used his cell-phone at all. The pictures show the battery levels of the five children. Which of these is the battery level of Eduard's cell phone?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-12-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-12-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-12-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-12-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-12-CHOICE_E.jpg"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-25-13",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Two pieces were cut out of a chessboard. Which are they?",
+      "image": "eco/question_graphics/AT-ECO-25-13.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1 and 2"
+        },
+        "B": {
+          "type": "text",
+          "value": "1 and 5"
+        },
+        "C": {
+          "type": "text",
+          "value": "3 and 4"
+        },
+        "D": {
+          "type": "text",
+          "value": "3 and 5"
+        },
+        "E": {
+          "type": "text",
+          "value": "4 and 5"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-25-14",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Each of the five large sheep gets the same amount, the small one gets twice as much as a large sheep. How much food does the small sheep get?",
+      "image": "eco/question_graphics/AT-ECO-25-14.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "50 g"
+        },
+        "B": {
+          "type": "text",
+          "value": "55 g"
+        },
+        "C": {
+          "type": "text",
+          "value": "60 g"
+        },
+        "D": {
+          "type": "text",
+          "value": "65 g"
+        },
+        "E": {
+          "type": "text",
+          "value": "70 g"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-25-15",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Tom wants to cut the pizza in half in such a way that each half has the same number of tomatoes. There are two ways to do this. Along which lines can he cut?",
+      "image": "eco/question_graphics/AT-ECO-25-15.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1 or 3"
+        },
+        "B": {
+          "type": "text",
+          "value": "1 or 4"
+        },
+        "C": {
+          "type": "text",
+          "value": "2 or 3"
+        },
+        "D": {
+          "type": "text",
+          "value": "2 or 4"
+        },
+        "E": {
+          "type": "text",
+          "value": "3 or 4"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-25-16",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Eva assembles these two identical parts into a figure. Which of these figures can she not build?",
+      "image": "eco/question_graphics/AT-ECO-25-16.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-16-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-16-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-16-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-16-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-16-CHOICE_E.jpg"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-25-17",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Six ladybirds each have either 1, 2, 3, 4, 5 or 6 spots. Marta takes four photos each of three different ladybirds. Each ladybird appears equally often in the four photos. You can see the first three photos on the right. How many spots do the three ladybirds in the fourth photo have in total?",
+      "image": "eco/question_graphics/AT-ECO-25-17.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "10"
+        },
+        "B": {
+          "type": "text",
+          "value": "11"
+        },
+        "C": {
+          "type": "text",
+          "value": "12"
+        },
+        "D": {
+          "type": "text",
+          "value": "13"
+        },
+        "E": {
+          "type": "text",
+          "value": "14"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-25-18",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Maria writes the numbers 1, 2, 3, 4, 5, 6 and 7 exactly once onto the number wall. If Maria adds two numbers from the bottom row together, she gets the number that is written exactly in the middle above these two numbers. Which number must she write in the box with the star?",
+      "image": "eco/question_graphics/AT-ECO-25-18.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "3"
+        },
+        "D": {
+          "type": "text",
+          "value": "4"
+        },
+        "E": {
+          "type": "text",
+          "value": "5"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-25-19",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Tim has laid out a pattern on the floor made of 11 identical tiles (see picture). How long and how wide is one of these tiles?",
+      "image": "eco/question_graphics/AT-ECO-25-19.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-19-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-19-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-19-CHOICE_C.jpg"
+        },
+        "D": null,
+        "E": null
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-25-20",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Jana writes down how much her toys weigh: 22g, 23g, 25g, 34g, 36g. She wants to divide all her toys into two boxes so that the boxes have the same weight. Which two toys do not go in the same box?",
+      "image": "eco/question_graphics/AT-ECO-25-20.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-20-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-20-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-20-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-20-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-20-CHOICE_E.jpg"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-25-21",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "The picture on the right shows a bracelet with circular, square and triangular gemstones. Lisa removes three neighbouring stones, one of each shape. What bracelet can be created?",
+      "image": "eco/question_graphics/AT-ECO-25-21.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-21-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-21-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-21-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-21-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-21-CHOICE_E.jpg"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-25-22",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "The calendar shown shows the days of the week in a month, but the numbers are missing. If you add the two numbers in the dark grey boxes together, you get 29. What day of the week is the 1st day of the month?",
+      "image": "eco/question_graphics/AT-ECO-25-22.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "Monday"
+        },
+        "B": {
+          "type": "text",
+          "value": "Tuesday"
+        },
+        "C": {
+          "type": "text",
+          "value": "Wednesday"
+        },
+        "D": {
+          "type": "text",
+          "value": "Thursday"
+        },
+        "E": {
+          "type": "text",
+          "value": "Sunday"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-25-23",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Nele folds a piece of paper in half and then in half again (see picture). She cuts four pieces out of the paper. When she unfolds the paper, she sees this pattern. What did the paper look like before she unfolded it?",
+      "image": "eco/question_graphics/AT-ECO-25-23.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-23-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-23-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-23-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-23-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-25-23-CHOICE_E.jpg"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-25-24",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "To compare the weights of the objects, Mona uses a beam balance. All objects of one type have the same weight and objects of different types have different weights. The objects can weigh either 1, 2, 3, 4 or 5 kg. How many kg does the square weigh?",
+      "image": "eco/question_graphics/AT-ECO-25-24.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1 kg"
+        },
+        "B": {
+          "type": "text",
+          "value": "2 kg"
+        },
+        "C": {
+          "type": "text",
+          "value": "3 kg"
+        },
+        "D": {
+          "type": "text",
+          "value": "4 kg"
+        },
+        "E": {
+          "type": "text",
+          "value": "5 kg"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-24-01",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Which square was divided into two different figures?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-01-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-01-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-01-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-01-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-01-CHOICE_E.jpg"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-24-02",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Lizzy has 7 coins of a kind. She buys three fruits at the market. Each fruit has a different price. How much is the most expensive fruit?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "2 coins"
+        },
+        "B": {
+          "type": "text",
+          "value": "3 coins"
+        },
+        "C": {
+          "type": "text",
+          "value": "4 coins"
+        },
+        "D": {
+          "type": "text",
+          "value": "5 coins"
+        },
+        "E": {
+          "type": "text",
+          "value": "6 coins"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-24-03",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "The rectangle on the right consists of 4 rows and 7 columns. In total, it consists of 28 white squares. Ira paints 2 rows and 1 column. How many squares remain white?",
+      "image": "eco/question_graphics/AT-ECO-24-03.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "8"
+        },
+        "B": {
+          "type": "text",
+          "value": "10"
+        },
+        "C": {
+          "type": "text",
+          "value": "12"
+        },
+        "D": {
+          "type": "text",
+          "value": "14"
+        },
+        "E": {
+          "type": "text",
+          "value": "17"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-24-04",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Firefighter Fred wants to put out the fire. What is the smallest number of ladders he has to climb in the picture on the right, to get to the fire without jumping?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "4"
+        },
+        "B": {
+          "type": "text",
+          "value": "5"
+        },
+        "C": {
+          "type": "text",
+          "value": "6"
+        },
+        "D": {
+          "type": "text",
+          "value": "7"
+        },
+        "E": {
+          "type": "text",
+          "value": "8"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-24-05",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Ben has built a structure. A cat has thrown a cube off his structure. Which of these structures did Ben build?",
+      "image": "eco/question_graphics/AT-ECO-24-05.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-05-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-05-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-05-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-05-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-05-CHOICE_E.jpg"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-24-06",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Alex hangs a poster on his kitchen wall. The kitchen wall has white and grey tiles of the same size - see picture. How many grey tiles are completely covered by the poster?",
+      "image": "eco/question_graphics/AT-ECO-24-06.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "15"
+        },
+        "B": {
+          "type": "text",
+          "value": "21"
+        },
+        "C": {
+          "type": "text",
+          "value": "25"
+        },
+        "D": {
+          "type": "text",
+          "value": "30"
+        },
+        "E": {
+          "type": "text",
+          "value": "35"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-24-07",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Tim has black and white squares of paper. He glues the squares on the inside of a window. This creates the pattern shown on the right. What pattern can you see from the outside?",
+      "image": "eco/question_graphics/AT-ECO-24-07.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-07-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-07-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-07-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-07-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-07-CHOICE_E.jpg"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-24-08",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "213, 214 and 215 are three consecutive three-digit numbers. Mohammad writes three consecutive four-digit numbers in a row. His sister erases a few digits from each of the three numbers. Which digits (from left to right) are missing?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "3 8 9, 3, 9 9"
+        },
+        "B": {
+          "type": "text",
+          "value": "4 8 9, 3, 9 6"
+        },
+        "C": {
+          "type": "text",
+          "value": "4 8 9, 4, 9 8"
+        },
+        "D": {
+          "type": "text",
+          "value": "4 8 9, 4, 9 9"
+        },
+        "E": {
+          "type": "text",
+          "value": "4 8 8, 4, 9 9"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-24-09",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Lisa writes the numbers 1, 2, 4, 5 and 6 in the circles of the pattern. She writes each of the five numbers exactly once, and if she adds up the numbers along one of the three straight lines, she gets 11 each time. Which number did she write in the circle with the question mark?",
+      "image": "eco/question_graphics/AT-ECO-24-09.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "4"
+        },
+        "D": {
+          "type": "text",
+          "value": "5"
+        },
+        "E": {
+          "type": "text",
+          "value": "6"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-24-11",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "The wizard Adam built the tower on the right out of 8 discs. He magically makes discs disappear one after the other. What tower does Adam get?",
+      "image": "eco/question_graphics/AT-ECO-24-11.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-11-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-11-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-11-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-11-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-11-CHOICE_E.jpg"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-24-12",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Penguin Peter goes fishing every day and brings 9 fish for his two children. Every day he gives 5 fish to the first child he sees. The other child then gets 4 fish. In the last few days, a child has had a total of 26 fish. How many fish did the other child get?",
+      "image": "eco/question_graphics/AT-ECO-24-12.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "19"
+        },
+        "B": {
+          "type": "text",
+          "value": "22"
+        },
+        "C": {
+          "type": "text",
+          "value": "25"
+        },
+        "D": {
+          "type": "text",
+          "value": "28"
+        },
+        "E": {
+          "type": "text",
+          "value": "31"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-24-13",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "7 cards with the numbers from 1 to 7 are placed in these four overlapping rings. If you add up the numbers of all the cards in a ring, the result is always 10. What number is on the card with the question mark?",
+      "image": "eco/question_graphics/AT-ECO-24-13.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "4"
+        },
+        "D": {
+          "type": "text",
+          "value": "5"
+        },
+        "E": null
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-24-14",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Lucas has these five pieces of a puzzle available. He wants to lay a caterpillar consisting of a head, a tail and 1, 2 or 3 parts in between. How many different caterpillars can Lucas build?",
+      "image": "eco/question_graphics/AT-ECO-24-14.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "3"
+        },
+        "B": {
+          "type": "text",
+          "value": "4"
+        },
+        "C": {
+          "type": "text",
+          "value": "5"
+        },
+        "D": {
+          "type": "text",
+          "value": "6"
+        },
+        "E": {
+          "type": "text",
+          "value": "7"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-24-15",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Kangaroo Joey hops through a maze. The arrows of a field indicate how far, and in which direction, Joey has to bounce. Through which exit will Joey leave the maze, if he starts in the bottom left field with the three arrows?",
+      "image": "eco/question_graphics/AT-ECO-24-15.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "through A"
+        },
+        "B": {
+          "type": "text",
+          "value": "through B"
+        },
+        "C": {
+          "type": "text",
+          "value": "through C"
+        },
+        "D": {
+          "type": "text",
+          "value": "through D"
+        },
+        "E": {
+          "type": "text",
+          "value": "through none of the four exits"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-24-16",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Two types of tiles were used for a kitchen floor: rectangular tiles and square tiles. This picture shows part of the installed kitchen floor. The rectangular tiles are 23 cm long and 11 cm wide. What is the length of a side of a small square tile?",
+      "image": "eco/question_graphics/AT-ECO-24-16.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "3 cm"
+        },
+        "B": {
+          "type": "text",
+          "value": "4 cm"
+        },
+        "C": {
+          "type": "text",
+          "value": "5 cm"
+        },
+        "D": {
+          "type": "text",
+          "value": "6 cm"
+        },
+        "E": {
+          "type": "text",
+          "value": "7 cm"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-24-17",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Mia has 3 cards with three-digit numbers on them. If she adds the three numbers together, she gets the number 782. Unfortunately, a worm has eaten one digit of each card. What number does she get when she adds up the three digits that the worm has eaten?",
+      "image": "eco/question_graphics/AT-ECO-24-17.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "8"
+        },
+        "B": {
+          "type": "text",
+          "value": "9"
+        },
+        "C": {
+          "type": "text",
+          "value": "10"
+        },
+        "D": {
+          "type": "text",
+          "value": "11"
+        },
+        "E": {
+          "type": "text",
+          "value": "12"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-24-18",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Lucy weighs building blocks and obtains the following values. How much do the three different building blocks weigh together?",
+      "image": "eco/question_graphics/AT-ECO-24-18.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "270 g"
+        },
+        "B": {
+          "type": "text",
+          "value": "280 g"
+        },
+        "C": {
+          "type": "text",
+          "value": "290 g"
+        },
+        "D": {
+          "type": "text",
+          "value": "300 g"
+        },
+        "E": {
+          "type": "text",
+          "value": "310 g"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-24-19",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "60 children stand in a row. Each child has a high-visibility vest and a backpack. The colours of their high-visibility vests always alternate: yellow, green, yellow, green... The colours of their backpacks make the following pattern: red, brown, purple, red, brown, purple... How many children have a yellow safety vest and a purple backpack?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "3"
+        },
+        "B": {
+          "type": "text",
+          "value": "4"
+        },
+        "C": {
+          "type": "text",
+          "value": "6"
+        },
+        "D": {
+          "type": "text",
+          "value": "8"
+        },
+        "E": {
+          "type": "text",
+          "value": "10"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-24-20",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Cards of the same shape hide the same digits. Cards with different shapes hide different digits. Kim lays out the cards in such a way that the calculations are correct. What number does Kim get for the calculation triangle times circle times square?",
+      "image": "eco/question_graphics/AT-ECO-24-20.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "0"
+        },
+        "B": {
+          "type": "text",
+          "value": "15"
+        },
+        "C": {
+          "type": "text",
+          "value": "18"
+        },
+        "D": {
+          "type": "text",
+          "value": "28"
+        },
+        "E": {
+          "type": "text",
+          "value": "30"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-24-21",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "There are exactly 2 frogs in each row and in each column - see picture. Two of the six frogs jump to one of their neighbouring fields at the same time when it is empty. After that, there are again two frogs in each row and in each column. How many possibilities are there for two frogs to jump like this?",
+      "image": "eco/question_graphics/AT-ECO-24-21.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "3"
+        },
+        "D": {
+          "type": "text",
+          "value": "4"
+        },
+        "E": {
+          "type": "text",
+          "value": "5"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-24-22",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "The picture on the right shows a honeycomb with 9 cells. There is honey in some cells. The numbers in the cells indicate how many neighbouring cells contain honey. How many cells are filled with honey?",
+      "image": "eco/question_graphics/AT-ECO-24-22.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "4"
+        },
+        "B": {
+          "type": "text",
+          "value": "5"
+        },
+        "C": {
+          "type": "text",
+          "value": "6"
+        },
+        "D": {
+          "type": "text",
+          "value": "7"
+        },
+        "E": {
+          "type": "text",
+          "value": "8"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-24-23",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Kanga wants to build a figure out of these three parts. He can also rotate or flip the parts. Which of the five pieces can he NOT make?",
+      "image": "eco/question_graphics/AT-ECO-24-23.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-23-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-23-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-23-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-23-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-23-CHOICE_E.jpg"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-24-24",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "This tray of biscuits lies in the kitchen. Three girls take biscuits from the tray in an unknown order. Tina takes all the heart-shaped cookies that are still on the tray. Emma takes all the white cookies that are still on the tray. Rosa takes all the large cookies that are still on the tray. One of the girls takes 3 biscuits, one takes 6 biscuits and one takes 7 biscuits. Which of the following cookies did one of the girls take?",
+      "image": "eco/question_graphics/AT-ECO-24-24.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-24-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-24-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-24-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-24-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-24-24-CHOICE_E.jpg"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-23-01",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Five children each light a candle at the same time. Lisa blows out the candles at different times. Now they look as shown in the picture. Which candle did Lisa blow out first?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "A"
+        },
+        "B": {
+          "type": "text",
+          "value": "B"
+        },
+        "C": {
+          "type": "text",
+          "value": "C"
+        },
+        "D": {
+          "type": "text",
+          "value": "D"
+        },
+        "E": {
+          "type": "text",
+          "value": "E"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-23-02",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "The two markers with a question mark have the same value. 20 + 10 + 10 + ? + ? + 1 = 51. Which value do you have to use instead of the question mark so that the calculation is correct?",
+      "image": "eco/question_graphics/AT-ECO-23-02.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "5"
+        },
+        "D": {
+          "type": "text",
+          "value": "10"
+        },
+        "E": {
+          "type": "text",
+          "value": "20"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-23-03",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "A black disc with two holes is placed on top of a dial of a watch. The black disc is turned. Which two numbers can be seen at the same time?",
+      "image": "eco/question_graphics/AT-ECO-23-03.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "4 and 9"
+        },
+        "B": {
+          "type": "text",
+          "value": "5 and 10"
+        },
+        "C": {
+          "type": "text",
+          "value": "5 and 9"
+        },
+        "D": {
+          "type": "text",
+          "value": "6 and 9"
+        },
+        "E": {
+          "type": "text",
+          "value": "7 and 12"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-23-04",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Alice has these four jigsaw pieces. Which two can she put together to form this square?",
+      "image": "eco/question_graphics/AT-ECO-23-04.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1 and 2"
+        },
+        "B": {
+          "type": "text",
+          "value": "1 and 3"
+        },
+        "C": {
+          "type": "text",
+          "value": "2 and 3"
+        },
+        "D": {
+          "type": "text",
+          "value": "2 and 4"
+        },
+        "E": {
+          "type": "text",
+          "value": "1 and 4"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-23-05",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Maria switches the lights on and off according to the given plan. For how many minutes in total are there exactly two lights on at the same time?",
+      "image": "eco/question_graphics/AT-ECO-23-05.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "2"
+        },
+        "B": {
+          "type": "text",
+          "value": "6"
+        },
+        "C": {
+          "type": "text",
+          "value": "8"
+        },
+        "D": {
+          "type": "text",
+          "value": "9"
+        },
+        "E": {
+          "type": "text",
+          "value": "10"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-23-06",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Christoph folds a see-through piece of foil along the dashed line. What can he then see?",
+      "image": "eco/question_graphics/AT-ECO-23-06.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-06-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-06-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-07-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-07-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-08-CHOICE_E.jpg"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-23-07",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Anna has four discs of different sizes. She wants to build a tower using 3 discs. A smaller disc always has to lie on top of a bigger disc. How many ways are there for Anna to build this tower?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "4"
+        },
+        "D": {
+          "type": "text",
+          "value": "5"
+        },
+        "E": {
+          "type": "text",
+          "value": "6"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-23-09",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Using the pieces A, B, C, D and E one can fill this shape completely. Which of the pieces lies on the dot?",
+      "image": "eco/question_graphics/AT-ECO-23-09.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-09-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-09-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-09-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-09-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-09-CHOICE_E.jpg"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-23-10",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "The six weights of a scale weigh 1 kg, 2 kg, 3 kg, 4 kg, 5 kg and 6 kg. Rosi places five weights on the two scale pans so that they are balanced. The sixth weight is left aside. Which weight is left aside?",
+      "image": "eco/question_graphics/AT-ECO-23-10.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1 kg"
+        },
+        "B": {
+          "type": "text",
+          "value": "2 kg"
+        },
+        "C": {
+          "type": "text",
+          "value": "3 kg"
+        },
+        "D": {
+          "type": "text",
+          "value": "4 kg"
+        },
+        "E": {
+          "type": "text",
+          "value": "5 kg"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-23-11",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "The diagram shows four cars 1, 2, 3 and 4. The arrows show where the cars move to in 5 seconds. Which cars will crash into each other?",
+      "image": "eco/question_graphics/AT-ECO-23-11.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1 and 2"
+        },
+        "B": {
+          "type": "text",
+          "value": "1 and 3"
+        },
+        "C": {
+          "type": "text",
+          "value": "1 and 4"
+        },
+        "D": {
+          "type": "text",
+          "value": "2 and 3"
+        },
+        "E": {
+          "type": "text",
+          "value": "3 and 12"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-23-12",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "North of Street A there are 7 houses. East of Street B there are 8 houses. South of Street A there are 5 houses. How many houses are West of Street B?",
+      "image": "eco/question_graphics/AT-ECO-23-12.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "4"
+        },
+        "B": {
+          "type": "text",
+          "value": "5"
+        },
+        "C": {
+          "type": "text",
+          "value": "6"
+        },
+        "D": {
+          "type": "text",
+          "value": "7"
+        },
+        "E": {
+          "type": "text",
+          "value": "8"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-23-13",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "In a queue in front of a ferry there are 8 cars with 19 people in total. There are either 2 or 3 people in each car. How many cars are there with exactly 2 people?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "2"
+        },
+        "B": {
+          "type": "text",
+          "value": "3"
+        },
+        "C": {
+          "type": "text",
+          "value": "4"
+        },
+        "D": {
+          "type": "text",
+          "value": "5"
+        },
+        "E": {
+          "type": "text",
+          "value": "6"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-23-14",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "6 beavers and 2 kangaroos are standing on the fields in this order: Of three animals in a row there is always exactly one kangaroo. On which of these numbers stands a kangaroo?",
+      "image": "eco/question_graphics/AT-ECO-23-14.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "3"
+        },
+        "D": {
+          "type": "text",
+          "value": "4"
+        },
+        "E": {
+          "type": "text",
+          "value": "5"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-23-15",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Hanni wants to colour in the circles in the diagram. When two circles are connected by a line they should have different colours. What is the minimum number of colours she needs?",
+      "image": "eco/question_graphics/AT-ECO-23-15.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "2"
+        },
+        "B": {
+          "type": "text",
+          "value": "3"
+        },
+        "C": {
+          "type": "text",
+          "value": "4"
+        },
+        "D": {
+          "type": "text",
+          "value": "5"
+        },
+        "E": {
+          "type": "text",
+          "value": "6"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-23-16",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "A building block is made up of five identical rectangles. How many of the patterns shown below can be made with two such building blocks without overlap?",
+      "image": "eco/question_graphics/AT-ECO-23-16.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "3"
+        },
+        "D": {
+          "type": "text",
+          "value": "4"
+        },
+        "E": {
+          "type": "text",
+          "value": "5"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-23-17",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "An underground line has the six stations A, B, C, D, E and F. The train stops at every station. After reaching the end of the line A or F the train continues in the opposite direction. The train conductor starts his journey in station B. His first stop is in station C.",
+      "image": "eco/question_graphics/AT-ECO-23-17.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "A"
+        },
+        "B": {
+          "type": "text",
+          "value": "B"
+        },
+        "C": {
+          "type": "text",
+          "value": "C"
+        },
+        "D": {
+          "type": "text",
+          "value": "D"
+        },
+        "E": {
+          "type": "text",
+          "value": "E"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-23-18",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Rebecca folds a square piece of paper twice. Then she cuts off one corner as you can see in the diagram. Then she unfolds the paper. What could the paper look like now?",
+      "image": "eco/question_graphics/AT-ECO-23-18.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-18-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-18-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-18-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-18-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-18-CHOICE_E.jpg"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-23-19",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Three boys enter a room one after the other. Hermann is not the first. Felix is not the second. Clemens is not the third. How many different orders are there for the boys to enter the room?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "3"
+        },
+        "D": {
+          "type": "text",
+          "value": "4"
+        },
+        "E": {
+          "type": "text",
+          "value": "6"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-23-20",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Five clocks are hanging on the wall. One clock is one hour ahead. Another one is one hour late and one is correct. Two clocks have stopped working. Which clock shows the correct time?",
+      "image": "eco/question_graphics/AT-ECO-23-20.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-20-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-20-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-20-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-20-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-20-CHOICE_E.jpg"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-23-21",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Adam has 9 marbles and Brenda also has 9 marbles. Together they have 8 white and 10 black marbles. Brenda has twice as many black marbles as white marbles. How many black marbles does Adam have?",
+      "image": "eco/question_graphics/AT-ECO-23-21.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "3"
+        },
+        "B": {
+          "type": "text",
+          "value": "4"
+        },
+        "C": {
+          "type": "text",
+          "value": "5"
+        },
+        "D": {
+          "type": "text",
+          "value": "6"
+        },
+        "E": {
+          "type": "text",
+          "value": "0"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-23-22",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Else has two machines R and S. If she puts a square piece of paper into machine R it is rotated. If she puts the piece of paper in machine S it is printed on. She wants to produce the following picture. In which order does Else use the two machines so that she gets this picture?",
+      "image": "eco/question_graphics/AT-ECO-23-22.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "SRR"
+        },
+        "B": {
+          "type": "text",
+          "value": "RSR"
+        },
+        "C": {
+          "type": "text",
+          "value": "RSS"
+        },
+        "D": {
+          "type": "text",
+          "value": "RRS"
+        },
+        "E": {
+          "type": "text",
+          "value": "SRS"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-23-23",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "A teacher wants to write the numbers from 1 to 7 into the circles. He writes exactly one number in each circle. When he adds up the two numbers of circles that are next to each other, he gets the number that is written between the two circles. Which number does he write in the circle with the question mark?",
+      "image": "eco/question_graphics/AT-ECO-23-23.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "3"
+        },
+        "D": {
+          "type": "text",
+          "value": "4"
+        },
+        "E": {
+          "type": "text",
+          "value": "5"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-23-24",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Maria colours exactly 5 cells of this grid in grey. Then she has her 5 friends guess which cells she has coloured in and their answers are the five patterns A, B, C, D and E. Maria looks at the patterns and says: \"One of you is right. The others have each guessed exactly four cells correctly.\" Which pattern did Maria paint?",
+      "image": "eco/question_graphics/AT-ECO-23-24.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-24-CHOICE_A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-24-CHOICE_B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-24-CHOICE_C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-24-CHOICE_D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-23-24-CHOICE_E.jpg"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-22-01",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "The bee wants to get to the flower. Each arrow indicates a move to one neighbouring square. Which path can the bee fly to get to the flower?",
+      "image": "eco/question_graphics/AT-ECO-22-01.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "↓→↓↓↓"
+        },
+        "B": {
+          "type": "text",
+          "value": "↓↓→↓↓→"
+        },
+        "C": {
+          "type": "text",
+          "value": "→↓→↓↓→"
+        },
+        "D": {
+          "type": "text",
+          "value": "→↓↓↓"
+        },
+        "E": {
+          "type": "text",
+          "value": "→↓→↓↓→"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-22-02",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "For every birthday Maria gets as many teddies as she is years old on that day. For her first birthday she got 1 teddy. For her second birthday she got 2 teddies and so on. How many teddies in total has Maria got on the day after her sixth birthday?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "19"
+        },
+        "B": {
+          "type": "text",
+          "value": "20"
+        },
+        "C": {
+          "type": "text",
+          "value": "21"
+        },
+        "D": {
+          "type": "text",
+          "value": "22"
+        },
+        "E": {
+          "type": "text",
+          "value": "23"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-22-03",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "One of the five coins A, B, C, D or E shall be placed in an empty square so that there are exactly two coins in each row and in each column. Which coin should be moved?",
+      "image": "eco/question_graphics/AT-ECO-22-03.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "A"
+        },
+        "B": {
+          "type": "text",
+          "value": "B"
+        },
+        "C": {
+          "type": "text",
+          "value": "C"
+        },
+        "D": {
+          "type": "text",
+          "value": "D"
+        },
+        "E": {
+          "type": "text",
+          "value": "E"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-22-04",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Which two numbers can be placed instead of the □ in the calculation 2022 + □ = 2020 + □ so that it is correct?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "3 and 5"
+        },
+        "B": {
+          "type": "text",
+          "value": "4 and 1"
+        },
+        "C": {
+          "type": "text",
+          "value": "3 and 4"
+        },
+        "D": {
+          "type": "text",
+          "value": "7 and 2"
+        },
+        "E": {
+          "type": "text",
+          "value": "9 and 8"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-22-05",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "If a laser beam hits a mirror it changes its direction (see small diagram). Each mirror has mirrored sides on both sides. At which letter does the laser beam end?",
+      "image": "eco/question_graphics/AT-ECO-22-05.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "A"
+        },
+        "B": {
+          "type": "text",
+          "value": "B"
+        },
+        "C": {
+          "type": "text",
+          "value": "C"
+        },
+        "D": {
+          "type": "text",
+          "value": "D"
+        },
+        "E": {
+          "type": "text",
+          "value": "E"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-22-06",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "Kengu jumps on the number line to the right (see diagram). He first makes one big jump and then two little jumps in a row and keeps repeating the same thing over and over again. He starts at 0 and ends at 16. How many jumps does Kengu make in total?",
+      "image": "eco/question_graphics/AT-ECO-22-06.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "4"
+        },
+        "B": {
+          "type": "text",
+          "value": "7"
+        },
+        "C": {
+          "type": "text",
+          "value": "8"
+        },
+        "D": {
+          "type": "text",
+          "value": "9"
+        },
+        "E": {
+          "type": "text",
+          "value": "12"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-22-07",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "In the diagram on the right two neighbouring squares are never allowed to have the same number. Which puzzle piece has to be placed in the gap so that this rule is followed?",
+      "image": "eco/question_graphics/AT-ECO-22-07.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-07-A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-07-B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-07-C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-07-D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-07-E.jpg"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-22-08",
+      "grade": "G3-4",
+      "points": 3,
+      "question": "John uses some building blocks to form a work of art. What does John see when he looks at his work of art from above?",
+      "image": "eco/question_graphics/AT-ECO-22-08.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-08-A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-08-B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-08-C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-08-D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-08-E.jpg"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-22-09",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Five cars are labelled with the numbers 1 to 5. They drive in the direction of the arrow. First the last car overtakes the two cars in front of it. Then the now second to last car overtakes the two in front of it. In the end the car that is now in the middle overtakes the two in front of it. In which order do the cars now drive?",
+      "image": "eco/question_graphics/AT-ECO-22-09.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1, 2, 3, 4, 5"
+        },
+        "B": {
+          "type": "text",
+          "value": "2, 1, 3, 5, 4"
+        },
+        "C": {
+          "type": "text",
+          "value": "2, 1, 5, 3, 4"
+        },
+        "D": {
+          "type": "text",
+          "value": "3, 1, 4, 2, 5"
+        },
+        "E": {
+          "type": "text",
+          "value": "4, 1, 2, 5, 3"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-22-10",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "The members of a family of kangaroos are 2, 4, 5, 6, 8 and 10 years old. Four of them are 22 years old when added together. How old are the other two kangaroos?",
+      "image": "eco/question_graphics/AT-ECO-22-10.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "2 and 8"
+        },
+        "B": {
+          "type": "text",
+          "value": "4 and 5"
+        },
+        "C": {
+          "type": "text",
+          "value": "5 and 8"
+        },
+        "D": {
+          "type": "text",
+          "value": "6 and 8"
+        },
+        "E": {
+          "type": "text",
+          "value": "6 and 10"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-22-11",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Mosif has filled a table with numbers (see diagram). When he adds the numbers in each row and in each column together, the result should always be the same. He has however, made a mistake. In order to get the same result every time he has to change one single number. Which number does Mosif have to change?",
+      "image": "eco/question_graphics/AT-ECO-22-11.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "3"
+        },
+        "C": {
+          "type": "text",
+          "value": "one of the two 4s"
+        },
+        "D": {
+          "type": "text",
+          "value": "5"
+        },
+        "E": {
+          "type": "text",
+          "value": "one of the two 7s"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-22-12",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Aladdin's carpet has the shape of a square. Along each edge there are two rows of dots (see diagram). The number of points is the same along each edge. How many dots in total does the carpet have?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "32"
+        },
+        "B": {
+          "type": "text",
+          "value": "36"
+        },
+        "C": {
+          "type": "text",
+          "value": "40"
+        },
+        "D": {
+          "type": "text",
+          "value": "44"
+        },
+        "E": {
+          "type": "text",
+          "value": "48"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-22-13",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "In a classroom the children sit in rows. In each row there are the same amount of children. In Robert's row there are 2 children to the left of him and 3 children to the right of him. In front of Robert there are 2 rows, behind him just one. How many children in total are in this class?",
+      "image": "eco/question_graphics/AT-ECO-22-13.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "8"
+        },
+        "B": {
+          "type": "text",
+          "value": "15"
+        },
+        "C": {
+          "type": "text",
+          "value": "18"
+        },
+        "D": {
+          "type": "text",
+          "value": "20"
+        },
+        "E": {
+          "type": "text",
+          "value": "24"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-22-14",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Johanna folds a piece of paper with the numbers 1 to 36 in half twice (see diagrams). Then she stabs a hole through all four layers at the same time (see diagram on the right). Which four numbers does she pierce in doing so?",
+      "image": "eco/question_graphics/AT-ECO-22-14.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "8, 11, 26, 29"
+        },
+        "B": {
+          "type": "text",
+          "value": "14, 16, 21, 23"
+        },
+        "C": {
+          "type": "text",
+          "value": "14, 17, 20, 23"
+        },
+        "D": {
+          "type": "text",
+          "value": "15, 16, 21, 22"
+        },
+        "E": {
+          "type": "text",
+          "value": "15, 17, 20, 22"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-22-15",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Three football teams are taking part in a tournament. Each team plays each other team once. For a win the team scores 3 points, the other team 0 points. For a draw both teams get 1 point each. Which number of points is impossible, for any team to reach at the end of this tournament?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "4"
+        },
+        "D": {
+          "type": "text",
+          "value": "5"
+        },
+        "E": {
+          "type": "text",
+          "value": "6"
+        }
+      },
+      "answer": "D"
+    },
+    {
+      "id": "AT-ECO-22-16",
+      "grade": "G3-4",
+      "points": 4,
+      "question": "Jan sends five postcards to his friends during his holiday. The card for Michael does not have ducks. The card for Lexi shows a dog. The card for Clara shows the sun. The card for Heidi shows kangaroos. The card for Paula shows exactly two animals. Which card does Jan send to Michael?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-16-A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-16-B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-16-C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-16-D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-16-E.jpg"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-22-17",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Wanda chooses some of the following shapes. She says: \"I have chosen exactly 2 grey, 2 big and 2 round shapes.\" What is the minimum number of shapes Wanda has chosen?",
+      "image": "eco/question_graphics/AT-ECO-22-17.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "2"
+        },
+        "B": {
+          "type": "text",
+          "value": "3"
+        },
+        "C": {
+          "type": "text",
+          "value": "4"
+        },
+        "D": {
+          "type": "text",
+          "value": "5"
+        },
+        "E": {
+          "type": "text",
+          "value": "6"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-22-18",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "The little caterpillar rolls up to go to sleep. What could it look like then?",
+      "image": "eco/question_graphics/AT-ECO-22-18.jpg",
+      "choices": {
+        "A": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-18-A.jpg"
+        },
+        "B": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-18-B.jpg"
+        },
+        "C": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-18-C.jpg"
+        },
+        "D": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-18-D.jpg"
+        },
+        "E": {
+          "type": "image",
+          "src": "eco/question_graphics/AT-ECO-22-18-E.jpg"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "AT-ECO-22-19",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "A pyramid is built from cubes (see diagram). All cubes have side length 10 cm. An ant crawls along the line drawn across the pyramid (see diagram). How long is the path taken by the ant?",
+      "image": "eco/question_graphics/AT-ECO-22-19.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "30 cm"
+        },
+        "B": {
+          "type": "text",
+          "value": "60 cm"
+        },
+        "C": {
+          "type": "text",
+          "value": "70 cm"
+        },
+        "D": {
+          "type": "text",
+          "value": "80 cm"
+        },
+        "E": {
+          "type": "text",
+          "value": "90 cm"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-22-20",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "A road leads away from each of the six houses (see diagram). A hexagon showing the roads in the middle is however, missing. Which hexagons fit in the middle so that one can travel from A to B and to E, but not to D?",
+      "image": "eco/question_graphics/AT-ECO-22-20.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1 and 2"
+        },
+        "B": {
+          "type": "text",
+          "value": "1 and 4"
+        },
+        "C": {
+          "type": "text",
+          "value": "1 and 5"
+        },
+        "D": {
+          "type": "text",
+          "value": "2 and 3"
+        },
+        "E": {
+          "type": "text",
+          "value": "4 and 5"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-22-21",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Ahmed and Sara move from point A in the direction shown with the same speed. Ahmed walks around the square garden and Sara walks around the rectangular garden. How many rounds does Ahmed have to walk to meet Sara in point A again for the first time?",
+      "image": "eco/question_graphics/AT-ECO-22-21.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "1"
+        },
+        "B": {
+          "type": "text",
+          "value": "2"
+        },
+        "C": {
+          "type": "text",
+          "value": "3"
+        },
+        "D": {
+          "type": "text",
+          "value": "4"
+        },
+        "E": null
+      },
+      "answer": "C"
+    },
+    {
+      "id": "AT-ECO-22-22",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Five girls eat plums. Laura eats 2 plums more than Sophie. Bettina eats 3 plums less than Laura. Clara eats one plum more than Bettina and 3 less than Alice. Which two of the girls eat the same amount of plums?",
+      "image": null,
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "Alice and Bettina"
+        },
+        "B": {
+          "type": "text",
+          "value": "Alice and Laura"
+        },
+        "C": {
+          "type": "text",
+          "value": "Alice and Sophie"
+        },
+        "D": {
+          "type": "text",
+          "value": "Clara and Laura"
+        },
+        "E": {
+          "type": "text",
+          "value": "Clara and Sophie"
+        }
+      },
+      "answer": "E"
+    },
+    {
+      "id": "AT-ECO-22-23",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "The big cube is made up of three different kinds of building blocks (see diagram). How many of the little white cubes are needed for this big cube?",
+      "image": "eco/question_graphics/AT-ECO-22-23.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "8"
+        },
+        "B": {
+          "type": "text",
+          "value": "11"
+        },
+        "C": {
+          "type": "text",
+          "value": "13"
+        },
+        "D": {
+          "type": "text",
+          "value": "16"
+        },
+        "E": {
+          "type": "text",
+          "value": "19"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "AT-ECO-22-24",
+      "grade": "G3-4",
+      "points": 5,
+      "question": "Under cards with the same colour, the same number is always found. If the three hidden numbers in one row are added, one obtains the number to the right of the row. Which number is hidden under the black card?",
+      "image": "eco/question_graphics/AT-ECO-22-24.jpg",
+      "choices": {
+        "A": {
+          "type": "text",
+          "value": "6"
+        },
+        "B": {
+          "type": "text",
+          "value": "8"
+        },
+        "C": {
+          "type": "text",
+          "value": "10"
+        },
+        "D": {
+          "type": "text",
+          "value": "12"
+        },
+        "E": {
+          "type": "text",
+          "value": "14"
+        }
+      },
+      "answer": "D"
+    }
+  ]
+}
